@@ -1,0 +1,13 @@
+# Test vector for the ALU
+# This just spot checks a few input combinations
+CIn InA[4] InB[4] Sel[3] Mode COut Cmp ALUOut[4]
+# Arithmetic Tests
+0   0000   0000   010    0    0    1   0000  # A+B
+0   1000   0111   011    0    0    0   0001  # A-B
+1   0100   xxxx   110    0    0    0   1001  # A+A+1
+0   1111   xxxx   111    0    1    0   0000  # A + 1
+# Logic Tests
+0   1100   0100   000    1    x    x   0100  # AB
+0   0101   0001   010    1    x    x   0101  # A+B
+0   0101   0001   011    1    x    x   1010  # (A+B)'
+0   0101   xxxx   111    1    x    x   1010  # A'

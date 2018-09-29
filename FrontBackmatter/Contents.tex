@@ -1,0 +1,124 @@
+%*******************************************************
+% Brief Table of Contents
+%*******************************************************
+%\phantomsection
+\refstepcounter{dummy}
+%\pdfbookmark[1]{\briefcontentsname}{brieftableofcontents}
+%\setcounter{tocdepth}{0} % <-- 2 includes up to subsections in the ToC
+%\setcounter{secnumdepth}{0} % <-- 3 numbers up to subsubsections
+%\manualmark
+%\markboth{\spacedlowsmallcaps{\contentsname}}{\spacedlowsmallcaps{\contentsname}}
+\shorttoc{Brief Contents}{0} % Only Chapter Headings 
+
+%*******************************************************
+% Table of Contents
+%*******************************************************
+%\phantomsection
+\refstepcounter{dummy}
+\pdfbookmark[1]{\contentsname}{tableofcontents}
+\setcounter{tocdepth}{2} % <-- 2 includes up to subsections in the ToC
+\setcounter{secnumdepth}{3} % <-- 3 numbers up to subsubsections
+\manualmark
+\markboth{\spacedlowsmallcaps{\contentsname}}{\spacedlowsmallcaps{\contentsname}}
+\tableofcontents 
+\automark[section]{chapter}
+\renewcommand{\chaptermark}[1]{\markboth{\spacedlowsmallcaps{#1}}{\spacedlowsmallcaps{#1}}}
+\renewcommand{\sectionmark}[1]{\markright{\thesection\enspace\spacedlowsmallcaps{#1}}}
+%*******************************************************
+% List of Figures and of the Tables
+%*******************************************************
+\clearpage
+
+\begingroup 
+    \let\clearpage\relax
+    \let\cleardoublepage\relax
+    \let\cleardoublepage\relax
+    %*******************************************************
+    % List of Figures
+    %*******************************************************    
+    %\phantomsection 
+    \refstepcounter{dummy}
+    \addcontentsline{toc}{chapter}{\listfigurename}
+    \pdfbookmark[1]{\listfigurename}{lof}
+    \listoffigures
+
+    \vspace{8ex}
+
+    %*******************************************************
+    % List of Tables
+    %*******************************************************
+    %\phantomsection 
+    \refstepcounter{dummy}
+    \addcontentsline{toc}{chapter}{\listtablename}
+    \pdfbookmark[1]{\listtablename}{lot}
+    \listoftables
+        
+    \vspace{8ex}
+%   \newpage
+    
+    %*******************************************************
+    % List of Listings
+    %*******************************************************      
+      %\phantomsection 
+    \refstepcounter{dummy}
+    \addcontentsline{toc}{chapter}{\lstlistlistingname}
+    \pdfbookmark[1]{\lstlistlistingname}{lol}
+    \lstlistoflistings 
+
+    \vspace{8ex}
+       
+    %*******************************************************
+    % Acronyms
+    %*******************************************************
+    %\phantomsection 
+    \refstepcounter{dummy}
+    \pdfbookmark[1]{Acronyms}{acronyms}
+    \markboth{\spacedlowsmallcaps{Acronyms}}{\spacedlowsmallcaps{Acronyms}}
+    \chapter*{Acronyms}
+    % Notes: alphabitize this list as you create it.
+    % Accronyms in this list are not printed unless they show up in the text somewhere
+    \begin{acronym}[UMLX]
+        \acro{ALU}{Arithmetic Logic Unit}
+        \acro{ASCII}{American Standard Code for Information Interchange}
+        \acro{ASIC}{Application-Specific Integrated Circuit}
+        \acro{BCD}{Binary Coded Decimal}
+        \acro{BDD}{Binary Decision Diagram}
+        \acro{BIOS}{Basic Input/Output System}
+        \acro{BLIF}{Berkeley Logic Interchange Format}
+        \acro{CAT}{Computer-Aided Tools}
+        \acro{CISC}{Complex Instruction Set Computer}
+        \acro{CPU}{Central Processing Unit}
+        \acro{DRAM}{Dynamic Random Access Memory}
+        \acro{DUT}{Device Under Test}
+        \acro{EBCDIC}{Extended Binary Coded Decimal Interchange Code}
+        \acro{EDA}{Electronic Design Automation}
+        \acro{FSM}{Finite State Machine}
+        \acro{HDL}{Hardware Description Language}
+        \acro{IC}{Integrated Circuit}
+        \acro{IEEE}{Institute of Electrical and Electronics Engineers}
+        \acro{KARMA}{KARnaugh MAp simplifier}
+        \acro{LED}{Light Emitting Diode}
+        \acro{LSB}{Least Significant Bit}
+        \acro{LSN}{Least Significant Nibble}
+        \acro{MSB}{Most Significant Bit}
+        \acro{MSN}{Most Significant Nibble}
+        \acro{NaN}{Not a Number}
+        \acro{OER}{Open Educational Resource}
+        \acro{PCB}{Printed Circuit Board}
+        \acro{POS}{Product of Sums}
+        \acro{PROM}{Programmable Read-Only Memory}
+        \acro{RAM}{Random Access Memory}
+        \acro{RISC}{Reduced Instruction Set Computer}
+        \acro{ROM}{Read Only Memory}
+        \acro{RPM}{Rotations Per Minute}
+        \acro{RTL}{Register Transfer Language}
+        \acro{SECDED}{Single Error Correction, Double Error Detection}
+        \acro{SOP}{Sum of Products}
+        \acro{SDRAM}{Synchronized Dynamic Random Access Memory}
+        \acro{SRAM}{Static Random Access Memory}
+        \acro{USB}{Universal Synchronous Bus}
+        \acro{VHDL}{VHSIC Hardware Descriptive Language}
+        \acro{VHSIC}{Very High Speed Integrated Circuit}
+        \acro{VLIW}{Very Long Instruction Word}
+    \end{acronym}                     
+\endgroup

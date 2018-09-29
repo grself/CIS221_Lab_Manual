@@ -1,0 +1,102 @@
+\BOOKMARK [1][-]{tableofcontents.1}{Contents}{}% 1
+\BOOKMARK [0][]{dummy.3}{List of Figures}{}% 2
+\BOOKMARK [1][-]{lof.1}{List of Figures}{dummy.3}% 3
+\BOOKMARK [0][]{dummy.4}{List of Tables}{}% 4
+\BOOKMARK [1][-]{lot.1}{List of Tables}{dummy.4}% 5
+\BOOKMARK [0][]{dummy.5}{Listings}{}% 6
+\BOOKMARK [1][-]{lol.1}{Listings}{dummy.5}% 7
+\BOOKMARK [1][-]{acronyms.1}{Acronyms}{dummy.5}% 8
+\BOOKMARK [-1][]{part.1}{Introduction To Logisim-Evolution}{}% 9
+\BOOKMARK [0][]{chapter.1}{1 Introduction To Logisim-evolution}{part.1}% 10
+\BOOKMARK [1][-]{section.1.1}{1.1 Purpose}{chapter.1}% 11
+\BOOKMARK [1][-]{section.1.2}{1.2 Procedure}{chapter.1}% 12
+\BOOKMARK [2][-]{subsection.1.2.1}{1.2.1 Installation}{section.1.2}% 13
+\BOOKMARK [2][-]{subsection.1.2.2}{1.2.2 Beginner's Tutorial}{section.1.2}% 14
+\BOOKMARK [2][-]{subsection.1.2.3}{1.2.3 Logisim-evolution Workspace}{section.1.2}% 15
+\BOOKMARK [2][-]{subsection.1.2.4}{1.2.4 Simple Multiplexer}{section.1.2}% 16
+\BOOKMARK [2][-]{subsection.1.2.5}{1.2.5 Identifying Information}{section.1.2}% 17
+\BOOKMARK [1][-]{section.1.3}{1.3 Deliverable}{chapter.1}% 18
+\BOOKMARK [-1][]{part.2}{Foundations}{}% 19
+\BOOKMARK [0][]{chapter.2}{2 Boolean Logic}{part.2}% 20
+\BOOKMARK [1][-]{section.2.1}{2.1 Purpose}{chapter.2}% 21
+\BOOKMARK [1][-]{section.2.2}{2.2 Procedure}{chapter.2}% 22
+\BOOKMARK [2][-]{subsection.2.2.1}{2.2.1 Subcircuit: Equation 1}{section.2.2}% 23
+\BOOKMARK [2][-]{subsection.2.2.2}{2.2.2 Subcircuit: Equation 2}{section.2.2}% 24
+\BOOKMARK [2][-]{subsection.2.2.3}{2.2.3 Main Circuit}{section.2.2}% 25
+\BOOKMARK [2][-]{subsection.2.2.4}{2.2.4 Testing the Circuit}{section.2.2}% 26
+\BOOKMARK [1][-]{section.2.3}{2.3 Deliverable}{chapter.2}% 27
+\BOOKMARK [0][]{chapter.3}{3 Priority Encoder}{part.2}% 28
+\BOOKMARK [1][-]{section.3.1}{3.1 Purpose}{chapter.3}% 29
+\BOOKMARK [1][-]{section.3.2}{3.2 Procedure}{chapter.3}% 30
+\BOOKMARK [2][-]{subsection.3.2.1}{3.2.1 Testing the Circuit}{section.3.2}% 31
+\BOOKMARK [1][-]{section.3.3}{3.3 Deliverable}{chapter.3}% 32
+\BOOKMARK [-1][]{part.3}{Combinational Circuits}{}% 33
+\BOOKMARK [0][]{chapter.4}{4 Arithmetic Logic Unit \(ALU\)}{part.3}% 34
+\BOOKMARK [1][-]{section.4.1}{4.1 Purpose}{chapter.4}% 35
+\BOOKMARK [1][-]{section.4.2}{4.2 Procedure}{chapter.4}% 36
+\BOOKMARK [2][-]{subsection.4.2.1}{4.2.1 main}{section.4.2}% 37
+\BOOKMARK [2][-]{subsection.4.2.2}{4.2.2 ALU}{section.4.2}% 38
+\BOOKMARK [2][-]{subsection.4.2.3}{4.2.3 Arithmetic}{section.4.2}% 39
+\BOOKMARK [2][-]{subsection.4.2.4}{4.2.4 Challenge}{section.4.2}% 40
+\BOOKMARK [2][-]{subsection.4.2.5}{4.2.5 Testing the Circuit}{section.4.2}% 41
+\BOOKMARK [1][-]{section.4.3}{4.3 Deliverable}{chapter.4}% 42
+\BOOKMARK [0][]{chapter.5}{5 Vending Machine}{part.3}% 43
+\BOOKMARK [1][-]{section.5.1}{5.1 Purpose}{chapter.5}% 44
+\BOOKMARK [1][-]{section.5.2}{5.2 Procedure}{chapter.5}% 45
+\BOOKMARK [2][-]{subsection.5.2.1}{5.2.1 Testing the Circuit}{section.5.2}% 46
+\BOOKMARK [2][-]{subsection.5.2.2}{5.2.2 Subcircuit Descriptions}{section.5.2}% 47
+\BOOKMARK [1][-]{section.5.3}{5.3 Challenge}{chapter.5}% 48
+\BOOKMARK [1][-]{section.5.4}{5.4 Deliverable}{chapter.5}% 49
+\BOOKMARK [-1][]{part.4}{Sequential Circuits}{}% 50
+\BOOKMARK [0][]{chapter.6}{6 Counters}{part.4}% 51
+\BOOKMARK [1][-]{section.6.1}{6.1 Purpose}{chapter.6}% 52
+\BOOKMARK [1][-]{section.6.2}{6.2 Procedure}{chapter.6}% 53
+\BOOKMARK [2][-]{subsection.6.2.1}{6.2.1 Asynchronous Up Counter}{section.6.2}% 54
+\BOOKMARK [2][-]{subsection.6.2.2}{6.2.2 Asynchronous Down Counter}{section.6.2}% 55
+\BOOKMARK [2][-]{subsection.6.2.3}{6.2.3 Asynchronous Decade Counter}{section.6.2}% 56
+\BOOKMARK [2][-]{subsection.6.2.4}{6.2.4 Synchronous Ring Counter}{section.6.2}% 57
+\BOOKMARK [2][-]{subsection.6.2.5}{6.2.5 Synchronous Johnson Counter}{section.6.2}% 58
+\BOOKMARK [2][-]{subsection.6.2.6}{6.2.6 Main}{section.6.2}% 59
+\BOOKMARK [2][-]{subsection.6.2.7}{6.2.7 Chronogram}{section.6.2}% 60
+\BOOKMARK [1][-]{section.6.3}{6.3 Challenge}{chapter.6}% 61
+\BOOKMARK [1][-]{section.6.4}{6.4 Deliverable}{chapter.6}% 62
+\BOOKMARK [0][]{chapter.7}{7 Timer}{part.4}% 63
+\BOOKMARK [1][-]{section.7.1}{7.1 Purpose}{chapter.7}% 64
+\BOOKMARK [1][-]{section.7.2}{7.2 Procedure}{chapter.7}% 65
+\BOOKMARK [2][-]{subsection.7.2.1}{7.2.1 Timer\137V3}{section.7.2}% 66
+\BOOKMARK [2][-]{subsection.7.2.2}{7.2.2 Testing the Circuit}{section.7.2}% 67
+\BOOKMARK [1][-]{section.7.3}{7.3 Challenge}{chapter.7}% 68
+\BOOKMARK [1][-]{section.7.4}{7.4 Deliverable}{chapter.7}% 69
+\BOOKMARK [0][]{chapter.8}{8 Reaction Timer}{part.4}% 70
+\BOOKMARK [1][-]{section.8.1}{8.1 Purpose}{chapter.8}% 71
+\BOOKMARK [1][-]{section.8.2}{8.2 Procedure}{chapter.8}% 72
+\BOOKMARK [1][-]{section.8.3}{8.3 Deliverable}{chapter.8}% 73
+\BOOKMARK [0][]{chapter.9}{9 ROM}{part.4}% 74
+\BOOKMARK [1][-]{section.9.1}{9.1 Purpose}{chapter.9}% 75
+\BOOKMARK [1][-]{section.9.2}{9.2 Procedure}{chapter.9}% 76
+\BOOKMARK [2][-]{subsection.9.2.1}{9.2.1 Testing the Circuit}{section.9.2}% 77
+\BOOKMARK [1][-]{section.9.3}{9.3 Deliverable}{chapter.9}% 78
+\BOOKMARK [0][]{chapter.10}{10 RAM}{part.4}% 79
+\BOOKMARK [1][-]{section.10.1}{10.1 Purpose}{chapter.10}% 80
+\BOOKMARK [1][-]{section.10.2}{10.2 Procedure}{chapter.10}% 81
+\BOOKMARK [2][-]{subsection.10.2.1}{10.2.1 Testing the Circuit}{section.10.2}% 82
+\BOOKMARK [1][-]{section.10.3}{10.3 Challenge}{chapter.10}% 83
+\BOOKMARK [1][-]{section.10.4}{10.4 Deliverable}{chapter.10}% 84
+\BOOKMARK [-1][]{part.5}{Simulation}{}% 85
+\BOOKMARK [0][]{chapter.11}{11 Processor}{part.5}% 86
+\BOOKMARK [1][-]{section.11.1}{11.1 Purpose}{chapter.11}% 87
+\BOOKMARK [2][-]{subsection.11.1.1}{11.1.1 A Definition}{section.11.1}% 88
+\BOOKMARK [1][-]{section.11.2}{11.2 Procedure}{chapter.11}% 89
+\BOOKMARK [2][-]{subsection.11.2.1}{11.2.1 Arithmetic-Logic Unit}{section.11.2}% 90
+\BOOKMARK [2][-]{subsection.11.2.2}{11.2.2 General Registers}{section.11.2}% 91
+\BOOKMARK [2][-]{subsection.11.2.3}{11.2.3 Control}{section.11.2}% 92
+\BOOKMARK [2][-]{subsection.11.2.4}{11.2.4 Main}{section.11.2}% 93
+\BOOKMARK [2][-]{subsection.11.2.5}{11.2.5 Testing the Circuit}{section.11.2}% 94
+\BOOKMARK [1][-]{section.11.3}{11.3 About Programming Languages}{chapter.11}% 95
+\BOOKMARK [1][-]{section.11.4}{11.4 Challenge}{chapter.11}% 96
+\BOOKMARK [1][-]{section.11.5}{11.5 Deliverable}{chapter.11}% 97
+\BOOKMARK [0][]{chapter.12}{12 Elevator}{part.5}% 98
+\BOOKMARK [1][-]{section.12.1}{12.1 Purpose}{chapter.12}% 99
+\BOOKMARK [1][-]{section.12.2}{12.2 Challenge}{chapter.12}% 100
+\BOOKMARK [1][-]{section.12.3}{12.3 Deliverable}{chapter.12}% 101
+\BOOKMARK [0][]{colophon.0}{Colophon}{part.5}% 102

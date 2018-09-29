@@ -1,0 +1,13 @@
+# Test vector for Priority Encoder
+# This just spot checks a few input combinations
+In1 In3 In5 In9 Out1 Out2 Out3 Out4
+0 0 0 0 0 0 0 0 
+1 0 0 0 1 0 0 0 
+1 1 0 0 1 1 0 0
+1 0 0 1 1 0 0 1
+0 0 0 1 1 0 0 1
+1 1 1 1 1 0 0 1
+1 1 1 0 1 0 1 0
+1 1 0 0 1 1 0 0
+1 0 0 0 1 0 0 0
+0 0 0 0 0 0 0 0

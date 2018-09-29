@@ -1,0 +1,113 @@
+\select@language {american}
+\vspace {-\cftbeforepartskip }
+\select@language {american}
+\contentsline {chapter}{List of Figures}{x}{dummy.3}
+\contentsline {chapter}{List of Tables}{xi}{dummy.4}
+\contentsline {chapter}{Listings}{xii}{dummy.5}
+\contentsline {part}{\numberline {i}\spacedlowsmallcaps {Introduction To Logisim-Evolution}}{1}{part.1}
+\contentsline {chapter}{\numberline {1}\spacedlowsmallcaps {Introduction To Logisim-evolution}}{3}{chapter.1}
+\contentsline {section}{\numberline {1.1}Purpose}{3}{section.1.1}
+\contentsline {section}{\numberline {1.2}Procedure}{3}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}Installation}{3}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1.2.2}Beginner's Tutorial}{3}{subsection.1.2.2}
+\contentsline {subsection}{\numberline {1.2.3}Logisim-evolution Workspace}{4}{subsection.1.2.3}
+\contentsline {subsection}{\numberline {1.2.4}Simple Multiplexer}{5}{subsection.1.2.4}
+\contentsline {subsection}{\numberline {1.2.5}Identifying Information}{8}{subsection.1.2.5}
+\contentsline {section}{\numberline {1.3}Deliverable}{8}{section.1.3}
+\contentsline {part}{\numberline {ii}\spacedlowsmallcaps {Foundations}}{9}{part.2}
+\contentsline {chapter}{\numberline {2}\spacedlowsmallcaps {Boolean Logic}}{11}{chapter.2}
+\contentsline {section}{\numberline {2.1}Purpose}{11}{section.2.1}
+\contentsline {section}{\numberline {2.2}Procedure}{11}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Subcircuit: Equation 1}{11}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Subcircuit: Equation 2}{13}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}Main Circuit}{14}{subsection.2.2.3}
+\contentsline {subsection}{\numberline {2.2.4}Testing the Circuit}{15}{subsection.2.2.4}
+\contentsline {section}{\numberline {2.3}Deliverable}{20}{section.2.3}
+\contentsline {chapter}{\numberline {3}\spacedlowsmallcaps {Priority Encoder}}{21}{chapter.3}
+\contentsline {section}{\numberline {3.1}Purpose}{21}{section.3.1}
+\contentsline {section}{\numberline {3.2}Procedure}{21}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Testing the Circuit}{27}{subsection.3.2.1}
+\contentsline {section}{\numberline {3.3}Deliverable}{27}{section.3.3}
+\contentsline {part}{\numberline {iii}\spacedlowsmallcaps {Combinational Circuits}}{29}{part.3}
+\contentsline {chapter}{\numberline {4}\spacedlowsmallcaps {Arithmetic Logic Unit (ALU)}}{31}{chapter.4}
+\contentsline {section}{\numberline {4.1}Purpose}{31}{section.4.1}
+\contentsline {section}{\numberline {4.2}Procedure}{32}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}main}{32}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}ALU}{32}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}Arithmetic}{33}{subsection.4.2.3}
+\contentsline {subsection}{\numberline {4.2.4}Challenge}{34}{subsection.4.2.4}
+\contentsline {subsection}{\numberline {4.2.5}Testing the Circuit}{35}{subsection.4.2.5}
+\contentsline {section}{\numberline {4.3}Deliverable}{35}{section.4.3}
+\contentsline {chapter}{\numberline {5}\spacedlowsmallcaps {Vending Machine}}{37}{chapter.5}
+\contentsline {section}{\numberline {5.1}Purpose}{37}{section.5.1}
+\contentsline {section}{\numberline {5.2}Procedure}{37}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Testing the Circuit}{38}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Subcircuit Descriptions}{38}{subsection.5.2.2}
+\contentsline {subsubsection}{\numberline {5.2.2.1}main}{39}{subsubsection.5.2.2.1}
+\contentsline {subsubsection}{\numberline {5.2.2.2}Activator}{39}{subsubsection.5.2.2.2}
+\contentsline {subsubsection}{\numberline {5.2.2.3}Bank}{40}{subsubsection.5.2.2.3}
+\contentsline {subsubsection}{\numberline {5.2.2.4}Dispenser}{41}{subsubsection.5.2.2.4}
+\contentsline {subsubsection}{\numberline {5.2.2.5}Product}{42}{subsubsection.5.2.2.5}
+\contentsline {subsubsection}{\numberline {5.2.2.6}Vending}{43}{subsubsection.5.2.2.6}
+\contentsline {section}{\numberline {5.3}Challenge}{44}{section.5.3}
+\contentsline {section}{\numberline {5.4}Deliverable}{44}{section.5.4}
+\contentsline {part}{\numberline {iv}\spacedlowsmallcaps {Sequential Circuits}}{45}{part.4}
+\contentsline {chapter}{\numberline {6}\spacedlowsmallcaps {Counters}}{47}{chapter.6}
+\contentsline {section}{\numberline {6.1}Purpose}{47}{section.6.1}
+\contentsline {section}{\numberline {6.2}Procedure}{47}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Asynchronous Up Counter}{47}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}Asynchronous Down Counter}{49}{subsection.6.2.2}
+\contentsline {subsection}{\numberline {6.2.3}Asynchronous Decade Counter}{50}{subsection.6.2.3}
+\contentsline {subsection}{\numberline {6.2.4}Synchronous Ring Counter}{52}{subsection.6.2.4}
+\contentsline {subsection}{\numberline {6.2.5}Synchronous Johnson Counter}{53}{subsection.6.2.5}
+\contentsline {subsection}{\numberline {6.2.6}Main}{55}{subsection.6.2.6}
+\contentsline {subsection}{\numberline {6.2.7}Chronogram}{55}{subsection.6.2.7}
+\contentsline {section}{\numberline {6.3}Challenge}{60}{section.6.3}
+\contentsline {section}{\numberline {6.4}Deliverable}{60}{section.6.4}
+\contentsline {chapter}{\numberline {7}\spacedlowsmallcaps {Timer}}{61}{chapter.7}
+\contentsline {section}{\numberline {7.1}Purpose}{61}{section.7.1}
+\contentsline {section}{\numberline {7.2}Procedure}{61}{section.7.2}
+\contentsline {subsection}{\numberline {7.2.1}Timer\_V3}{61}{subsection.7.2.1}
+\contentsline {subsection}{\numberline {7.2.2}Testing the Circuit}{62}{subsection.7.2.2}
+\contentsline {section}{\numberline {7.3}Challenge}{63}{section.7.3}
+\contentsline {section}{\numberline {7.4}Deliverable}{63}{section.7.4}
+\contentsline {chapter}{\numberline {8}\spacedlowsmallcaps {Reaction Timer}}{65}{chapter.8}
+\contentsline {section}{\numberline {8.1}Purpose}{65}{section.8.1}
+\contentsline {section}{\numberline {8.2}Procedure}{65}{section.8.2}
+\contentsline {section}{\numberline {8.3}Deliverable}{66}{section.8.3}
+\contentsline {chapter}{\numberline {9}\spacedlowsmallcaps {ROM}}{67}{chapter.9}
+\contentsline {section}{\numberline {9.1}Purpose}{67}{section.9.1}
+\contentsline {section}{\numberline {9.2}Procedure}{67}{section.9.2}
+\contentsline {subsection}{\numberline {9.2.1}Testing the Circuit}{72}{subsection.9.2.1}
+\contentsline {section}{\numberline {9.3}Deliverable}{72}{section.9.3}
+\contentsline {chapter}{\numberline {10}\spacedlowsmallcaps {RAM}}{73}{chapter.10}
+\contentsline {section}{\numberline {10.1}Purpose}{73}{section.10.1}
+\contentsline {section}{\numberline {10.2}Procedure}{73}{section.10.2}
+\contentsline {subsection}{\numberline {10.2.1}Testing the Circuit}{76}{subsection.10.2.1}
+\contentsline {section}{\numberline {10.3}Challenge}{76}{section.10.3}
+\contentsline {section}{\numberline {10.4}Deliverable}{76}{section.10.4}
+\contentsline {part}{\numberline {v}\spacedlowsmallcaps {Simulation}}{77}{part.5}
+\contentsline {chapter}{\numberline {11}\spacedlowsmallcaps {Processor}}{79}{chapter.11}
+\contentsline {section}{\numberline {11.1}Purpose}{79}{section.11.1}
+\contentsline {subsection}{\numberline {11.1.1}A Definition}{79}{subsection.11.1.1}
+\contentsline {section}{\numberline {11.2}Procedure}{79}{section.11.2}
+\contentsline {subsection}{\numberline {11.2.1}Arithmetic-Logic Unit}{79}{subsection.11.2.1}
+\contentsline {subsection}{\numberline {11.2.2}General Registers}{81}{subsection.11.2.2}
+\contentsline {subsection}{\numberline {11.2.3}Control}{82}{subsection.11.2.3}
+\contentsline {subsection}{\numberline {11.2.4}Main}{83}{subsection.11.2.4}
+\contentsline {subsection}{\numberline {11.2.5}Testing the Circuit}{83}{subsection.11.2.5}
+\contentsline {subsubsection}{\numberline {11.2.5.1}Copy LdImm To R0}{83}{subsubsection.11.2.5.1}
+\contentsline {subsubsection}{\numberline {11.2.5.2}Copy LdImm To R1}{84}{subsubsection.11.2.5.2}
+\contentsline {subsubsection}{\numberline {11.2.5.3}Copy LdImm To ALU}{84}{subsubsection.11.2.5.3}
+\contentsline {subsubsection}{\numberline {11.2.5.4}Increment dBus}{84}{subsubsection.11.2.5.4}
+\contentsline {subsubsection}{\numberline {11.2.5.5}Add R0 And R1, Store In R0}{84}{subsubsection.11.2.5.5}
+\contentsline {subsubsection}{\numberline {11.2.5.6}Subtract R1 From R0, Store In R0}{85}{subsubsection.11.2.5.6}
+\contentsline {subsubsection}{\numberline {11.2.5.7}Copy R0 to R1}{85}{subsubsection.11.2.5.7}
+\contentsline {subsubsection}{\numberline {11.2.5.8}Swap R0 And R1}{85}{subsubsection.11.2.5.8}
+\contentsline {section}{\numberline {11.3}About Programming Languages}{86}{section.11.3}
+\contentsline {section}{\numberline {11.4}Challenge}{88}{section.11.4}
+\contentsline {section}{\numberline {11.5}Deliverable}{89}{section.11.5}
+\contentsline {chapter}{\numberline {12}\spacedlowsmallcaps {Elevator}}{91}{chapter.12}
+\contentsline {section}{\numberline {12.1}Purpose}{91}{section.12.1}
+\contentsline {section}{\numberline {12.2}Challenge}{91}{section.12.2}
+\contentsline {section}{\numberline {12.3}Deliverable}{92}{section.12.3}

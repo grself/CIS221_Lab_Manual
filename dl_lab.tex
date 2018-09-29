@@ -1,0 +1,113 @@
+% *********************************************************
+% Digital Logic
+% *********************************************************
+
+\RequirePackage{fix-cm} % fix some latex issues see: http://texdoc.net/texmf-dist/doc/latex/base/fixltx2e.pdf
+\documentclass[ twoside,openright,titlepage,numbers=noenddot,headinclude,
+                footinclude=true,cleardoublepage=empty,abstractoff, 
+                BCOR=5mm,fontsize=11pt,american]{scrreprt}
+
+% *********************************************************
+% Note: Make all your adjustments in here
+% *********************************************************
+\input{dl_lab-config}
+
+% *********************************************************
+% Hyphenation
+% *********************************************************
+%\hyphenation{put special hyphenation here}
+
+% *********************************************************
+% Begin Document
+% *********************************************************
+\begin{document}
+\frenchspacing
+\raggedbottom
+\selectlanguage{american} 
+\pagenumbering{roman}
+\pagestyle{plain}
+% *********************************************************
+% Frontmatter
+% *********************************************************
+\include{FrontBackmatter/Titlepage}  % >>>>> Include <<<<<
+\include{FrontBackmatter/Titleback}  % >>>>> Include <<<<<
+\include{FrontBackmatter/Preface}   % >>>>> Include <<<<<
+\pagestyle{scrheadings}              % >>>>> Include <<<<<
+\cleardoublepage\include{FrontBackmatter/Contents}  % >>>>> Include <<<<<
+
+% *********************************************************
+% Part 1: Introduction
+% *********************************************************
+\cleardoublepage\pagenumbering{arabic}
+%\setcounter{page}{90}
+% use \cleardoublepage here to avoid problems with pdfbookmark
+\cleardoublepage  %  >>>>> Include <<<<<
+\ctparttext{\textsc{Logisim-evolution} is used to create and test simulations of digital circuits. This part of the lab manual includes only one lab designed to introduce \textit{Logisim-evolution} and teach the fundamentals of using this application.}
+\part{Introduction To Logisim-Evolution}
+%\printinunitsof{cm}\prntlen{\textwidth} % Print the width of the text line
+\include{Chapters/01_Mux21} 
+
+% *********************************************************
+% Part 2: Foundations
+% *********************************************************
+% use \cleardoublepage here to avoid problems with pdfbookmark
+\cleardoublepage
+\ctparttext{\textsc{Foundational Exercises} are designed to provide practice with simple logic circuits in order to both develop skill with \textit{Logisim-evolution} and illustrate the foundations of digital logic.}
+\part{Foundations}
+\include{Chapters/02_Bool} 
+\include{Chapters/03_Encoder}
+
+% *********************************************************
+% Part 3: Combinational Circuits
+% *********************************************************
+% use \cleardoublepage here to avoid problems with pdfbookmark
+\cleardoublepage  %  >>>>> Include <<<<<
+\ctparttext{\textsc{Combinational Logic} is the bedrock for all digital logic circuits. A combinational circuit's output is determined only by the status of the various inputs and an external clock signal is not necessary as in sequential circuits. All of the circuits completed so far in this manual have been combinational and the two labs in this part of the manual are designed to further develop the concepts of combinational digital logic with two relatively complex examples.}  
+\part{Combinational Circuits}  
+\include{Chapters/04_ALU}  
+\include{Chapters/05_Vend} 
+
+% *********************************************************
+% Part 4: Sequential Circuits
+% *********************************************************
+% use \cleardoublepage here to avoid problems with pdfbookmark
+\cleardoublepage  
+\ctparttext{\textsc{Sequential Logic} circuits develop the concepts of clock-driven logic while creating several practical counters and memory circuits. These labs also introduce the \textit{Logisim-evolution} \textit{Chronogram}, which builds timing diagrams for sequential logic circuits.}  
+\part{Sequential Circuits}  
+\include{Chapters/06_Counter} 
+\include{Chapters/07_Timer} 
+\include{Chapters/08_React} 
+\include{Chapters/09_ROM} 
+\include{Chapters/10_RAM} 
+
+% *********************************************************
+% Part 5: Simulation
+% *********************************************************
+% use \cleardoublepage here to avoid problems with pdfbookmark
+\cleardoublepage  
+\ctparttext{\textsc{Simulation} is the most complex topic covered in this lab manual. Included in this manual are a simple processor, designed to teach the foundations of a Central Processing Unit, and an elevator simulator, designed to be a capstone project.}  % >>>>> Include <<<<<
+\part{Simulation}  % >>>>> Include <<<<<
+\include{Chapters/11_Processor} 
+%%%%% Do Not Use Yet - it ain't ready! \include{Chapters/12_CPU} 
+\include{Chapters/13_Elevator} 
+
+% *********************************************************
+% Backmatter
+% *********************************************************
+%\appendix  
+%\renewcommand{\thechapter}{\alph{chapter}}
+%\cleardoublepage 
+%\part{Appendix}  
+%\include{Chapters/50_Appendix} 
+% *********************************************************
+% Other Stuff in the Back
+% *********************************************************
+\cleardoublepage\include{FrontBackmatter/Colophon}
+%\cleardoublepage\include{FrontBackmatter/StyleGuide}
+
+\blankpage
+\blankpage
+\blankpage
+\blankpage
+
+\end{document}

@@ -1,0 +1,29 @@
+\select@language {american}
+\deactivateaddvspace 
+\select@language {american}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {4.1}{\ignorespaces Function Table for 74181 ALU\relax }}{31}{table.caption.11}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {6.1}{\ignorespaces Up Counter Output\relax }}{49}{table.caption.13}
+\contentsline {table}{\numberline {6.2}{\ignorespaces Down Counter Output\relax }}{50}{table.caption.14}
+\contentsline {table}{\numberline {6.3}{\ignorespaces Decade Counter Output\relax }}{52}{table.caption.15}
+\contentsline {table}{\numberline {6.4}{\ignorespaces Ring Counter Output\relax }}{53}{table.caption.16}
+\contentsline {table}{\numberline {6.5}{\ignorespaces Johnson Counter Output\relax }}{55}{table.caption.17}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {11.1}{\ignorespaces R0 <- LdImm\relax }}{84}{table.caption.21}
+\contentsline {table}{\numberline {11.2}{\ignorespaces R1 <- LdImm\relax }}{84}{table.caption.22}
+\contentsline {table}{\numberline {11.3}{\ignorespaces ALU <- LdImm\relax }}{84}{table.caption.23}
+\contentsline {table}{\numberline {11.4}{\ignorespaces dBus <- Inc(dBus)\relax }}{84}{table.caption.24}
+\contentsline {table}{\numberline {11.5}{\ignorespaces R0 <- R0 + R1\relax }}{85}{table.caption.25}
+\contentsline {table}{\numberline {11.6}{\ignorespaces R0 <- R0 - R1\relax }}{85}{table.caption.26}
+\contentsline {table}{\numberline {11.7}{\ignorespaces R1 <- R0\relax }}{85}{table.caption.27}
+\contentsline {table}{\numberline {11.8}{\ignorespaces R0 <-> R1\relax }}{86}{table.caption.28}
+\addvspace {10\p@ }

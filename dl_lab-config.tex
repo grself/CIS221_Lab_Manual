@@ -1,0 +1,323 @@
+% *********************************************************
+% dl_lab-config.tex 
+% *********************************************************
+
+% *********************************************************
+% Set the encoding of your files.
+% *********************************************************
+\PassOptionsToPackage{utf8}{inputenc}
+	\usepackage{inputenc}
+
+% *********************************************************
+% Remove "drafting" below to deactivate the time-stamp on the pages
+% *********************************************************
+\PassOptionsToPackage{eulerchapternumbers,listings,%drafting,
+  pdfspacing,floatperchapter,%linedheaders,%
+  subfig,beramono,eulermath,parts}{classicthesis}
+% *********************************************************
+% Available options 
+% (see ClassicThesis.pdf for more information):
+% drafting
+% parts nochapters linedheaders
+% eulerchapternumbers beramono eulermath pdfspacing minionprospacing
+% tocaligned dottedtoc manychapters
+% listings floatperchapter subfig
+% *********************************************************
+
+% *********************************************************
+% 2. Personal data and user ad-hoc commands
+% *********************************************************
+\newcommand{\myTitle}{Logisim-Evoluation Lab Manual\xspace}
+\newcommand{\mySubtitle}{}
+\newcommand{\myDegree}{}
+\newcommand{\myName}{George Self\xspace}
+\newcommand{\myProf}{}
+\newcommand{\myOtherProf}{}
+\newcommand{\mySupervisor}{}
+\newcommand{\myFaculty}{}
+\newcommand{\myDepartment}{Computer Information Systems\xspace}
+\newcommand{\myUni}{Cochise College\xspace}
+\newcommand{\myLocation}{Arizona\xspace}
+\newcommand{\myTime}{July 2018\xspace}
+\newcommand{\myVersion}{Edition 3.0\xspace}
+
+% *********************************************************
+% Setup, finetuning, and useful commands
+% *********************************************************
+\newcounter{dummy} % necessary for correct links to index, bib, etc.
+\newlength{\abcd} % for ab..z string length calculation
+\providecommand{\mLyX}{L\kern-.1667em\lower.25em\hbox{Y}\kern-.125emX\@}
+\newcommand{\ie}{i.\,e.}
+\newcommand{\Ie}{I.\,e.}
+\newcommand{\eg}{e.\,g.}
+\newcommand{\Eg}{E.\,g.}
+\newcommand{\blankpage}{ % Create a blank page at the end of the document
+  \newpage
+  \thispagestyle{empty}
+  \mbox{}
+  \newpage
+  }
+% The following creates a function named maxwidth that permits
+% me to set a maximum width for images. If the natural width of
+% the image is less than maxwidth then the image is rendered at
+% its natural size, else scaled to maxwidth.
+\makeatletter
+\def\maxwidth#1{\ifdim\Gin@nat@width>#1 #1\else\Gin@nat@width\fi}
+\makeatother
+
+% *********************************************************
+% 3. Loading some handy packages
+% *********************************************************
+
+% *********************************************************
+% Packages with options that might require adjustments
+% *********************************************************
+\PassOptionsToPackage{american}{babel}   % change this to your language(s)
+  \usepackage{babel}                  
+
+\usepackage{csquotes}
+%\PassOptionsToPackage{%
+%    %backend=biber, %instead of bibtex
+%  backend=bibtex8,bibencoding=ascii,%
+%  language=auto,%
+%  style=numeric-comp,%
+%  %style=authoryear-comp, % Author 1999, 2010
+%  %bibstyle=authoryear,dashed=false, % dashed: substitute rep. author with ---
+%  sorting=nyt, % name, year, title
+%  maxbibnames=10, % default: 3, et al.
+%  %backref=true,%
+%  natbib=true % natbib compatibility mode (\citep and \citet still work)
+%}{biblatex}
+%  \usepackage{biblatex}
+
+\PassOptionsToPackage{fleqn}{amsmath}       % math environments and more by the AMS 
+  \usepackage{amsmath}
+
+% *********************************************************
+% General useful packages
+% *********************************************************
+\PassOptionsToPackage{T1}{fontenc} % T2A for cyrillics
+  \usepackage{fontenc}     
+\usepackage{textcomp} % fix warning with missing font shapes
+\renewcommand{\textuparrow}{$\uparrow$}
+\renewcommand{\textdownarrow}{$\downarrow$}
+
+\usepackage{scrhack} % fix warnings when using KOMA with listings package
+\usepackage{xspace} % to get the spacing after macros right  
+\usepackage{mparhack} % get marginpar right
+\usepackage{fixltx2e} % fixes some LaTeX stuff --> since 2015 in the LaTeX kernel (see below)
+%\usepackage[latest]{latexrelease} % will be used once available in more distributions (ISSUE #107)
+\PassOptionsToPackage{printonlyused,smaller}{acronym} 
+  \usepackage{acronym} % nice macros for handling all acronyms in the thesis
+%\renewcommand{\bflabel}[1]{{#1}\hfill} % fix the list of acronyms --> no longer working
+%\renewcommand*{\acsfont}[1]{\textsc{#1}} 
+\renewcommand*{\aclabelfont}[1]{\acsfont{#1}}
+\usepackage[paperheight=11in,paperwidth=8.5in]{geometry}
+\usepackage{shorttoc} % generate brief version of the table of contents
+
+% *********************************************************
+% 4. Setup floats: tables, (sub)figures, and captions
+% *********************************************************
+\usepackage{tabularx} % better tables
+\setlength{\extrarowheight}{3pt} % increase table row height
+\newcommand{\tableheadline}[1]{\multicolumn{1}{c}{\spacedlowsmallcaps{#1}}}
+\newcommand{\myfloatalign}{\centering} % to be used with each float for alignment
+\usepackage{caption}
+\captionsetup{font=small}
+\usepackage{subfig}  
+
+% *********************************************************
+% 5. Setup code listings - format Verilog listings
+% *********************************************************
+\usepackage{listings} 
+%\lstset{emph={trueIndex,root},emphstyle=\color{BlueViolet}}%\underbar} % for special keywords
+\lstset{language=Verilog,%[LaTeX]Tex,
+  morekeywords={PassOptionsToPackage,selectlanguage},
+  keywordstyle=\color{RoyalBlue},%\bfseries,
+  %basicstyle=\small\ttfamily,
+  basicstyle=\ttfamily,
+  identifierstyle=\color{DarkRed},
+  commentstyle=\color{Green}\ttfamily,
+  stringstyle=\rmfamily,
+  numbers=left,
+  numberstyle=\scriptsize,%\tiny
+  stepnumber=2,
+  numbersep=8pt,
+  showstringspaces=false,
+  breaklines=true,
+  %frameround=ftff,
+  frame=lines,
+  captionpos=b,  % put captions at the bottom of the listing
+  aboveskip=.75\baselineskip,
+  belowskip=.75\baselineskip
+  %abovecaptionskip=.75\baselineskip
+  %belowcaptionskip=.75\baselineskip
+  %frame=L
+} 
+
+% *********************************************************
+% 6. PDFLaTeX, hyperreferences and citation backreferences
+% *********************************************************
+
+% *********************************************************
+% Using PDFLaTeX
+% *********************************************************
+\PassOptionsToPackage{pdftex,hyperfootnotes=false,pdfpagelabels}{hyperref}
+  \usepackage{hyperref}  % backref linktocpage pagebackref
+\pdfcompresslevel=9
+\pdfadjustspacing=1 
+\PassOptionsToPackage{pdftex}{graphicx}
+  \usepackage{graphicx} 
+ 
+% *********************************************************
+% Hyperreferences in the PDF output
+% *********************************************************
+\hypersetup{%
+  %draft, % = no hyperlinking at all (useful in b/w printouts)
+  colorlinks=true, linktocpage=true, pdfstartpage=3, pdfstartview=FitV,%
+  % uncomment the following line if you want to have black links (e.g., for printing)
+  %colorlinks=false, linktocpage=false, pdfstartpage=3, pdfstartview=FitV, pdfborder={0 0 0},%
+  breaklinks=true, pdfpagemode=UseNone, pageanchor=true, pdfpagemode=UseOutlines,%
+  plainpages=false, bookmarksnumbered, bookmarksopen=true, bookmarksopenlevel=1,%
+  hypertexnames=true, pdfhighlight=/O,%nesting=true,%frenchlinks,%
+  urlcolor=webbrown, linkcolor=RoyalBlue, citecolor=webgreen, %pagecolor=RoyalBlue,%
+  %urlcolor=Black, linkcolor=Black, citecolor=Black, %pagecolor=Black,%
+  pdftitle={\myTitle},%
+  pdfauthor={\textcopyright\ \myName, \myUni, \myFaculty},%
+  pdfsubject={},%
+  pdfkeywords={},%
+  pdfcreator={pdfLaTeX},%
+  pdfproducer={LaTeX with hyperref and classicthesis}%
+}   
+
+% *********************************************************
+% Setup autoreferences
+% *********************************************************
+\makeatletter
+\@ifpackageloaded{babel}%
+  {
+    \addto\extrasamerican{%
+    \renewcommand*{\figureautorefname}{Figure}%
+    \renewcommand*{\tableautorefname}{Table}%
+    \renewcommand*{\partautorefname}{Part}%
+    \renewcommand*{\chapterautorefname}{Chapter}%
+    \renewcommand*{\sectionautorefname}{Section}%
+    \renewcommand*{\subsectionautorefname}{Section}%
+    \renewcommand*{\subsubsectionautorefname}{Section}%
+  }%
+  \addto\extrasngerman{% 
+    \renewcommand*{\paragraphautorefname}{Absatz}%
+    \renewcommand*{\subparagraphautorefname}{Unterabsatz}%
+    \renewcommand*{\footnoteautorefname}{Fu\"snote}%
+    \renewcommand*{\FancyVerbLineautorefname}{Zeile}%
+    \renewcommand*{\theoremautorefname}{Theorem}%
+    \renewcommand*{\appendixautorefname}{Anhang}%
+    \renewcommand*{\equationautorefname}{Gleichung}%        
+    \renewcommand*{\itemautorefname}{Punkt}%
+  }%  
+  \providecommand{\subfigureautorefname}{\figureautorefname}%
+}{\relax}
+\makeatother
+
+% *********************************************************
+% Setup drawing environment
+% *********************************************************
+\usepackage[svgnames,table]{xcolor}
+\usepackage{tikz}
+\usetikzlibrary{circuits.logic.US,circuits.logic.IEC,circuits.ee.IEC,shapes.geometric}
+\usepackage{circuitikz}
+\usepackage{tikz-timing} % Timing Diagrams
+\usetikztiminglibrary[new={char=Q,reset char=R}]{counters}
+\usepackage{rotating} % Rotate an image
+\usetikzlibrary{calc} % Do some math in tikz
+\usepackage{smartdiagram} % draw ``smart'' diagrams the easy way
+
+
+% *********************************************************
+% This enables enumerated lists using first, second, etc.
+% *********************************************************
+\usepackage{moreenum}
+
+% *********************************************************
+% Used to create framed paragraphs, like "interest boxes"
+% *********************************************************
+\usepackage{tcolorbox}
+
+% *********************************************************
+% Used to enable strike-through text
+% *********************************************************
+\usepackage[normalem]{ulem}
+
+% *********************************************************
+% The Creative Commons License Package
+% *********************************************************
+\usepackage[type={CC},modifier={zero},version={1.0}]{doclicense}
+
+% *********************************************************
+% This package permits me to align a table column on a decimal point
+% *********************************************************
+\usepackage{siunitx}
+
+% *********************************************************
+% Enable certain special chars in verbatim, like underlines
+% *********************************************************
+\usepackage{fancyvrb}
+
+% *********************************************************
+% Used for wrapping figures
+% *********************************************************
+\usepackage{float}
+\usepackage{wrapfig}
+\restylefloat{figure}
+
+% *********************************************************
+% Used for merging cells in tables, creating a slash in a cell, 
+% adjusting the width of a table to fit the text column
+% *********************************************************
+\usepackage{multicol}
+\usepackage{multirow}
+\usepackage{slashbox}
+\usepackage{adjustbox}
+
+% *********************************************************
+% Permit URLs to line-break at any letter or a slash
+% *********************************************************
+\usepackage{url}
+\renewcommand{\UrlBreaks}{\do\/\do\a\do\b\do\c\do\d\do\e\do\f\do\g\do\h\do\i\do\j\do\k\do\l\do\m\do\n\do\o\do\p\do\q\do\r\do\s\do\t\do\u\do\v\do\w\do\x\do\y\do\z\do\A\do\B\do\C\do\D\do\E\do\F\do\G\do\H\do\I\do\J\do\K\do\L\do\M\do\N\do\O\do\P\do\Q\do\R\do\S\do\T\do\U\do\V\do\W\do\X\do\Y\do\Z}
+
+% *********************************************************
+% Generate  lipsum
+% *********************************************************
+\usepackage{lipsum}
+
+% *********************************************************
+% Give myself some enumerate options
+% *********************************************************
+\usepackage{enumitem}
+
+% *********************************************************
+% I used this to just find the width of a line in cm (so I can create
+% appropriately sized graphics). Load the package here and then copy the
+% other line in a separate paragraph where you need the size displayed.
+% *********************************************************
+\usepackage{layouts}
+%textwidth in cm: \printinunitsof{cm}\prntlen{\textwidth}
+
+% *********************************************************
+% 7. Last calls before the bar closes
+% *********************************************************
+
+% *********************************************************
+% Development Stuff
+% *********************************************************
+\listfiles
+%\PassOptionsToPackage{l2tabu,orthodox,abort}{nag}
+%   \usepackage{nag}
+%\PassOptionsToPackage{warning, all}{onlyamsmath}
+%   \usepackage{onlyamsmath}
+
+% *********************************************************
+% Last, but not least...
+% *********************************************************
+\usepackage{classicthesis} 
+
