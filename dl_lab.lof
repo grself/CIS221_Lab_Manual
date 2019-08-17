@@ -2,10 +2,13 @@
 \deactivateaddvspace 
 \babel@toc {american}{}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces ALU main\relax }}{8}{figure.1.1}% 
-\contentsline {figure}{\numberline {1.2}{\ignorespaces ALU Subcircuit\relax }}{9}{figure.1.2}% 
-\contentsline {figure}{\numberline {1.3}{\ignorespaces Arithmetic Subcircuit\relax }}{10}{figure.1.3}% 
-\contentsline {figure}{\numberline {1.4}{\ignorespaces Logic Subcircuit\relax }}{10}{figure.1.4}% 
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Placing ROM\relax }}{9}{figure.1.1}% 
+\contentsline {figure}{\numberline {1.2}{\ignorespaces ROM With Counter\relax }}{10}{figure.1.2}% 
+\contentsline {figure}{\numberline {1.3}{\ignorespaces ROM Filter Mux\relax }}{11}{figure.1.3}% 
+\contentsline {figure}{\numberline {1.4}{\ignorespaces Random Generator Added\relax }}{12}{figure.1.4}% 
+\contentsline {figure}{\numberline {1.5}{\ignorespaces One-Shot Added\relax }}{12}{figure.1.5}% 
+\contentsline {figure}{\numberline {1.6}{\ignorespaces Complete Magic 8-Ball Circuit\relax }}{13}{figure.1.6}% 
+\contentsline {figure}{\numberline {1.7}{\ignorespaces Magic 8-Ball Main Circuit\relax }}{14}{figure.1.7}% 
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {A.1}{\ignorespaces Three Surface-Mounted Integrated Circuits\relax }}{19}{figure.A.1}% 
 \contentsline {figure}{\numberline {A.2}{\ignorespaces 7400: Single NAND Gate Circuit\relax }}{19}{figure.A.2}% 

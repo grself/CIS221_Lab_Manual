@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.8.14)  17 AUG 2019 09:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.8.14)  17 AUG 2019 14:24
 entering extended mode
 **./dl_lab.tex
 (dl_lab.tex
@@ -2116,7 +2116,7 @@ Package: ccicons 2017/10/30 v1.6 LaTeX support for Creative Commons icons
 )
 (dl_lab.aux (FrontBackmatter/Titlepage.aux) (FrontBackmatter/Titleback.aux)
 (FrontBackmatter/Preface.aux) (FrontBackmatter/Contents.aux)
-(Chapters/04_ALU.aux) (Chapters/50_Appendix.aux) (FrontBackmatter/Colophon.aux)
+(Chapters/09_ROM.aux) (Chapters/50_Appendix.aux) (FrontBackmatter/Colophon.aux)
 )
 \openout1 = `dl_lab.aux'.
 
@@ -2400,12 +2400,12 @@ Package microtype Info: Character `029' is missing
 Package tocbasic Info: character protrusion at toc deactivated on input line 23
 .
  (dl_lab.toc
-Overfull \hbox (3.79828pt too wide) in paragraph at lines 29--29
+Overfull \hbox (3.79828pt too wide) in paragraph at lines 25--25
  [][] []\T1/pplj/m/n/10.95 7413: Dual 4-Input NAND Gate (Schmitt-Trigger) []  
  []
 
 
-Overfull \hbox (7.43367pt too wide) in paragraph at lines 35--35
+Overfull \hbox (7.43367pt too wide) in paragraph at lines 31--31
  [][] []\T1/pplj/m/n/10.95 7424: Quad 2-Input NAND Gate (Schmitt-Trigger) []  
  []
 
@@ -2422,37 +2422,37 @@ Overfull \hbox (7.43367pt too wide) in paragraph at lines 35--35
 Package tocbasic Info: character protrusion at lof deactivated on input line 43
 .
  (dl_lab.lof
-Overfull \hbox (14.52747pt too wide) in paragraph at lines 10--10
+Overfull \hbox (14.52747pt too wide) in paragraph at lines 13--13
  [][] []\T1/pplj/m/n/10.95 Three Surface-Mounted In-te-grated Cir-cuits []  
  []
 
 
-Overfull \hbox (0.4802pt too wide) in paragraph at lines 15--15
+Overfull \hbox (0.4802pt too wide) in paragraph at lines 18--18
  [][] []\T1/pplj/m/n/10.95 7410: Sin-gle 3-Input NAND Gate Cir-cuit []  
  []
 
 
-Overfull \hbox (0.4802pt too wide) in paragraph at lines 17--17
+Overfull \hbox (0.4802pt too wide) in paragraph at lines 20--20
  [][] []\T1/pplj/m/n/10.95 7413: Sin-gle 4-Input NAND Gate Cir-cuit []  
  []
 
 
-Overfull \hbox (0.4802pt too wide) in paragraph at lines 19--19
+Overfull \hbox (0.4802pt too wide) in paragraph at lines 22--22
  [][] []\T1/pplj/m/n/10.95 7418: Sin-gle 4-Input NAND Gate Cir-cuit []  
  []
 
 
-Overfull \hbox (0.4802pt too wide) in paragraph at lines 21--21
+Overfull \hbox (0.4802pt too wide) in paragraph at lines 24--24
  [][] []\T1/pplj/m/n/10.95 7420: Sin-gle 4-Input NAND Gate Cir-cuit []  
  []
 
 
-Overfull \hbox (17.24464pt too wide) in paragraph at lines 30--30
+Overfull \hbox (17.24464pt too wide) in paragraph at lines 33--33
  [][] []\T1/pplj/m/n/10.95 7451: Sin-gle AND-OR-INVERT Gate Cir-cuit []  
  []
 
 
-Overfull \hbox (20.2559pt too wide) in paragraph at lines 33--33
+Overfull \hbox (20.2559pt too wide) in paragraph at lines 36--36
  [][] []\T1/pplj/m/n/10.95 7464: 4-2-3-2 AND-OR-INVERT Gate Cir-cuit []  
  []
 
@@ -2460,11 +2460,12 @@ Overfull \hbox (20.2559pt too wide) in paragraph at lines 33--33
 \tf@lof=\write9
 \openout9 = `dl_lab.lof'.
 
+ [9
+
+]
 Package tocbasic Info: character protrusion at lot deactivated on input line 54
 .
- (dl_lab.lot [9
-
-])
+ (dl_lab.lot)
 \tf@lot=\write10
 \openout10 = `dl_lab.lot'.
 
@@ -2492,65 +2493,74 @@ Package tocbasic Info: character protrusion at lot deactivated on input line 54
 
 
 ] [6]
-\openout2 = `Chapters/04_ALU.aux'.
-
-
-(Chapters/04_ALU.tex
-chapter 1.
-Package acronym Info: Label `acro:ALU' newly defined as it shall be overridden
-although it is yet undefined on input line 8.
-Package acronym Info: Label `acro:IC' newly defined as it shall be overridden
-although it is yet undefined on input line 42.
 [7
 
 
 
-]
-<gfx/04-01.png, id=422, 304.88907pt x 118.19156pt>
-File: gfx/04-01.png Graphic file (type png)
-<use gfx/04-01.png>
-Package pdftex.def Info: gfx/04-01.png  used on input line 54.
-(pdftex.def)             Requested size: 304.88832pt x 118.19487pt.
-<gfx/04-02.png, id=424, 372.64218pt x 201.75375pt>
-File: gfx/04-02.png Graphic file (type png)
-<use gfx/04-02.png>
-Package pdftex.def Info: gfx/04-02.png  used on input line 65.
-(pdftex.def)             Requested size: 319.19897pt x 172.82448pt.
- [8 <./gfx/04-01.png>]
-<gfx/04-03.png, id=431, 441.14813pt x 414.04688pt>
-File: gfx/04-03.png Graphic file (type png)
-<use gfx/04-03.png>
-Package pdftex.def Info: gfx/04-03.png  used on input line 78.
-(pdftex.def)             Requested size: 319.19897pt x 299.5982pt.
- [9 <./gfx/04-02.png>]
-<gfx/04-04.png, id=437, 286.82156pt x 179.92218pt>
-File: gfx/04-04.png Graphic file (type png)
-<use gfx/04-04.png>
-Package pdftex.def Info: gfx/04-04.png  used on input line 89.
-(pdftex.def)             Requested size: 286.82085pt x 179.92447pt.
 
-Overfull \hbox (1.63791pt too wide) in paragraph at lines 94--95
-\T1/pplj/m/n/10.95 carry-out, or com-pare bits. When com-pleted, the sub-cir-cu
-it only needs
- []
+] [8]
+\openout2 = `Chapters/09_ROM.aux'.
 
-[10 <./gfx/04-03.png> <./gfx/04-04.png>]
-Overfull \hbox (10.95pt too wide) in paragraph at lines 106--114
+ (Chapters/09_ROM.tex
+chapter 1.
+Package acronym Info: Label `acro:ROM' newly defined as it shall be overridden
+although it is yet undefined on input line 8.
+<gfx/09-01.png, id=408, 194.97844pt x 182.18062pt>
+File: gfx/09-01.png Graphic file (type png)
+<use gfx/09-01.png>
+Package pdftex.def Info: gfx/09-01.png  used on input line 16.
+(pdftex.def)             Requested size: 194.97795pt x 182.18849pt.
+<gfx/09-02.png, id=411, 377.15906pt x 310.15875pt>
+File: gfx/09-02.png Graphic file (type png)
+<use gfx/09-02.png>
+Package pdftex.def Info: gfx/09-02.png  used on input line 25.
+(pdftex.def)             Requested size: 319.19897pt x 262.4956pt.
+[9
+
+
+
+ <./gfx/09-01.png>]
+LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
+(Font)              scaled to size 4.25003pt on input line 30.
+ [10 <./gfx/09-02.png>]
+LaTeX Font Info:    Font shape `T1/fvm/m/it' in size <10.95> not available
+(Font)              Font shape `T1/fvm/m/sl' tried instead on input line 57.
+LaTeX Font Info:    Font shape `T1/fvm/m/sl' will be
+(Font)              scaled to size 9.30756pt on input line 57.
+<gfx/09-03.png, id=427, 603.0028pt x 333.49594pt>
+File: gfx/09-03.png Graphic file (type png)
+<use gfx/09-03.png>
+Package pdftex.def Info: gfx/09-03.png  used on input line 63.
+(pdftex.def)             Requested size: 319.19897pt x 176.53319pt.
+<gfx/09-04.png, id=429, 606.01407pt x 360.59718pt>
+File: gfx/09-04.png Graphic file (type png)
+<use gfx/09-04.png>
+Package pdftex.def Info: gfx/09-04.png  used on input line 72.
+(pdftex.def)             Requested size: 319.19897pt x 189.9326pt.
+ [11 <./gfx/09-03.png>]
+<gfx/09-05.png, id=436, 657.2053pt x 428.35031pt>
+File: gfx/09-05.png Graphic file (type png)
+<use gfx/09-05.png>
+Package pdftex.def Info: gfx/09-05.png  used on input line 81.
+(pdftex.def)             Requested size: 319.19897pt x 208.05031pt.
+ [12 <./gfx/09-04.png> <./gfx/09-05.png>]
+<gfx/09-06.png, id=444, 810.02625pt x 444.91219pt>
+File: gfx/09-06.png Graphic file (type png)
+<use gfx/09-06.png>
+Package pdftex.def Info: gfx/09-06.png  used on input line 101.
+(pdftex.def)             Requested size: 319.19897pt x 175.32086pt.
+<gfx/09-07.png, id=446, 352.31625pt x 179.16937pt>
+File: gfx/09-07.png Graphic file (type png)
+<use gfx/09-07.png>
+Package pdftex.def Info: gfx/09-07.png  used on input line 110.
+(pdftex.def)             Requested size: 319.19897pt x 162.3281pt.
+ [13 <./gfx/09-06.png>]
+Overfull \hbox (10.95pt too wide) in paragraph at lines 127--135
 []$[]$
  []
 
-LaTeX Font Info:    Font shape `T1/fvm/m/it' in size <10.95> not available
-(Font)              Font shape `T1/fvm/m/sl' tried instead on input line 115.
-LaTeX Font Info:    Font shape `T1/fvm/m/sl' will be
-(Font)              scaled to size 9.30756pt on input line 115.
-) [11] [12
+) [14 <./gfx/09-07.png>] [15
 
-
-
-] [13
-
-
-] [14] [15
 
 
 
@@ -2567,12 +2577,14 @@ LaTeX Font Info:    Font shape `T1/fvm/m/sl' will be
 chapter A.
 Package acronym Info: Label `acro:TTL' newly defined as it shall be overridden
 although it is yet undefined on input line 12.
-<gfx/50-74HC595.jpg, id=484, 702.625pt x 487.8225pt>
+Package acronym Info: Label `acro:IC' newly defined as it shall be overridden
+although it is yet undefined on input line 12.
+<gfx/50-74HC595.jpg, id=481, 702.625pt x 487.8225pt>
 File: gfx/50-74HC595.jpg Graphic file (type jpg)
 <use gfx/50-74HC595.jpg>
 Package pdftex.def Info: gfx/50-74HC595.jpg  used on input line 16.
 (pdftex.def)             Requested size: 252.0pt x 174.96092pt.
-<gfx/50-7400.png, id=486, 231.11343pt x 71.51718pt>
+<gfx/50-7400.png, id=483, 231.11343pt x 71.51718pt>
 File: gfx/50-7400.png Graphic file (type png)
 <use gfx/50-7400.png>
 Package pdftex.def Info: gfx/50-7400.png  used on input line 27.
@@ -2582,7 +2594,7 @@ Package pdftex.def Info: gfx/50-7400.png  used on input line 27.
 
 
  <./gfx/50-74HC595.jpg> <./gfx/50-7400.png>]
-<gfx/50-7402.png, id=497, 221.32687pt x 77.53969pt>
+<gfx/50-7402.png, id=495, 221.32687pt x 77.53969pt>
 File: gfx/50-7402.png Graphic file (type png)
 <use gfx/50-7402.png>
 Package pdftex.def Info: gfx/50-7402.png  used on input line 66.
@@ -2763,7 +2775,7 @@ Package atveryend Info: Empty hook `BeforeClearDocument' on input line 113.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 113.
  (dl_lab.aux (FrontBackmatter/Titlepage.aux)
 (FrontBackmatter/Titleback.aux) (FrontBackmatter/Preface.aux)
-(FrontBackmatter/Contents.aux) (Chapters/04_ALU.aux) (Chapters/50_Appendix.aux)
+(FrontBackmatter/Contents.aux) (Chapters/09_ROM.aux) (Chapters/50_Appendix.aux)
 (FrontBackmatter/Colophon.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 113.
 
@@ -2991,11 +3003,14 @@ doclicense-CC-zero.pdf    Graphic file (type pdf)
 FrontBackmatter/Preface.tex
  ts1pplj.fd    2004/09/06 font definitions for TS1/pplj.
 FrontBackmatter/Contents.tex
-Chapters/04_ALU.tex
-gfx/04-01.png
-gfx/04-02.png
-gfx/04-03.png
-gfx/04-04.png
+Chapters/09_ROM.tex
+gfx/09-01.png
+gfx/09-02.png
+gfx/09-03.png
+gfx/09-04.png
+gfx/09-05.png
+gfx/09-06.png
+gfx/09-07.png
 Chapters/50_Appendix.tex
 gfx/50-74HC595.jpg
 gfx/50-7400.png
@@ -3032,16 +3047,16 @@ Package rerunfilecheck Info: File `dl_lab.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 61989 strings out of 492895
- 1376645 string characters out of 3133479
- 1908708 words of memory out of 3000000
- 64624 multiletter control sequences out of 15000+200000
- 630742 words of font info for 167 fonts, out of 3000000 for 9000
+ 62013 strings out of 492895
+ 1377059 string characters out of 3133479
+ 1907708 words of memory out of 3000000
+ 64647 multiletter control sequences out of 15000+200000
+ 632469 words of font info for 171 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  70i,22n,98p,9087b,1255s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc} <C:\Users\gself\App
-Data\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi657\ecss1000.pk> <C:\Users
-\gself\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi657\ecsx1000.pk>
+ <C:\Users\gself\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi657\
+ecss1000.pk> <C:\Users\gself\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/
+ec/dpi657\ecsx1000.pk>{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Prog
 ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/euler/euex10.pfb><C:/Program F
 iles/MiKTeX 2.9/fonts/type1/public/amsfonts/euler/eufm10.pfb><C:/Program Files/
@@ -3049,13 +3064,14 @@ MiKTeX 2.9/fonts/type1/public/amsfonts/euler/eurb10.pfb><C:/Program Files/MiKTe
 X 2.9/fonts/type1/public/amsfonts/euler/eurm10.pfb><C:/Program Files/MiKTeX 2.9
 /fonts/type1/public/amsfonts/euler/eurm7.pfb><C:/Users/gself/AppData/Roaming/Mi
 KTeX/2.9/fonts/type1/public/fpl/fplrc8a.pfb><C:/Users/gself/AppData/Roaming/MiK
+TeX/2.9/fonts/type1/public/fpl/fplrij8a.pfb><C:/Users/gself/AppData/Roaming/MiK
 TeX/2.9/fonts/type1/bera/fvmr8a.pfb><C:/Users/gself/AppData/Roaming/MiKTeX/2.9/
 fonts/type1/bera/fvmro8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palat
 ino/uplb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplr8a.pfb
 ><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on dl_lab.pdf (73 pages, 651875 bytes).
+Output written on dl_lab.pdf (73 pages, 797993 bytes).
 PDF statistics:
- 1168 PDF objects out of 1200 (max. 8388607)
- 223 named destinations out of 1000 (max. 500000)
- 35547 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 1146 PDF objects out of 1200 (max. 8388607)
+ 221 named destinations out of 1000 (max. 500000)
+ 37066 words of extra memory for PDF output out of 42996 (max. 10000000)
 

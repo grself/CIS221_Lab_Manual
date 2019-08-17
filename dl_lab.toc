@@ -2,21 +2,17 @@
 \vspace {-\cftbeforepartskip }
 \babel@toc {american}{}
 \contentsline {chapter}{List of Figures}{ix}{dummy.3}% 
-\contentsline {chapter}{List of Tables}{ix}{dummy.4}% 
+\contentsline {chapter}{List of Tables}{x}{dummy.4}% 
 \contentsline {chapter}{Listings}{xi}{dummy.5}% 
 \contentsline {part}{\numberline {i}\spacedlowsmallcaps {Introduction To Logisim-Evolution}}{1}{part.1}% 
 \contentsline {part}{\numberline {ii}\spacedlowsmallcaps {Foundations}}{3}{part.2}% 
 \contentsline {part}{\numberline {iii}\spacedlowsmallcaps {Combinational Circuits}}{5}{part.3}% 
-\contentsline {chapter}{\numberline {1}\spacedlowsmallcaps {Arithmetic Logic Unit (ALU)}}{7}{chapter.1}% 
-\contentsline {section}{\numberline {1.1}Purpose}{7}{section.1.1}% 
-\contentsline {section}{\numberline {1.2}Procedure}{8}{section.1.2}% 
-\contentsline {subsection}{\numberline {1.2.1}main}{8}{subsection.1.2.1}% 
-\contentsline {subsection}{\numberline {1.2.2}ALU}{8}{subsection.1.2.2}% 
-\contentsline {subsection}{\numberline {1.2.3}Arithmetic}{9}{subsection.1.2.3}% 
-\contentsline {subsection}{\numberline {1.2.4}Challenge}{10}{subsection.1.2.4}% 
-\contentsline {subsection}{\numberline {1.2.5}Testing the Circuit}{11}{subsection.1.2.5}% 
-\contentsline {section}{\numberline {1.3}Deliverable}{11}{section.1.3}% 
-\contentsline {part}{\numberline {iv}\spacedlowsmallcaps {Sequential Circuits}}{13}{part.4}% 
+\contentsline {part}{\numberline {iv}\spacedlowsmallcaps {Sequential Circuits}}{7}{part.4}% 
+\contentsline {chapter}{\numberline {1}\spacedlowsmallcaps {ROM}}{9}{chapter.1}% 
+\contentsline {section}{\numberline {1.1}Purpose}{9}{section.1.1}% 
+\contentsline {section}{\numberline {1.2}Procedure}{9}{section.1.2}% 
+\contentsline {subsection}{\numberline {1.2.1}Testing the Circuit}{14}{subsection.1.2.1}% 
+\contentsline {section}{\numberline {1.3}Deliverable}{14}{section.1.3}% 
 \contentsline {part}{\numberline {v}\spacedlowsmallcaps {Simulation}}{15}{part.5}% 
 \contentsline {part}{\numberline {vi}\spacedlowsmallcaps {Appendix}}{17}{part.6}% 
 \contentsline {chapter}{\numberline {A}\spacedlowsmallcaps {TTL Reference}}{19}{appendix.A}% 

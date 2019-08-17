@@ -57,7 +57,7 @@ To test the circuit:
 
 \section{Challenge}
 
-As designed, the output of this circuit is an integer count. If it were set for counting seconds then the count of seconds would increase from 59 to 60 then 61 rather than going 0:59, 1:00, 1:01 as expected. Rewrite the \lstinline[columns=fixed]|Timer_V3| subcircuit so the output is two BCD numbers: minutes and seconds. As a hint, the Divider (\textit{Arithmetic} library) device products an integer (``modulus'') division along with a remainder.
+As designed, the output of this circuit is an integer count. If it were set for counting seconds then the count of seconds would increase from 59 to 60 then 61 rather than going 0:59, 1:00, 1:01 as expected. Rewrite the \lstinline[columns=fixed]|Timer_V3| subcircuit so the output is two BCD numbers: minutes and seconds. As a hint, the Divider (\textit{Arithmetic} library) device products an integer (``modulus'') division along with a remainder. It should help to divide the count by 60, use the whole number as ``minutes'' and the remainder as the ``seconds.''
 
 \section{Deliverable}
 

@@ -5,7 +5,7 @@
 
 \section{Purpose}
 
-One of the important benefits of working with \textit{Logisim-evoluation} is being able to simulate real-world circuits before they are physically built. This lab simulates a vending machine that meets these requirements:
+One of the important benefits of working with \LE is being able to simulate real-world circuits before they are physically built. This lab simulates a vending machine that meets these requirements:
 
 \begin{enumerate}
 	\item The customer can input the following coins: 5-cent, 10-cent, 25-cent.
@@ -40,9 +40,9 @@ To test the circuit:
 	\item Ensure simulation is enabled at \textsc{Simulate -> Simulation Enabled}.
 	\item Poke the \textit{Ena} input pin to enable the vending machine simulator.
 	\item Notice that the \textit{SoldOut1}, \textit{SoldOut2}, and \textit{SoldOut3} LEDs are lit, indicating that those products are sold out.
-	\item Restock products by poking the \textit{Restock1} and \textit{Restock2} buttons. For this test, do not poke \textit{Restock3} to keep that product empty. As a product is restocked the ``SoldOut'' LED for that product goes out.
+	\item Restock products by poking the \textit{Restock1} and \textit{Restock2} buttons. For this test, do not poke \textit{Restock3} to keep that product empty. As a product is restocked the ``SoldOut'' LED for that product goes out and the \textit{Prod01} and \textit{Prod02} counts change to 15.
 	\item Poke the \textit{In5}, \textit{In10}, and \textit{In25} buttons to deposit coins. The total deposited is displayed and any amount over 75 cents is shown as change. Notice that the deposit circuit is not disabled after 75 cents is reached so customers can continue depositing coins.
-	\item Once at least 75 cents is deposited, poke \textit{Vend1} to vend that product. The number of items available for that product decreases. Notice that once a product is dispensed the amount of money deposited is not reset and the machine can dispense additional products without additional money being deposited.
+	\item Once at least 75 cents is deposited, poke \textit{Vend1} to vend that product. When the button is poked the \textit{Dispense1} LED momentarily lights to indicate that a product was sold. The number of items available for that product decreases. Notice that once a product is dispensed the amount of money deposited is not reset and the machine can dispense additional products without additional money being deposited.
 	\item Poke \textit{Vend3} and notice that nothing happens since that product is sold out.
 	\item Poke \textit{Reset} to reset the amount of money deposited.
 \end{enumerate}
@@ -132,8 +132,8 @@ Outputs:
 
 \begin{itemize}
 	\item \textbf{Avail}. This is an 8-bit number (not \ac{BCD}) that shows how many items each of the products have available for sale.
-	\item \textbf{Empty}. This LED goes high when any product is sold out.
-	\item \textbf{Disp}. This LED goes high when an item is dispensed.
+	\item \textbf{Empty}. This pin goes high when any product is sold out.
+	\item \textbf{Disp}. This pin goes high when an item is dispensed.
 \end{itemize}
 
 Overall, this is a rather simple subcircuit. When one of the \textit{Vend} inputs goes high the priority encoder sends the number for that input to the demux control port. Thus, if a customer selects product one then the priority encoder transmits a one to the demux.

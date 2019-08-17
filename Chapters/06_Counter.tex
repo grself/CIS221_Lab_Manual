@@ -13,14 +13,14 @@ This lab has two goals:
 
 \begin{enumerate}
 	\item Develop several different common counters using \textit{D} flip-flops. Because there are two main families of counters, asynchronous and synchronous, this lab includes examples of both. 
-	\item Introduce the \textit{Logisim-evolution} chronogram feature that generates a timing diagram as a sequential circuit functions. 
+	\item Introduce the \LE chronogram feature that generates a timing diagram as a sequential circuit functions. 
 \end{enumerate}
 
 \section{Procedure}
 
 \subsection{Asynchronous Up Counter}
 
-A counter is built from a series of flip-flops and where the output from each flip-flop is combined to create the counter output, the trigger the next flip-flop, or both. Each flip-flop is considered a ``stage'' of the counter. A counter is triggered by a clock signal that is typically supplied by a timer with a regularly-recurring pattern of high/low levels, but it can also be triggered by an event of some sort, like the completion of a process.
+A counter is built from a series of flip-flops and where the output from each flip-flop is combined to create the counter output, trigger the next flip-flop, or both. Each flip-flop is considered a ``stage'' of the counter. A counter is triggered by a clock signal that is typically supplied by a timer with a regularly-recurring pattern of high/low levels, but it can also be triggered by an event of some sort, like the press of a button or the completion of a process.
 
 \marginpar{In all Counter circuits in this manual flip-flop U0 provides the Least Significant Bit to the output and U3 provides the Most Significant Bit.}One of the simplest counters is illustrated in Figure \ref{fig:06-01}. This is an asynchronous four-stage up counter. A counter is is considered ``asynchronous'' if the input clock signal is applied to only the first stage and then that signal ripples through each flip-flop in turn. Thus, an asynchronous counter is frequently called a ``ripple'' counter.
 
@@ -31,7 +31,7 @@ A counter is built from a series of flip-flops and where the output from each fl
 	\label{fig:06-01}
 \end{figure}
 
-The following list describes the operation of the counter in Figure \ref{fig:06-01}:
+The following list describes the operation of the counter in Figure \ref{fig:06-01}. Students should open the counter circuit with \LE then use the ``poke'' tool to set the clock high then low (one complete clock cycle) as they follow the description below.
 
 \begin{description}
 	\item [Reset is Activated] All flip-flops are reset so \textit{Q} is low and \textit{Q'} is high.
@@ -112,7 +112,7 @@ The asynchronous down counter illustrated in Figure \ref{fig:06-02} is very simi
 	\label{fig:06-02}
 \end{figure}
 
-The following list describes the operation of the counter in Figure \ref{fig:06-02}:
+The following list describes the operation of the counter in Figure \ref{fig:06-02}. Students should open the counter circuit with \LE then use the ``poke'' tool to set the clock high then low (one complete clock cycle) as they follow the description below.
 
 \begin{description}
 	\item [Reset is activated] All flip-flops are set so \textit{Q} is high and \textit{Q'} is low.
@@ -184,9 +184,9 @@ As the clock continues the counter would cycle through the binary values 0110 - 
 
 \subsection{Asynchronous Decade Counter}
 
-Binary counters, like those considered in Figure \ref{fig:06-01} and Figure \ref{fig:06-02} are only able to count to a value that is a power of two but it is often necessary to build a counter that stops at some other value. These types of counters are called ``mod'' counters (short for ``modulus'') since they count up to a preset value then reset and start over, like modulus math. One of the most common mod counters is one that has ten states (it counts from zero to nine) and then resets, and that type of counter is referred to as a decade counter. Decade counters are found in any application that has to count in decimal for easy human interpretation.
+Binary counters, like those considered in Figure \ref{fig:06-01} and Figure \ref{fig:06-02} are only able to count to a value that is a power of two but it is often necessary to build a counter that stops at some other value. These types of counters are called ``mod'' counters (short for ``modulus'') since they count up to a preset value then reset and start over, like modulus math. One of the most common mod counters is one that has ten states (it counts from zero to nine) and then resets, and that type of counter is generally referred to as a decade counter. Decade counters are found in any application that has to count in decimal for easy human interpretation.
 
-The logic of a  mod counter is to add an \texttt{AND} gate on the outputs such that the output of the \texttt{AND} gate is high when the flip-flop outputs equal the mod number. For example, the \texttt{AND} gate for a decade counter would go high when the count reaches ten and that signal would immediately reset the counter back to zero.
+The logic of a  mod counter is to add an \texttt{AND} gate on the flip-flop outputs such that the output of the \texttt{AND} gate is high when the flip-flop outputs equal the mod number. For example, the \texttt{AND} gate for a decade counter would go high when the count reaches ten and that signal would immediately reset the counter back to zero.
 
 \begin{figure}[H]
 	\centering
@@ -288,7 +288,7 @@ The ring counter presented here is also a synchronous circuit; that is, each clo
 	\label{fig:06-04}
 \end{figure}
 
-The following list describes the operation of the counter in Figure \ref{fig:06-04}:
+The following list describes the operation of the counter in Figure \ref{fig:06-04}. Students should open the counter circuit with \LE then use the ``poke'' tool to set the clock high then low (one complete clock cycle) as they follow the description below.
 
 \begin{description}
 	\item [Reset is activated] \textit{U0} is set and \textit{U1}-\textit{U3} are reset so the counter is seeded with a single high bit to shift.
@@ -343,7 +343,7 @@ A Johnson Counter is similar to a ring counter in that a high bit value is shift
 	\label{fig:06-05}
 \end{figure}
 
-The following list describes the operation of the counter in Figure \ref{fig:06-05}:
+The following list describes the operation of the counter in Figure \ref{fig:06-05}. Students should open the counter circuit with \LE then use the ``poke'' tool to set the clock high then low (one complete clock cycle) as they follow the description below.
 
 \begin{description}
 	\item [Reset is activated] \textit{U0} is set and \textit{U1}-\textit{U3} are reset so the counter is seeded with a single high bit to shift.
@@ -410,11 +410,11 @@ The \lstinline[columns=fixed]|main| circuit provides a human interface to try ou
 	\label{fig:06-06}
 \end{figure}
 
-Notice that there are two clocks in the \lstinline[columns=fixed]|main| circuit. \textit{Clk} is linked to the counter under test and needs no further explanation. \textit{Sysclk} is used by the \textit{Logisim-evolution} chronogram as described in the next section of this document.
+Notice that there are two clocks in the \lstinline[columns=fixed]|main| circuit. \textit{Clk} is linked to the counter being tested and is used within the counter circuit to advance the count. \textit{Sysclk} is used by the \LE chronogram as described in the next section of this document.
 
 \subsection{Chronogram}
 
-\textit{Logisim-evolution} can generate a timing diagram, called a \textit{chronogram}, for a sequential circuit. That is a representation of the various signals in a circuit and how those signals change over time. Figure \ref{fig:06-07} is the timing diagram for an Up counter.
+\LE can generate a timing diagram, called a \textit{chronogram}, for a sequential circuit. That is a representation of the various signals in a circuit and how those signals change over time. Figure \ref{fig:06-07} is the timing diagram for an Up counter.
 
 \begin{figure}[H]
 	\centering
@@ -423,7 +423,7 @@ Notice that there are two clocks in the \lstinline[columns=fixed]|main| circuit.
 	\label{fig:06-07}
 \end{figure}
 
-At the top of Figure \ref{fig:06-07} is a scale that indicates the number of seconds that the counter has been operating. The first trace is the input clk signal. The clock goes high at the start of each second and then goes low at the half-second mark. Under the clock is the ``Probe1'' signal. Because that is a four-bit number \textit{Logisim-evolution} displays the number, but under that number is a breakout of the four bits that make up that number. Thus, at time zero ``Probe1'' is 0001 and ``Probe1\_s\_0'' (that stands for ``Probe 1, Signal 0'') is high while the other bits are low. The \textit{Logisim-evolution} \textit{chronogram} includes a cursor indicated by a red line (found just before the five second tick in Figure \ref{fig:06-07}) that can be placed anywhere along the diagram. The cursor sets the values of each signal in the area on the left edge of the diagram, so the cursor in Figure \ref{fig:06-07} is pointing to a spot where the \textit{clk} is low, \textit{Probe1} is at 0101, and so forth.
+At the top of Figure \ref{fig:06-07} is a scale that indicates the number of seconds that the counter has been operating. The first trace is the input clk signal. The clock goes high at the start of each second and then goes low at the half-second mark. Under the clock is the ``Probe1'' signal. Because that is a four-bit number \LE displays the number, but under that number is a breakout of the four bits that make up that number. Thus, at time zero ``Probe1'' is 0001 and ``Probe1\_s\_0'' (that stands for ``Probe 1, Signal 0'') is high while the other bits are low. The \LE \textit{chronogram} includes a cursor indicated by a red line (found just before the five second tick in Figure \ref{fig:06-07}) that can be placed anywhere along the diagram. The cursor sets the values of each signal in the area on the left edge of the diagram, so the cursor in Figure \ref{fig:06-07} is pointing to a spot where the \textit{clk} is low, \textit{Probe1} is at 0101, and so forth.
 
 Follow the next steps to use the chronogram. Notes: the chronogram will only check subcircuits that are found on the  \lstinline[columns=fixed]|main| subcircuit. Therefore, in order to create a timing diagram all subcircuits need to be combined on \lstinline[columns=fixed]|main|. The labs completed in this manual have been designed to use the \lstinline[columns=fixed]|main| subcircuit as the human interface so the chronogram feature will work well with these circuits. 
 
@@ -440,7 +440,7 @@ Follow the next steps to use the chronogram. Notes: the chronogram will only che
 		\label{fig:06-08}
 	\end{figure}
 
-	\item Click \textit{sysclk} in the left panel and then click \textit{Add >>} to add that signal to the \textit{chronogram}. The ``-2'' following the \textit{sysclk} name in the right panel indicates that it is a binary signal. NOTE: \textit{sysclk} must be added to the \textit{chronogram} or it will not sample the circuit; however, the \textit{sysclk} signal will not actually show up in the timing diagram. It is probably best to add the \textit{sysclk} signal first so it is not overlooked.
+	\item Click \textit{sysclk} in the left panel and then click \textit{Add >>} to add that signal to the \textit{chronogram}. The ``-2'' following the \textit{sysclk} name in the right panel indicates that it is a binary signal.\marginpar{NOTE: \textit{sysclk} must be added to the \textit{chronogram} or it will not sample the circuit; however, the \textit{sysclk} signal will not actually show up in the timing diagram.} It is probably best to add the \textit{sysclk} signal first so it is not overlooked.
 	\item Click \textit{clk} in the left panel and then click \textit{Add >>} to add that signal to the \textit{chronogram}.
 	\item Click \textit{Probe1} in the left panel and then click \textit{Add >>} to add that signal to the \textit{chronogram}.
 	\item Click ``Enable time selection'' and chose \textit{clk} as the clock with a frequency of 1 Hertz.
