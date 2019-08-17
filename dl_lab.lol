@@ -1,15 +1,5 @@
-\select@language {american}
+\babel@toc {american}{}
 \deactivateaddvspace 
-\select@language {american}
-\addvspace {10\p@ }
-\addvspace {10\p@ }
-\addvspace {10\p@ }
-\addvspace {10\p@ }
-\addvspace {10\p@ }
-\addvspace {10\p@ }
-\addvspace {10\p@ }
-\addvspace {10\p@ }
-\addvspace {10\p@ }
-\addvspace {10\p@ }
+\babel@toc {american}{}
 \addvspace {10\p@ }
 \addvspace {10\p@ }

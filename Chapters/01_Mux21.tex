@@ -11,7 +11,7 @@
 
 \section{Purpose}
 
-This lab introduces the \textit{Logisim-evolution} logic simulator, which is used for all lab exercises in this manual. 
+This lab introduces the \LE logic simulator, which is used for all lab exercises in this manual. 
 
 %********************************************
 % Section: Procedure
@@ -21,19 +21,19 @@ This lab introduces the \textit{Logisim-evolution} logic simulator, which is use
 
 \subsection{Installation}
 
-\textit{Logisim-evolution} is a Java application, so a Java runtime environment will need to be installed before using the application. Many people already have a Java runtime on their computer and can skip this step, but people who do not will need to install the Java runtime. That process is not covered in this manual but information about installing the Java runtime environment is available at \url{http://www.oracle.com/technetwork/java/javase/downloads/index.html}. It can be confusing to know which version of Java to download but students working on the labs in this manual only need the runtime, called \textit{JRE} on the website. Students who are also in programming classes will likely already have the runtime as part of the Java Developer's Kit (JDK). It can be tricky testing the Java installation since the Chrome, Firefox, and Edge browsers will not run Java apps, but students can open a command prompt and enter \lstinline|java -version| to see what version of Java their computers are running, if any.
+\LE is a Java application, so a Java runtime environment will need to be installed before using the application. Many students who are taking a digital logic class already have a Java runtime on their computer and can skip this step, but those who do not will need to install the Java runtime. That process is not covered in this manual but information about installing the Java runtime environment is available at \url{http://www.oracle.com/technetwork/java/javase/downloads/index.html}. It can be confusing to know which version of Java to download but students working on the labs in this manual only need the runtime, called \textit{JRE} on the website. Students who are also in programming classes will likely already have the runtime as part of the Java Developer's Kit (JDK). It can be tricky testing the Java installation since the Chrome, Firefox, and Edge browsers will not run Java apps, but students can open a command prompt and enter \lstinline|java -version| to see what version of Java their computers are running, if any.
 
-\textit{Logisim-evolution} (\url{https://github.com/reds-heig/logisim-evolution}) is available as a free download. Visit the website and about halfway down the page find a section named ``How to install logisim-evolution.'' Click the ``here'' link at the end of the first sentence in that section. 
+\LE (\url{https://github.com/reds-heig/logisim-evolution}) is available as a free download. Visit the website and about halfway down the page find a section named ``Running logisim-evolution.'' Click the ``here'' link at the end of the first sentence in that section. 
 
-Since the \textit{Logisim-evolution} file is a Java application, it does not need to be installed like most software. To start \textit{Logisim-evolution}, double-click the \textit{Logisim-evolution} shortcut. That will start Java and then run the \textit{Logisim-evolution} application. Also, \textit{Logisim-evolution} will not need to be uninstalled when it is no longer needed since it is not actually installed, the \textit{Logisim-evolution} file can simply be deleted.
+Since the \LE file is a Java application, it does not need to be installed like most software. To start \LE, double-click the \LE shortcut. That will start Java and then run the \LE application. Also, \LE will not need to be uninstalled when it is no longer needed since it is not actually installed, the \LE file can simply be deleted.
 
 \subsection{Beginner's Tutorial}
 
-\textit{Logisim-evolution} comes with a beginner's tutorial available in \textsc{Help -> Tutorial}. That tutorial only takes a few minutes and introduces students to the major components of the application. Students should complete that tutorial before starting this lab.
+\LE comes with a beginner's tutorial available in \textsc{Help -> Tutorial}. That tutorial only takes a few minutes and introduces students to the major components of the application. Students should complete that tutorial before starting this lab.
 
 \subsection{Logisim-evolution Workspace}
 
-Start \textit{Logisim-evolution} by double-clicking its icon. The initial \textit{Logisim-evolution} window will be similar to Figure \ref{fig:01-01}.
+Start \LE by double-clicking its icon. The initial \LE window will be similar to Figure \ref{fig:01-01}.
 
 \begin{figure}[H]
 	\centering
@@ -42,22 +42,22 @@ Start \textit{Logisim-evolution} by double-clicking its icon. The initial \texti
 	\label{fig:01-01}
 \end{figure}
 
-The \textit{Logisim-evolution} space is divided into several areas. Along the top is a text menu that includes the types of selections found in most programs. For example, the ``File'' menu includes items like ``Save'' and ``Exit.'' The ``Edit'' menu includes an ``Undo'' option that is useful. In later labs, the various options under ``Project'' and ``Simulate'' will be described and used. Items in the ``FPGAMenu'' are beyond the scope of this class and will not be used. Of particular importance at this point is ``Library Reference'' in the ``Help'' menu. It contains information about every logical device available in \textit{Logisim-evolution} and is very useful while using those components in new circuits. 
+The \LE space is divided into several areas. Along the top is a text menu that includes the types of selections found in most programs. For example, the ``File'' menu includes items like ``Save'' and ``Exit.'' The ``Edit'' menu includes an ``Undo'' option that is useful. In later labs, the various options under ``Project'' and ``Simulate'' will be described and used. Items in the ``FPGAMenu'' are beyond the scope of this class and will not be used. Of particular importance at this point is ``Library Reference'' in the ``Help'' menu. It contains information about every logical device available in \LE and is very useful while using those components in new circuits. 
 
-Under the menu bar is the Toolbar, which is a row of eight buttons that are the most commonly used tools in \textit{Logisim-evolution}: 
+Under the menu bar is the Toolbar, which is a row of eight buttons that are the most commonly used tools in \LE: 
 
 \begin{itemize}
 	\item \textbf{Pointing Finger}: Used to ``poke'' and change input values while the simulator is running. 
 	\item \textbf{Arrow}: Used to select components or wires in order to modify, move, or delete them. 
 	\item \textbf{A}: Activates the Text tool so text information can be added to the circuit. 
-	\item \textbf{Square Port}: Creates an input port for a circuit. 
-	\item \textbf{Round Port}: Creates an output port for a circuit. 
+	\item \textbf{Green Input Port}: Creates an input port for a circuit. 
+	\item \textbf{White Output Port}: Creates an output port for a circuit. 
 	\item \textbf{NOT Gate}: Creates a NOT gate. 
 	\item \textbf{AND Gate}: Creates an AND gate. 
 	\item \textbf{OR Gate}: Creates an OR gate. 
 \end{itemize}
 
-The Explorer Pane is on the left side of the workspace and contains a folder list with four small icons along its top edge. The folders contain ``libraries'' of components organized in a logical manner. For example, the ``Gates'' folder contains various gates (AND, OR, XOR, etc.) that can be used in a circuit. The four icons across the top of the Explorer Pane are used for advanced operations and will be covered as they are needed. 
+The Explorer Pane is on the left side of the workspace and contains a folder list. The folders contain ``libraries'' of components organized in a logical manner. For example, the ``Gates'' folder contains various gates (AND, OR, XOR, etc.) that can be used in a circuit. The four icons across the top of the Explorer Pane are used for advanced operations and will be covered as they are needed. 
 
 The Properties panel on the lower left side of the screen is where the properties for any selected component can be read and set. For example, the number of inputs for an AND gate can be set to a specific number.
 
@@ -65,7 +65,9 @@ The drawing canvas is the largest part of the screen. It is where circuits are c
 
 \subsection{Simple Multiplexer}
 
-\marginpar{Do not be concerned with the exact placement of components on the drawing canvas. They can be rearranged as the build progresses.}A multiplexer is used to select which of two or more inputs will be connected to a single output. For this lab, a simple two-input, one-bit multiplexer will be built. Start by clicking the \textit{And} button on the toolbar and placing two \texttt{AND} gates on the canvas. The canvas should resemble Figure \ref{fig:01-02}
+\marginpar{Do not be concerned with the exact placement of components on the drawing canvas. They can be rearranged as the build progresses.}A multiplexer is used to select which of two or more inputs will be connected to a single output. For this lab, a simple two-input, one-bit multiplexer will be built. It is understood that students will not know the significance of a multiplexer at this point in the class, but the purpose of this lab is to use \LE to build a simple circuit and a multiplexer serves that purpose well. 
+
+Start by clicking the \textit{And} button on the toolbar and placing two \texttt{AND} gates on the canvas. The canvas should resemble Figure \ref{fig:01-02}
 
 \begin{figure}[H]
 	\centering

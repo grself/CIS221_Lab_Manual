@@ -13,9 +13,9 @@ This lab has three goals:
 	\item Create and exercise a test of the subcircuits.
 \end{itemize}
 
-\textit{Logisim-evolution} permits designers to work with a main circuit and any number of subcircuits. Students who have studied programming languages are familiar with ``functions'' or ``classes'' that can be designed and built one time and then reused many times whenever they are needed. \textit{Logisim-evolution} permits that same type of modular design by using subcircuits. 
+\LE permits designers to work with a main circuit and any number of subcircuits. Students who have studied programming languages are familiar with ``functions'' or ``classes'' that can be designed and built one time and then reused many times whenever they are needed. \LE permits that same type of modular design by using subcircuits. 
 
-The \textit{Logisim-evolution} starter for this lab includes a \lstinline[columns=fixed]|main| circuit and one subcircuit, named \lstinline[columns=fixed]|Equation_1|. The starter subcircuit is used to practice creating a circuit from a Boolean expression and then a new subcircuit is added and a second Boolean expression is used to build that circuit.
+The \LE starter for this lab includes a \lstinline[columns=fixed]|main| circuit and one subcircuit, named \lstinline[columns=fixed]|Equation_1|. The starter subcircuit is used to practice creating a circuit from a Boolean expression and then a new subcircuit is added and a second Boolean expression is used to build that circuit.
 
 \section{Procedure}
 
@@ -30,9 +30,9 @@ The \textit{Logisim-evolution} starter for this lab includes a \lstinline[column
 	\item While the expression does not name an output variable, it is reasonable to assume that the circuit would output a logic 1 or 0. Therefore, a one-bit output variable must be specified.
 \end{itemize}
 
-\marginpar{Do not be concerned with the exact placement of components on the drawing canvas. They can be rearranged as the build progresses.}Start by placing three inputs and an output on the drawing canvas. Inputs are indicated by a square pin found on the tool bar above the drawing canvas. Click that tool and place three input pins named \textit{In1A}, \textit{In1B}, and \textit{In1C} \textemdash that means ``Input for Equation One, variable A'' and so forth. 
+\marginpar{Do not be concerned with the exact placement of components on the drawing canvas. They can be rearranged as the build progresses.}Start by placing three inputs and an output on the drawing canvas. Inputs are indicated by a green icon with \textit{I->} on the tool bar above the drawing canvas. Click that tool and place three input pins named \textit{In1A}, \textit{In1B}, and \textit{In1C} \textemdash that means ``Input for Equation One, variable A'' and so forth. 
 
-Outputs are indicated by a round pin found on the tool bar above the drawing canvas. Click that tool and place an output named \textit{Out1}. The circuit should look like Figure \ref{fig:02-01}.
+Outputs are indicated by a white icon with \textit{->O} found on the tool bar above the drawing canvas. Click that tool and place an output named \textit{Out1}. The circuit should look like Figure \ref{fig:02-01}.
 
 \begin{figure}[H]
 	\centering
@@ -41,7 +41,7 @@ Outputs are indicated by a round pin found on the tool bar above the drawing can
 	\label{fig:02-01}
 \end{figure}
 
-Next, the gates should be added. The \texttt{AND} gate tool can be found on the tool bar. Click that tool and place three \texttt{AND} gates on the circuit. Click each gate and in its properties panel set the \textit{Number of Inputs} to 3. 
+\marginpar{The gates in this manual are all ``narrow'' size. The size does not change the gate behavior but makes it easier to wire the complex circuits in later labs.}Next, the gates should be added. The \texttt{AND} gate tool can be found on the tool bar. Click that tool and place three \texttt{AND} gates on the circuit. Click each gate and in its properties panel set the \textit{Number of Inputs} to 3. 
 
 The \texttt{OR} gate tool can be found on the tool bar. Click that tool and place one \texttt{OR} gate on the circuit. Click that gate and in its properties panel set the \textit{Number of Inputs} to 3.
 
@@ -110,9 +110,9 @@ Add the \lstinline[columns=fixed]|Equation_2| circuit in the same way and wire f
 
 \subsection{Testing the Circuit}
 
-One way to test this circuit is to use the \textit{poke} tool and click various input combinations for both subcircuits. If the subcircuits are correct then the output will only go high when the correct combination is set on the inputs. However, as digital logic circuits become more complex it is important to automate the testing process so no input combinations are overlooked. \textit{Logisim-evolution} includes a \textsc{Simulate -> Test Vector} feature that is used for automating circuit testing.
+One way to test this circuit is to use the \textit{poke} tool and click various input combinations for both subcircuits. If the subcircuits are correct then the output will only go high when the correct combination is set on the inputs. However, as digital logic circuits become more complex it is important to automate the testing process so no input combinations are overlooked. \LE includes a \textsc{Simulate -> Test Vector} feature that is used for automating circuit testing.
 
-The first step in using automatic testing is to create a \textit{Test Vector} file. This is a simple \textit{.txt} file that can be created in any text processor, like \textit{Notepad}. \marginpar{Do not use a word processor to create the Test Vector since that would add unneeded codes for things like fonts.} The format for a test vector is fairly simple.
+The first step in using automatic testing is to create a \textit{Test Vector} file. This is a simple \textit{.txt} file that can be created in any text processor, like \textit{Notepad}. \marginpar{Do not use a word processor to create the Test Vector since that would add unneeded codes for things like fonts and margins.} The format for a test vector is fairly simple.
 
 \begin{itemize}
 	\item Every line is a single test of the circuit, except the first line.
@@ -142,10 +142,10 @@ A1 B1 C1 True1
 Following is an explanation for the \textit{Test vector for Lab 2} file.
 
 \begin{description}
-	\item[Line 1] This is just the title of the file. Because this line starts with a hash (\#) it is a comment and will be ignored by \textit{Logisim-evolution}.
-	\item[Line 2] This is another descriptor line and is ignored by \textit{Logisim-evolution}.
-	\item[Line 3] This line lists all of the inputs and outputs in the circuit under test. In this case, there are three inputs, \textit{A1}, \textit{B1}, and \textit{C1}, along with one output, \textit{True1}. \textit{Logisim-evolution} is able to determine whether the pin is an input or output from its properties. NOTE: each of the inputs and outputs in this circuit are single bits. If an input or output has more than one bit then that must be specified on this line. For example, if \textit{True1} was actually a four-bit output then that pin would be listed as \textit{True1[4]}.
-	\item[Line 4] This line contains the first test for the circuit. This line specifies that Logisim-evolution make \textit{A1}, \textit{B1}, and \textit{C1} equal to zero and then check to be certain that \textit{True1} is also zero.
+	\item[Line 1] This is just the title of the file. Because this line starts with a hash (\#) it is a comment and will be ignored by \LE.
+	\item[Line 2] This is another descriptor line and is ignored by \LE.
+	\item[Line 3] This line lists all of the inputs and outputs in the circuit under test. In this case, there are three inputs, \textit{A1}, \textit{B1}, and \textit{C1}, along with one output, \textit{True1}. \LE is able to determine whether the pin is an input or output from its properties. NOTE: each of the inputs and outputs in this circuit are single bits. If an input or output has more than one bit then that must be specified on this line. For example, if \textit{True1} was actually a four-bit output then that pin would be listed as \textit{True1[4]}.
+	\item[Line 4] This line contains the first test for the circuit. This line specifies that \LE make \textit{A1}, \textit{B1}, and \textit{C1} equal to zero and then check to be certain that \textit{True1} is also zero.
 	\item[Other Lines] All other lines set the three input bits and specify the expected response in the output bit.
 \end{description}
 

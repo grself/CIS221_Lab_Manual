@@ -1,79 +1,36 @@
-\select@language {american}
+\babel@toc {american}{}
 \deactivateaddvspace 
-\select@language {american}
+\babel@toc {american}{}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Logisim-evolution Initial Screen\relax }}{4}{figure.1.1}
-\contentsline {figure}{\numberline {1.2}{\ignorespaces Two AND Gates\relax }}{5}{figure.1.2}
-\contentsline {figure}{\numberline {1.3}{\ignorespaces AND Gate Properties\relax }}{6}{figure.1.3}
-\contentsline {figure}{\numberline {1.4}{\ignorespaces OR Gate Added to Circuit\relax }}{6}{figure.1.4}
-\contentsline {figure}{\numberline {1.5}{\ignorespaces Two NOT Gates Added to Circuit\relax }}{6}{figure.1.5}
-\contentsline {figure}{\numberline {1.6}{\ignorespaces Inputs and Output Added\relax }}{7}{figure.1.6}
-\contentsline {figure}{\numberline {1.7}{\ignorespaces Circuit Wiring Added\relax }}{7}{figure.1.7}
-\contentsline {figure}{\numberline {1.8}{\ignorespaces Simple multiplexer\relax }}{8}{figure.1.8}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces ALU main\relax }}{8}{figure.1.1}% 
+\contentsline {figure}{\numberline {1.2}{\ignorespaces ALU Subcircuit\relax }}{9}{figure.1.2}% 
+\contentsline {figure}{\numberline {1.3}{\ignorespaces Arithmetic Subcircuit\relax }}{10}{figure.1.3}% 
+\contentsline {figure}{\numberline {1.4}{\ignorespaces Logic Subcircuit\relax }}{10}{figure.1.4}% 
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Equation 1 Inputs-Outputs\relax }}{12}{figure.2.1}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Equation 1 And-Or Gates\relax }}{12}{figure.2.2}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Equation 1 And Gate Inputs Set\relax }}{13}{figure.2.3}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Equation 1 Circuit Completed\relax }}{13}{figure.2.4}
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Main Circuit\relax }}{14}{figure.2.5}
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Test Vector Window\relax }}{18}{figure.2.6}
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Test Completed\relax }}{19}{figure.2.7}
-\contentsline {figure}{\numberline {2.8}{\ignorespaces Test Failure\relax }}{20}{figure.2.8}
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces AND Gates\relax }}{22}{figure.3.1}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces OR Gates Added\relax }}{23}{figure.3.2}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Inputs Added\relax }}{24}{figure.3.3}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Wiring the Encoder\relax }}{25}{figure.3.4}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Nine-line Priority Encoder\relax }}{26}{figure.3.5}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Main Circuit\relax }}{27}{figure.3.6}
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces ALU main\relax }}{32}{figure.4.1}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces ALU Subcircuit\relax }}{33}{figure.4.2}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Arithmetic Subcircuit\relax }}{34}{figure.4.3}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Logic Subcircuit\relax }}{34}{figure.4.4}
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Vending Machine Main Circuit\relax }}{39}{figure.5.1}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Activator Subcircuit\relax }}{40}{figure.5.2}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Bank Subcircuit\relax }}{40}{figure.5.3}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Dispenser Subcircuit\relax }}{41}{figure.5.4}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Product Subcircuit\relax }}{43}{figure.5.5}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Vending Subcircuit\relax }}{44}{figure.5.6}
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Asynchronous Up Counter\relax }}{48}{figure.6.1}
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Asynchronous Down Counter\relax }}{49}{figure.6.2}
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Asynchronous Decade Counter\relax }}{51}{figure.6.3}
-\contentsline {figure}{\numberline {6.4}{\ignorespaces Synchronous Ring Counter\relax }}{53}{figure.6.4}
-\contentsline {figure}{\numberline {6.5}{\ignorespaces Synchronous Johnson Counter\relax }}{54}{figure.6.5}
-\contentsline {figure}{\numberline {6.6}{\ignorespaces Main Circuit\relax }}{55}{figure.6.6}
-\contentsline {figure}{\numberline {6.7}{\ignorespaces Timing Diagram for Up Counter\relax }}{56}{figure.6.7}
-\contentsline {figure}{\numberline {6.8}{\ignorespaces Set Up Chronogram\relax }}{57}{figure.6.8}
-\contentsline {figure}{\numberline {6.9}{\ignorespaces Chronogram Ready\relax }}{58}{figure.6.9}
-\contentsline {figure}{\numberline {6.10}{\ignorespaces Chronogram Starting\relax }}{58}{figure.6.10}
-\contentsline {figure}{\numberline {6.11}{\ignorespaces Chronogram At Zero Time\relax }}{59}{figure.6.11}
-\contentsline {figure}{\numberline {6.12}{\ignorespaces Chronogram Controls\relax }}{59}{figure.6.12}
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {7.1}{\ignorespaces Completed Timer\relax }}{62}{figure.7.1}
-\contentsline {figure}{\numberline {7.2}{\ignorespaces Timer Main Circuit\relax }}{62}{figure.7.2}
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {8.1}{\ignorespaces Reaction Timer\relax }}{65}{figure.8.1}
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {9.1}{\ignorespaces Placing ROM\relax }}{67}{figure.9.1}
-\contentsline {figure}{\numberline {9.2}{\ignorespaces ROM With Counter\relax }}{68}{figure.9.2}
-\contentsline {figure}{\numberline {9.3}{\ignorespaces ROM Filter Mux\relax }}{69}{figure.9.3}
-\contentsline {figure}{\numberline {9.4}{\ignorespaces Random Generator Added\relax }}{70}{figure.9.4}
-\contentsline {figure}{\numberline {9.5}{\ignorespaces One-Shot Added\relax }}{70}{figure.9.5}
-\contentsline {figure}{\numberline {9.6}{\ignorespaces Complete Magic 8-Ball Circuit\relax }}{71}{figure.9.6}
-\contentsline {figure}{\numberline {9.7}{\ignorespaces Magic 8-Ball Main Circuit\relax }}{72}{figure.9.7}
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {10.1}{\ignorespaces RAM Basics\relax }}{73}{figure.10.1}
-\contentsline {figure}{\numberline {10.2}{\ignorespaces RAM With Control Signals\relax }}{74}{figure.10.2}
-\contentsline {figure}{\numberline {10.3}{\ignorespaces Data Bus\relax }}{75}{figure.10.3}
-\contentsline {figure}{\numberline {10.4}{\ignorespaces RAM With Input/Output Devices\relax }}{75}{figure.10.4}
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {11.1}{\ignorespaces Simple ALU\relax }}{80}{figure.11.1}
-\contentsline {figure}{\numberline {11.2}{\ignorespaces Full ALU\relax }}{80}{figure.11.2}
-\contentsline {figure}{\numberline {11.3}{\ignorespaces General Registers\relax }}{81}{figure.11.3}
-\contentsline {figure}{\numberline {11.4}{\ignorespaces Control Subcircuit\relax }}{82}{figure.11.4}
-\contentsline {figure}{\numberline {11.5}{\ignorespaces Main Circuit\relax }}{83}{figure.11.5}
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {12.1}{\ignorespaces Example Elevator Simulator\relax }}{92}{figure.12.1}
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Three Surface-Mounted Integrated Circuits\relax }}{19}{figure.A.1}% 
+\contentsline {figure}{\numberline {A.2}{\ignorespaces 7400: Single NAND Gate Circuit\relax }}{19}{figure.A.2}% 
+\contentsline {figure}{\numberline {A.3}{\ignorespaces 7402: Single NOR Gate Circuit\relax }}{20}{figure.A.3}% 
+\contentsline {figure}{\numberline {A.4}{\ignorespaces 7404: Single Inverter Circuit\relax }}{21}{figure.A.4}% 
+\contentsline {figure}{\numberline {A.5}{\ignorespaces 7408: Single AND Gate Circuit\relax }}{22}{figure.A.5}% 
+\contentsline {figure}{\numberline {A.6}{\ignorespaces 7410: Single 3-Input NAND Gate Circuit\relax }}{23}{figure.A.6}% 
+\contentsline {figure}{\numberline {A.7}{\ignorespaces 7411: Single 3-Input AND Gate Circuit\relax }}{24}{figure.A.7}% 
+\contentsline {figure}{\numberline {A.8}{\ignorespaces 7413: Single 4-Input NAND Gate Circuit\relax }}{25}{figure.A.8}% 
+\contentsline {figure}{\numberline {A.9}{\ignorespaces 7414: Single Inverter Circuit\relax }}{26}{figure.A.9}% 
+\contentsline {figure}{\numberline {A.10}{\ignorespaces 7418: Single 4-Input NAND Gate Circuit\relax }}{27}{figure.A.10}% 
+\contentsline {figure}{\numberline {A.11}{\ignorespaces 7419: Single Inverter Circuit\relax }}{28}{figure.A.11}% 
+\contentsline {figure}{\numberline {A.12}{\ignorespaces 7420: Single 4-Input NAND Gate Circuit\relax }}{29}{figure.A.12}% 
+\contentsline {figure}{\numberline {A.13}{\ignorespaces 7421: Single 4-Input AND Gate Circuit\relax }}{30}{figure.A.13}% 
+\contentsline {figure}{\numberline {A.14}{\ignorespaces 7424: Single NAND Gate Circuit\relax }}{31}{figure.A.14}% 
+\contentsline {figure}{\numberline {A.15}{\ignorespaces 7411: Single 3-Input NOR Gate Circuit\relax }}{32}{figure.A.15}% 
+\contentsline {figure}{\numberline {A.16}{\ignorespaces 7430: Single 8-Input NAND Gate\relax }}{33}{figure.A.16}% 
+\contentsline {figure}{\numberline {A.17}{\ignorespaces 7432: Single OR Gate Circuit\relax }}{34}{figure.A.17}% 
+\contentsline {figure}{\numberline {A.18}{\ignorespaces 7436: Single NOR Gate Circuit\relax }}{35}{figure.A.18}% 
+\contentsline {figure}{\numberline {A.19}{\ignorespaces 7442: BCD to Decimal Decoder\relax }}{36}{figure.A.19}% 
+\contentsline {figure}{\numberline {A.20}{\ignorespaces 7447: BCD to 7-Segment Decoder\relax }}{41}{figure.A.20}% 
+\contentsline {figure}{\numberline {A.21}{\ignorespaces 7451: Single AND-OR-INVERT Gate Circuit\relax }}{43}{figure.A.21}% 
+\contentsline {figure}{\numberline {A.22}{\ignorespaces 7454: Four Wide AND-OR-INVERT Gate Circuit\relax }}{44}{figure.A.22}% 
+\contentsline {figure}{\numberline {A.23}{\ignorespaces 7458: Dual AND-OR Gate Circuit\relax }}{45}{figure.A.23}% 
+\contentsline {figure}{\numberline {A.24}{\ignorespaces 7464: 4-2-3-2 AND-OR-INVERT Gate Circuit\relax }}{46}{figure.A.24}% 
+\contentsline {figure}{\numberline {A.25}{\ignorespaces 7486: Single XOR Gate Circuit\relax }}{48}{figure.A.25}% 
+\contentsline {figure}{\numberline {A.26}{\ignorespaces 74125: Single Buffer Circuit\relax }}{49}{figure.A.26}% 
+\contentsline {figure}{\numberline {A.27}{\ignorespaces 74266: Single XNOR Gate Circuit\relax }}{51}{figure.A.27}% 
