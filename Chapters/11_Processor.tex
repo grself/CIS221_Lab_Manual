@@ -32,15 +32,24 @@ This processor starts with a simple \ac{ALU}, as in Figure \ref{fig:11-01}.
 	\label{fig:11-01}
 \end{figure}
 
-To be sure, this \ac{ALU} is not very complex but uses the same principles developed in Lab \ref{lab04}, \nameref{lab04}. It contains only three arithmetic functions, increment, add, and negate, four logic functions, \texttt{AND}, \texttt{OR}, \texttt{XOR}, \texttt{NOT}, and one constant zero output. There are two data input ports but note that some of the functions only use the lower input, and one output port. The multiplexer determines which of the functions will be connected to the output and that is controlled by a signal named \textit{ALUCtl}.
+To be sure, this \ac{ALU} is not very complex but uses the same principles developed in Lab \ref{lab04}, \nameref{lab04}. It contains only three arithmetic functions, increment, add, and negate; four logic functions, \texttt{AND}, \texttt{OR}, \texttt{XOR}, \texttt{NOT}; and one constant zero output. There are two data input ports but note that some of the functions only use the lower input, and one output port. The multiplexer determines which of the functions will be connected to the output and that is controlled by a signal named \textit{ALUCtl}.
 
-The \ac{ALU} is then expanded somewhat to make it usable in a \ac{CPU}.
+The \ac{ALU} is then expanded somewhat to make it usable in a \ac{CPU}. For simplicity, Figure \ref{fig:11-02} shows only the left side of the ALU.
 
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=\maxwidth{.95\linewidth}]{gfx/11-02}
-	\caption{Full ALU}
+	\caption{Left Side of ALU}
 	\label{fig:11-02}
+\end{figure}
+
+Figure \ref{fig:11-03} shows the right side of the ALU.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\maxwidth{.95\linewidth}]{gfx/11-03}
+	\caption{Full ALU}
+	\label{fig:11-03}
 \end{figure}
 
 The simple \ac{ALU} functions are found in the center of Figure \ref{fig:11-02}. However, what started as \textit{DataInA} has been replaced by a register named \textit{ALUBuffer}.\footnote{IMPORTANT NOTE: All registers in this Processor circuit are triggered on the Falling Edge of the clock. The reason for this will become evident when the circuit is tested.} The \textit{ALUBuffer's} inputs are from Tunnels (\textit{Wiring} library) because those inputs are used in more than one location in the subcircuit.\footnote{Tunnels are used extensively in this circuit to simplify the diagrams and aid in tracing signals.}
@@ -51,15 +60,15 @@ On the left side of the subcircuit are the three input ports. \textit{DataIn} is
 
 \subsection{General Registers}
 
-A \ac{CPU} must have several general registers available to hold data while an instruction is being carried out. For example, to temporarily hold the \textit{Acc} output until it is needed in a later step that value can be stored in a register and then recovered when needed. 
+A \ac{CPU} must have several general registers available to hold data temporarily while an instruction is being carried out. For example, it may be necessary to hold the \textit{Acc} output until it is needed in a later step so that value can be stored in a register and then recovered when needed. 
 
-The processor circuit being built in this lab has four general registers. Figure \ref{fig:11-03} illustrates the \lstinline[columns=fixed]|GenReg| subcircuit.
+The processor circuit being built in this lab has four general registers. Figure \ref{fig:11-04} illustrates the \lstinline[columns=fixed]|GenReg| subcircuit.
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=\maxwidth{.95\linewidth}]{gfx/11-03}
+	\includegraphics[width=\maxwidth{.95\linewidth}]{gfx/11-04}
 	\caption{General Registers}
-	\label{fig:11-03}
+	\label{fig:11-04}
 \end{figure}
 
 The \lstinline[columns=fixed]|GenReg| subcircuit does not require any novel digital logic concepts. Starting on the left side of the circuit:
@@ -73,13 +82,13 @@ The \lstinline[columns=fixed]|GenReg| subcircuit does not require any novel digi
 
 \subsection{Control}
 
-The \lstinline[columns=fixed]|Control| subcircuit in this device is very simple and could, in all actuality, be eliminated. However, in a true \ac{CPU} the \lstinline[columns=fixed]|Control| subcircuit is rather complex and critical to the operation of the circuit so a \lstinline[columns=fixed]|Control| subcircuit is included in this lab as an example. Figure \ref{fig:11-04} illustrates the \lstinline[columns=fixed]|Control| subcircuit.
+The \lstinline[columns=fixed]|Control| subcircuit in this device is very simple and could, in all actuality, be eliminated. However, in a true \ac{CPU} the \lstinline[columns=fixed]|Control| subcircuit is rather complex and critical to the operation of the circuit so a \lstinline[columns=fixed]|Control| subcircuit is included in this lab as an example. Figure \ref{fig:11-05} illustrates the \lstinline[columns=fixed]|Control| subcircuit.
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=\maxwidth{.95\linewidth}]{gfx/11-04}
+	\includegraphics[width=\maxwidth{.95\linewidth}]{gfx/11-05}
 	\caption{Control Subcircuit}
-	\label{fig:11-04}
+	\label{fig:11-05}
 \end{figure}
 
 The \lstinline[columns=fixed]|Control| subcircuit includes a nine-bit input named \textit{mCode} (for ``Microcode''). That input is latched by a register\footnote{Note, as an exception to the other registers in the Processor circuit, the register in the control subcircuit must be set to trigger on the leading edge of the clock rather than the falling edge.} and the output of that register is split into three components.
@@ -92,13 +101,13 @@ The \lstinline[columns=fixed]|Control| subcircuit includes a nine-bit input name
 
 \subsection{Main}
 
-The \lstinline[columns=fixed]|main| circuit ties the three subcircuits together with three control busses and one data bus. Figure \ref{fig:11-05} illustrates the \lstinline[columns=fixed]|main| circuit.
+The \lstinline[columns=fixed]|main| circuit ties the three subcircuits together with three control busses and one data bus. Figure \ref{fig:11-06} illustrates the \lstinline[columns=fixed]|main| circuit.
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=\maxwidth{.95\linewidth}]{gfx/11-05}
+	\includegraphics[width=\maxwidth{.95\linewidth}]{gfx/11-06}
 	\caption{Main Circuit}
-	\label{fig:11-05}
+	\label{fig:11-06}
 \end{figure}
 
 There are no novel digital logic functions used in this circuit. The first input is \textit{mCode} which is the microcode used to control the flow of data in the dBus (``data bus''). the other input, \textit{LdImm} (``Load Immediate'') can contain an eight-bit number that is to be loaded into one of the registers for processing. In a full \ac{CPU} that input would be wired to a \ac{RAM} device.
@@ -108,8 +117,8 @@ There are no novel digital logic functions used in this circuit. The first input
 The circuit should be tested by inputting these signals and observing the output.
 
 \subsubsection{Copy LdImm To R0}
-
-Enter some value in the \textit{LdImm} input port, set the \textit{mCode} input to 101001000 (the first three values in the table below), and then pulse the \textit{clk}. When completed, the \textit{dBus} and \textit{R0} should both contain the value of the \textit{LdImm} port.
+%Checked
+Enter some value in the \textit{LdImm} input port, set the \textit{mCode} input to 101000000 (the first three values in the table below), and then pulse the \textit{clk}. When completed, the \textit{dBus} and \textit{R0} should both contain the value of the \textit{LdImm} port.
 
 \begin{table}[H]
 	\sffamily
@@ -118,7 +127,7 @@ Enter some value in the \textit{LdImm} input port, set the \textit{mCode} input 
 		\rowcolors{2}{gray!10}{white} % Color every other line a light gray
 		\begin{tabular}{ccccl} 
 			\textbf{dBus} & \textbf{Reg} & \textbf{ALU} & \textbf{dBus} & \textbf{Notes} \\
-			10 & 100 & 1000 & LdImm & R0 <- LdImm \\
+			10 & 100 & 0000 & LdImm & R0 <- LdImm \\
 		\end{tabular}
 	\end{center}
 	\caption{R0 <- LdImm}
@@ -126,8 +135,8 @@ Enter some value in the \textit{LdImm} input port, set the \textit{mCode} input 
 \end{table}
 
 \subsubsection{Copy LdImm To R1}
-
-Enter some value in the \textit{LdImm} input port, set the \textit{mCode} input to 101011000 (the first three values in the table below), and then pulse the \textit{clk}. When completed, the \textit{dBus} and \textit{R1} should both contain the value of the \textit{LdImm} port.
+% Checked
+Enter some value in the \textit{LdImm} input port, set the \textit{mCode} input to 101010000 (the first three values in the table below), and then pulse the \textit{clk}. When completed, the \textit{dBus} and \textit{R1} should both contain the value of the \textit{LdImm} port.
 
 \begin{table}[H]
 	\sffamily
@@ -136,16 +145,16 @@ Enter some value in the \textit{LdImm} input port, set the \textit{mCode} input 
 		\rowcolors{2}{gray!10}{white} % Color every other line a light gray
 		\begin{tabular}{ccccl} 
 			\textbf{dBus} & \textbf{Reg} & \textbf{ALU} & \textbf{dBus} & \textbf{Notes} \\
-			10 & 101 & 1000 & LdImm & R1 <- LdImm
+			10 & 101 & 0000 & LdImm & R1 <- LdImm
 		\end{tabular}
 	\end{center}
 	\caption{R1 <- LdImm}
 	\label{tab:11-02}
 \end{table}
 
-\subsubsection{Copy LdImm To ALU}
-
-Enter some value in the \textit{LdImm} input port, set the \textit{mCode} input to 100110000 (the first three values in the table below), and then pulse the \textit{clk}. When completed, the \textit{dBus} and \textit{ALU} should both contain the value of the \textit{LdImm} port.
+\subsubsection{Copy LdImm To ALUbuf}
+%Checked
+Enter some value in the \textit{LdImm} input port, set the \textit{mCode} input to 100000000 (the first three values in the table below), and then pulse the \textit{clk}. When completed, the \textit{dBus} and \textit{ALUbuf} should both contain the value of the \textit{LdImm} port.
 
 \begin{table}[H]
 	\sffamily
@@ -154,16 +163,16 @@ Enter some value in the \textit{LdImm} input port, set the \textit{mCode} input 
 		\rowcolors{2}{gray!10}{white} % Color every other line a light gray
 		\begin{tabular}{ccccl} 
 			\textbf{dBus} & \textbf{Reg} & \textbf{ALU} & \textbf{dBus} & \textbf{Notes} \\
-			10 & 011 & 0000 & LdImm & ALU <- LdImm
+			10 & 000 & 0000 & LdImm & ALU <- LdImm
 		\end{tabular}
 	\end{center}
 	\caption{ALU <- LdImm}
 	\label{tab:11-03}
 \end{table}
 
-\subsubsection{Increment dBus}
+\subsubsection{Increment R0}
 
-Set the \textit{mCode} input to 000001000 (the first three values in the table below), and then pulse the \textit{clk}. When completed, the original value of the \textit{dBus} will be incremented by one.
+\marginpar{Use the LdImm function to initialize R0.}Incrementing the value in R0 requires two steps. Set the \textit{mCode} input to the first three values in the table below and pulse the \textit{clk} for each of the steps. When completed, \textit{R0} will contain the original value of the \textit{R0}$ +1 $.
 
 \begin{table}[H]
 	\sffamily
@@ -172,10 +181,11 @@ Set the \textit{mCode} input to 000001000 (the first three values in the table b
 		\rowcolors{2}{gray!10}{white} % Color every other line a light gray
 		\begin{tabular}{ccccl} 
 			\textbf{dBus} & \textbf{Reg} & \textbf{ALU} & \textbf{dBus} & \textbf{Notes} \\
-			00 & 000 & 1000 & dBus+1 & dBus <- Inc(dBus)
+			01 & 000 & 1000 & R0 & Acc <- R0+1 \\
+			00 & 100 & 0000 & Acc & R0 <- Acc \\
 		\end{tabular}
 	\end{center}
-	\caption{dBus <- Inc(dBus)}
+	\caption{R0 <- Inc(R0)}
 	\label{tab:11-04}
 \end{table}
 
@@ -210,7 +220,7 @@ Set the \textit{mCode} input to 000001000 (the first three values in the table b
 		\rowcolors{2}{gray!10}{white} % Color every other line a light gray
 		\begin{tabular}{ccccl} 
 			\textbf{dBus} & \textbf{Reg} & \textbf{ALU} & \textbf{dBus} & \textbf{Notes} \\
-			01 & 000 & 0010 & R0 & ALU <- R0 \\
+			01 & 000 & 0010 & R0 & ALUbuf <- R0 \\
 			01 & 001 & 1010 & R1 & Acc <- \textasciitilde R1 \\
 			00 & 100 & 1001 & R0-R1 & dBus <- Acc \\
 			00 & 100 & 0111 & dBus+1 & R0 <- R0 - R1
@@ -299,11 +309,9 @@ This group of instructions would be considered ``CPU Microcode,'' which is a ver
 
 Microcode is usually stored in \ac{ROM} that is built into the \ac{CPU}. This is typically called ``firmware'' since it is a string of ones and zeros, like software, but it cannot be changed, like hardware.
 
-It is important to keep in mind the difference between instructions contained in a software program (like Word) and those contained in microcode. A single instruction in software is interpreted and executed by the \ac{CPU} using, perhaps, dozens of microcode steps. As an example, the software may want to move a single byte from \ac{RAM} to the video card. The \ac{CPU} may process that instruction by first moving the byte from \ac{RAM} to register one and then moving it from there to the video card's input register. Those moves may require several clock cycles as various multiplexers and other devices are activated in the correct sequence to move the data to its destination. 
+It is important to keep in mind the difference between instructions contained in a software program (like Word) and those contained in microcode. A single instruction in software is interpreted and executed by the \ac{CPU} using, perhaps, dozens of microcode steps. As an example, the software may want to move a single byte from \ac{RAM} to the video card. The \ac{CPU} may process that instruction by first moving the byte from \ac{RAM} to register one and then moving it from there to the video card's input register and then activating the video card input function. Those moves may require several clock cycles as various multiplexers and other devices are activated in the correct sequence to move the data to its destination. 
 
-In summary, the CPU's Control Unit controls all of the registers, buffers, buses, and other devices in the CPU in order to execute the instructions requested by the software program.
-
-A computer program, as contained in software, is nothing more than a series of ones and zeros, organized into groups of 32 (or 64). Each group of bits forms a single ``word'' of information; or a single instruction which would then be used to trigger a microcode sequence within the \ac{CPU}. When viewed at the level of ones and zeros, a program is said to be in ``machine code,'' and could look something like this:
+A software program, like Word, is nothing more than a series of ones and zeros, organized into groups, commonly 64 in modern computers. Each group of bits forms a single ``word'' of information; or a single instruction which would then be used by the \ac{CPU} to trigger a microcode sequence. When viewed at the level of ones and zeros, a software program is said to be in ``machine code,'' and could look something like the following (note, only the first 32 bits of each word are shown).
 
 \begin{Verbatim}[frame=lines,
 xleftmargin=10mm,
@@ -346,7 +354,7 @@ public class HelloWorldExample{
 }
 \end{Verbatim}
 
-In the end, while there are dozens of different programming languages, they are all designed to be reduced into a series of machine codes, which the \ac{CPU} can then execute.
+In the end, while there are dozens of different programming languages, they are all designed to be reduced into a series of machine codes which the \ac{CPU} can then execute.
 
 \section{Challenge}
 
@@ -354,8 +362,11 @@ Using the examples in the ``Testing the Circuit'' section, create the microcode 
 
 \begin{enumerate}
 	\item Store the value contained in \textit{LdImm} in \textit{R2} (\textit{R2} <- \textit{LdImm}). (Assume that \textit{LdImm} is pre-loaded with the value to store.)
+	
 	\item Store the value contained in \textit{LdImm} in \textit{R3} (\textit{R3} <- \textit{LdImm}). (Assume that \textit{LdImm} is pre-loaded with the value to store.)
+	
 	\item Store the 2s complement of the value in \textit{R0} back into \textit{R0} (\textit{R0} <- \textasciitilde \textit{R0}). The subtraction example will help with this function.
+	
 	\item Store the bitwise NOT of the value in \textit{R0} back into \textit{R0} (\textit{R0} <- \textit{R0'}).
 \end{enumerate}
 

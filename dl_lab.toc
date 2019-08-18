@@ -2,52 +2,51 @@
 \vspace {-\cftbeforepartskip }
 \babel@toc {american}{}
 \contentsline {chapter}{List of Figures}{ix}{dummy.3}% 
-\contentsline {chapter}{List of Tables}{x}{dummy.4}% 
+\contentsline {chapter}{List of Tables}{ix}{dummy.4}% 
 \contentsline {chapter}{Listings}{xi}{dummy.5}% 
 \contentsline {part}{\numberline {i}\spacedlowsmallcaps {Introduction To Logisim-Evolution}}{1}{part.1}% 
 \contentsline {part}{\numberline {ii}\spacedlowsmallcaps {Foundations}}{3}{part.2}% 
 \contentsline {part}{\numberline {iii}\spacedlowsmallcaps {Combinational Circuits}}{5}{part.3}% 
 \contentsline {part}{\numberline {iv}\spacedlowsmallcaps {Sequential Circuits}}{7}{part.4}% 
-\contentsline {chapter}{\numberline {1}\spacedlowsmallcaps {ROM}}{9}{chapter.1}% 
-\contentsline {section}{\numberline {1.1}Purpose}{9}{section.1.1}% 
-\contentsline {section}{\numberline {1.2}Procedure}{9}{section.1.2}% 
-\contentsline {subsection}{\numberline {1.2.1}Testing the Circuit}{14}{subsection.1.2.1}% 
-\contentsline {section}{\numberline {1.3}Deliverable}{14}{section.1.3}% 
-\contentsline {part}{\numberline {v}\spacedlowsmallcaps {Simulation}}{15}{part.5}% 
-\contentsline {part}{\numberline {vi}\spacedlowsmallcaps {Appendix}}{17}{part.6}% 
-\contentsline {chapter}{\numberline {A}\spacedlowsmallcaps {TTL Reference}}{19}{appendix.A}% 
-\contentsline {section}{\numberline {A.1}7400: Quad 2-Input NAND Gate}{19}{section.A.1}% 
-\contentsline {section}{\numberline {A.2}7402: Quad 2-Input NOR Gate}{20}{section.A.2}% 
-\contentsline {section}{\numberline {A.3}7404: Hex Inverter}{21}{section.A.3}% 
-\contentsline {section}{\numberline {A.4}7408: Quad 2-Input AND Gate}{22}{section.A.4}% 
-\contentsline {section}{\numberline {A.5}7410: Triple 3-Input NAND Gate}{23}{section.A.5}% 
-\contentsline {section}{\numberline {A.6}7411: Triple 3-Input AND Gate}{24}{section.A.6}% 
-\contentsline {section}{\numberline {A.7}7413: Dual 4-Input NAND Gate (Schmitt-Trigger)}{25}{section.A.7}% 
-\contentsline {section}{\numberline {A.8}7414: Hex Inverter (Schmitt-Trigger)}{26}{section.A.8}% 
-\contentsline {section}{\numberline {A.9}7418: Dual 4-Input NAND Gate (Schmitt-Trigger Inputs)}{27}{section.A.9}% 
-\contentsline {section}{\numberline {A.10}7419: Hex Inverter (Schmitt-Trigger)}{28}{section.A.10}% 
-\contentsline {section}{\numberline {A.11}7420: Dual 4-Input NAND Gate}{29}{section.A.11}% 
-\contentsline {section}{\numberline {A.12}7421: Dual 4-Input AND Gate}{30}{section.A.12}% 
-\contentsline {section}{\numberline {A.13}7424: Quad 2-Input NAND Gate (Schmitt-Trigger)}{31}{section.A.13}% 
-\contentsline {section}{\numberline {A.14}7427: Triple 3-Input NOR Gate}{32}{section.A.14}% 
-\contentsline {section}{\numberline {A.15}7430: Single 8-Input NAND Gate}{33}{section.A.15}% 
-\contentsline {section}{\numberline {A.16}7432: Quad 2-Input OR Gate}{34}{section.A.16}% 
-\contentsline {section}{\numberline {A.17}7436: Quad 2-Input NOR Gate}{35}{section.A.17}% 
-\contentsline {section}{\numberline {A.18}7442: BCD to Decimal Decoder}{36}{section.A.18}% 
-\contentsline {section}{\numberline {A.19}7443: Excess-3 to Decimal Decoder}{37}{section.A.19}% 
-\contentsline {section}{\numberline {A.20}7444: Gray to Decimal Decoder}{39}{section.A.20}% 
-\contentsline {section}{\numberline {A.21}7447: BCD to 7-Segment Decoder}{41}{section.A.21}% 
-\contentsline {section}{\numberline {A.22}7451: Dual AND-OR-INVERT Gate}{43}{section.A.22}% 
-\contentsline {section}{\numberline {A.23}7454: Four Wide AND-OR-INVERT Gate}{44}{section.A.23}% 
-\contentsline {section}{\numberline {A.24}7458: Dual AND-OR Gate}{45}{section.A.24}% 
-\contentsline {section}{\numberline {A.25}7464: 4-2-3-2 AND-OR-INVERT Gate}{46}{section.A.25}% 
-\contentsline {section}{\numberline {A.26}7474: Dual D-Flipflops with Preset and Clear}{47}{section.A.26}% 
-\contentsline {section}{\numberline {A.27}7485: 4-Bit Magnitude Comparator}{48}{section.A.27}% 
-\contentsline {section}{\numberline {A.28}7486: Quad 2-Input XOR Gate}{48}{section.A.28}% 
-\contentsline {section}{\numberline {A.29}74125: Quad Bus Buffer, 3-State Gate}{49}{section.A.29}% 
-\contentsline {section}{\numberline {A.30}74165: 8-Bit Parallel-to-Serial Shift Register}{50}{section.A.30}% 
-\contentsline {section}{\numberline {A.31}74175: Quad D-Flipflops with Sync Reset}{51}{section.A.31}% 
-\contentsline {section}{\numberline {A.32}74266: Quad 2-Input XNOR Gate}{51}{section.A.32}% 
-\contentsline {section}{\numberline {A.33}74273: Octal D-Flipflop with Clear}{52}{section.A.33}% 
-\contentsline {section}{\numberline {A.34}74283: 4-Bit Binary Full Adder}{53}{section.A.34}% 
-\contentsline {section}{\numberline {A.35}74377: Octal D-Flipflop with Enable}{54}{section.A.35}% 
+\contentsline {part}{\numberline {v}\spacedlowsmallcaps {Simulation}}{9}{part.5}% 
+\contentsline {chapter}{\numberline {1}\spacedlowsmallcaps {Elevator}}{11}{chapter.1}% 
+\contentsline {section}{\numberline {1.1}Purpose}{11}{section.1.1}% 
+\contentsline {section}{\numberline {1.2}Challenge}{11}{section.1.2}% 
+\contentsline {section}{\numberline {1.3}Deliverable}{12}{section.1.3}% 
+\contentsline {part}{\numberline {vi}\spacedlowsmallcaps {Appendix}}{13}{part.6}% 
+\contentsline {chapter}{\numberline {A}\spacedlowsmallcaps {TTL Reference}}{15}{appendix.A}% 
+\contentsline {section}{\numberline {A.1}7400: Quad 2-Input NAND Gate}{15}{section.A.1}% 
+\contentsline {section}{\numberline {A.2}7402: Quad 2-Input NOR Gate}{16}{section.A.2}% 
+\contentsline {section}{\numberline {A.3}7404: Hex Inverter}{17}{section.A.3}% 
+\contentsline {section}{\numberline {A.4}7408: Quad 2-Input AND Gate}{18}{section.A.4}% 
+\contentsline {section}{\numberline {A.5}7410: Triple 3-Input NAND Gate}{19}{section.A.5}% 
+\contentsline {section}{\numberline {A.6}7411: Triple 3-Input AND Gate}{20}{section.A.6}% 
+\contentsline {section}{\numberline {A.7}7413: Dual 4-Input NAND Gate (Schmitt-Trigger)}{21}{section.A.7}% 
+\contentsline {section}{\numberline {A.8}7414: Hex Inverter (Schmitt-Trigger)}{22}{section.A.8}% 
+\contentsline {section}{\numberline {A.9}7418: Dual 4-Input NAND Gate (Schmitt-Trigger Inputs)}{23}{section.A.9}% 
+\contentsline {section}{\numberline {A.10}7419: Hex Inverter (Schmitt-Trigger)}{24}{section.A.10}% 
+\contentsline {section}{\numberline {A.11}7420: Dual 4-Input NAND Gate}{25}{section.A.11}% 
+\contentsline {section}{\numberline {A.12}7421: Dual 4-Input AND Gate}{26}{section.A.12}% 
+\contentsline {section}{\numberline {A.13}7424: Quad 2-Input NAND Gate (Schmitt-Trigger)}{27}{section.A.13}% 
+\contentsline {section}{\numberline {A.14}7427: Triple 3-Input NOR Gate}{28}{section.A.14}% 
+\contentsline {section}{\numberline {A.15}7430: Single 8-Input NAND Gate}{29}{section.A.15}% 
+\contentsline {section}{\numberline {A.16}7432: Quad 2-Input OR Gate}{30}{section.A.16}% 
+\contentsline {section}{\numberline {A.17}7436: Quad 2-Input NOR Gate}{31}{section.A.17}% 
+\contentsline {section}{\numberline {A.18}7442: BCD to Decimal Decoder}{32}{section.A.18}% 
+\contentsline {section}{\numberline {A.19}7443: Excess-3 to Decimal Decoder}{33}{section.A.19}% 
+\contentsline {section}{\numberline {A.20}7444: Gray to Decimal Decoder}{35}{section.A.20}% 
+\contentsline {section}{\numberline {A.21}7447: BCD to 7-Segment Decoder}{37}{section.A.21}% 
+\contentsline {section}{\numberline {A.22}7451: Dual AND-OR-INVERT Gate}{39}{section.A.22}% 
+\contentsline {section}{\numberline {A.23}7454: Four Wide AND-OR-INVERT Gate}{40}{section.A.23}% 
+\contentsline {section}{\numberline {A.24}7458: Dual AND-OR Gate}{41}{section.A.24}% 
+\contentsline {section}{\numberline {A.25}7464: 4-2-3-2 AND-OR-INVERT Gate}{42}{section.A.25}% 
+\contentsline {section}{\numberline {A.26}7474: Dual D-Flipflops with Preset and Clear}{43}{section.A.26}% 
+\contentsline {section}{\numberline {A.27}7485: 4-Bit Magnitude Comparator}{44}{section.A.27}% 
+\contentsline {section}{\numberline {A.28}7486: Quad 2-Input XOR Gate}{44}{section.A.28}% 
+\contentsline {section}{\numberline {A.29}74125: Quad Bus Buffer, 3-State Gate}{45}{section.A.29}% 
+\contentsline {section}{\numberline {A.30}74165: 8-Bit Parallel-to-Serial Shift Register}{46}{section.A.30}% 
+\contentsline {section}{\numberline {A.31}74175: Quad D-Flipflops with Sync Reset}{47}{section.A.31}% 
+\contentsline {section}{\numberline {A.32}74266: Quad 2-Input XNOR Gate}{47}{section.A.32}% 
+\contentsline {section}{\numberline {A.33}74273: Octal D-Flipflop with Clear}{48}{section.A.33}% 
+\contentsline {section}{\numberline {A.34}74283: 4-Bit Binary Full Adder}{49}{section.A.34}% 
+\contentsline {section}{\numberline {A.35}74377: Octal D-Flipflop with Enable}{50}{section.A.35}% 

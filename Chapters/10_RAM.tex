@@ -22,7 +22,7 @@ In operation, a high signal on RAM port M1 enables the write function and the RA
 
 Notice that the data ports have both an in and out pointing arrow to indicate that those ports are designed for both input and output, depending on the setting of M1 and M2.
 
-Figure \ref{fig:10-02} shows a RAM device with the various control signals.
+Figure \ref{fig:10-02} shows a RAM device with the various control signals. (Note: to show more detail, the right edge of the RAM device was cut from the figure.)
 
 \begin{figure}[H]
 	\centering
@@ -37,7 +37,7 @@ At the top of the circuit is a T Flip-Flop (\textit{Memory} library) that is use
 
 The Counter has a Reset button attached that will reset its count to zero so the RAM device will always either read or write from its lowest memory location. In actual practice the counter would need a much more complex circuit to set a specific start point for the RAM device to read or write but for this simple demonstration circuit it is enough to always start read/write operations from the lowest memory location.
 
-The next step is to set up the data bus on the east side of the RAM device. It is important that the bus does not attempt to carry data out of the RAM device at the same time that data are being sent to the RAM device. Thus, control buffers are used to determine the direction of data flow between the RAM device and the data bus. Figure \ref{fig:10-03} shows the data bus with the control buffers.
+The next step is to set up the data bus on the east side of the RAM device. It is important that the bus does not attempt to carry data out of the RAM device at the same time that data are being sent to the RAM device. Thus, control buffers are used to determine the direction of data flow between the RAM device and the data bus. Figure \ref{fig:10-03} shows the data bus with the control buffers. (Note: to show more detail, the counter was cut from the left edge of the figure.)
 
 \begin{figure}[H]
 	\centering
@@ -48,13 +48,22 @@ The next step is to set up the data bus on the east side of the RAM device. It i
 
 Notice that the outputs of the read/write flip-flop are being used to control the direction of the data flow for the RAM device.
 
-To complete the demonstration circuit, a Keyboard (\textit{Input/Output} library) device is added to write ASCII characters into RAM memory and a TTY (\textit{Input/Output} library) device is used to display ASCII characters read from RAM memory. Figure \ref{fig:10-04} shows the input/output devices.
+To complete the demonstration circuit, a Keyboard (\textit{Input/Output} library) device is added to write ASCII characters into RAM memory and a TTY (\textit{Input/Output} library) device is used to display ASCII characters read from RAM memory. Figure \ref{fig:10-04} shows the input/output devices. (Note: to show more detail, part of the RAM and TTY devices were cut from the edges of the figure.)
 
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=\maxwidth{.95\linewidth}]{gfx/10-04}
 	\caption{RAM With Input/Output Devices}
 	\label{fig:10-04}
+\end{figure}
+
+For reference, the entire circuit is in Figure \ref{fig:10-05}.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\maxwidth{.95\linewidth}]{gfx/10-05}
+	\caption{RAM With Input/Output Devices}
+	\label{fig:10-05}
 \end{figure}
 
 To operate the keyboard device, click it and enter some text from the computer's keyboard. Then as that device is clocked one ASCII character at a time will be sent to the output port at its south-east corner. As in ASCII devices used in earlier labs, a splitter is used for both the keyboard and TTY display to strip the most significant bit from the data bus since the bus is eight bits wide but ASCII is only a seven-bit code.
