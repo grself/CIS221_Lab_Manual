@@ -1,52 +1,150 @@
 \babel@toc {american}{}
 \vspace {-\cftbeforepartskip }
 \babel@toc {american}{}
-\contentsline {chapter}{List of Figures}{ix}{dummy.3}% 
-\contentsline {chapter}{List of Tables}{ix}{dummy.4}% 
-\contentsline {chapter}{Listings}{xi}{dummy.5}% 
+\contentsline {chapter}{List of Figures}{xi}{dummy.3}% 
+\contentsline {chapter}{List of Tables}{xiii}{dummy.4}% 
+\contentsline {chapter}{Listings}{xiv}{dummy.5}% 
 \contentsline {part}{\numberline {i}\spacedlowsmallcaps {Introduction To Logisim-Evolution}}{1}{part.1}% 
-\contentsline {part}{\numberline {ii}\spacedlowsmallcaps {Foundations}}{3}{part.2}% 
-\contentsline {part}{\numberline {iii}\spacedlowsmallcaps {Combinational Circuits}}{5}{part.3}% 
-\contentsline {part}{\numberline {iv}\spacedlowsmallcaps {Sequential Circuits}}{7}{part.4}% 
-\contentsline {part}{\numberline {v}\spacedlowsmallcaps {Simulation}}{9}{part.5}% 
-\contentsline {chapter}{\numberline {1}\spacedlowsmallcaps {Elevator}}{11}{chapter.1}% 
-\contentsline {section}{\numberline {1.1}Purpose}{11}{section.1.1}% 
-\contentsline {section}{\numberline {1.2}Challenge}{11}{section.1.2}% 
-\contentsline {section}{\numberline {1.3}Deliverable}{12}{section.1.3}% 
-\contentsline {part}{\numberline {vi}\spacedlowsmallcaps {Appendix}}{13}{part.6}% 
-\contentsline {chapter}{\numberline {A}\spacedlowsmallcaps {TTL Reference}}{15}{appendix.A}% 
-\contentsline {section}{\numberline {A.1}7400: Quad 2-Input NAND Gate}{15}{section.A.1}% 
-\contentsline {section}{\numberline {A.2}7402: Quad 2-Input NOR Gate}{16}{section.A.2}% 
-\contentsline {section}{\numberline {A.3}7404: Hex Inverter}{17}{section.A.3}% 
-\contentsline {section}{\numberline {A.4}7408: Quad 2-Input AND Gate}{18}{section.A.4}% 
-\contentsline {section}{\numberline {A.5}7410: Triple 3-Input NAND Gate}{19}{section.A.5}% 
-\contentsline {section}{\numberline {A.6}7411: Triple 3-Input AND Gate}{20}{section.A.6}% 
-\contentsline {section}{\numberline {A.7}7413: Dual 4-Input NAND Gate (Schmitt-Trigger)}{21}{section.A.7}% 
-\contentsline {section}{\numberline {A.8}7414: Hex Inverter (Schmitt-Trigger)}{22}{section.A.8}% 
-\contentsline {section}{\numberline {A.9}7418: Dual 4-Input NAND Gate (Schmitt-Trigger Inputs)}{23}{section.A.9}% 
-\contentsline {section}{\numberline {A.10}7419: Hex Inverter (Schmitt-Trigger)}{24}{section.A.10}% 
-\contentsline {section}{\numberline {A.11}7420: Dual 4-Input NAND Gate}{25}{section.A.11}% 
-\contentsline {section}{\numberline {A.12}7421: Dual 4-Input AND Gate}{26}{section.A.12}% 
-\contentsline {section}{\numberline {A.13}7424: Quad 2-Input NAND Gate (Schmitt-Trigger)}{27}{section.A.13}% 
-\contentsline {section}{\numberline {A.14}7427: Triple 3-Input NOR Gate}{28}{section.A.14}% 
-\contentsline {section}{\numberline {A.15}7430: Single 8-Input NAND Gate}{29}{section.A.15}% 
-\contentsline {section}{\numberline {A.16}7432: Quad 2-Input OR Gate}{30}{section.A.16}% 
-\contentsline {section}{\numberline {A.17}7436: Quad 2-Input NOR Gate}{31}{section.A.17}% 
-\contentsline {section}{\numberline {A.18}7442: BCD to Decimal Decoder}{32}{section.A.18}% 
-\contentsline {section}{\numberline {A.19}7443: Excess-3 to Decimal Decoder}{33}{section.A.19}% 
-\contentsline {section}{\numberline {A.20}7444: Gray to Decimal Decoder}{35}{section.A.20}% 
-\contentsline {section}{\numberline {A.21}7447: BCD to 7-Segment Decoder}{37}{section.A.21}% 
-\contentsline {section}{\numberline {A.22}7451: Dual AND-OR-INVERT Gate}{39}{section.A.22}% 
-\contentsline {section}{\numberline {A.23}7454: Four Wide AND-OR-INVERT Gate}{40}{section.A.23}% 
-\contentsline {section}{\numberline {A.24}7458: Dual AND-OR Gate}{41}{section.A.24}% 
-\contentsline {section}{\numberline {A.25}7464: 4-2-3-2 AND-OR-INVERT Gate}{42}{section.A.25}% 
-\contentsline {section}{\numberline {A.26}7474: Dual D-Flipflops with Preset and Clear}{43}{section.A.26}% 
-\contentsline {section}{\numberline {A.27}7485: 4-Bit Magnitude Comparator}{44}{section.A.27}% 
-\contentsline {section}{\numberline {A.28}7486: Quad 2-Input XOR Gate}{44}{section.A.28}% 
-\contentsline {section}{\numberline {A.29}74125: Quad Bus Buffer, 3-State Gate}{45}{section.A.29}% 
-\contentsline {section}{\numberline {A.30}74165: 8-Bit Parallel-to-Serial Shift Register}{46}{section.A.30}% 
-\contentsline {section}{\numberline {A.31}74175: Quad D-Flipflops with Sync Reset}{47}{section.A.31}% 
-\contentsline {section}{\numberline {A.32}74266: Quad 2-Input XNOR Gate}{47}{section.A.32}% 
-\contentsline {section}{\numberline {A.33}74273: Octal D-Flipflop with Clear}{48}{section.A.33}% 
-\contentsline {section}{\numberline {A.34}74283: 4-Bit Binary Full Adder}{49}{section.A.34}% 
-\contentsline {section}{\numberline {A.35}74377: Octal D-Flipflop with Enable}{50}{section.A.35}% 
+\contentsline {chapter}{\numberline {1}\spacedlowsmallcaps {Introduction To Logisim-evolution}}{3}{chapter.1}% 
+\contentsline {section}{\numberline {1.1}Purpose}{3}{section.1.1}% 
+\contentsline {section}{\numberline {1.2}Procedure}{3}{section.1.2}% 
+\contentsline {subsection}{\numberline {1.2.1}Installation}{3}{subsection.1.2.1}% 
+\contentsline {subsection}{\numberline {1.2.2}Beginner's Tutorial}{3}{subsection.1.2.2}% 
+\contentsline {subsection}{\numberline {1.2.3}Logisim-evolution Workspace}{4}{subsection.1.2.3}% 
+\contentsline {subsection}{\numberline {1.2.4}Simple Multiplexer}{5}{subsection.1.2.4}% 
+\contentsline {subsection}{\numberline {1.2.5}Identifying Information}{8}{subsection.1.2.5}% 
+\contentsline {section}{\numberline {1.3}Deliverable}{8}{section.1.3}% 
+\contentsline {part}{\numberline {ii}\spacedlowsmallcaps {Foundations}}{9}{part.2}% 
+\contentsline {chapter}{\numberline {2}\spacedlowsmallcaps {Boolean Logic}}{11}{chapter.2}% 
+\contentsline {section}{\numberline {2.1}Purpose}{11}{section.2.1}% 
+\contentsline {section}{\numberline {2.2}Procedure}{11}{section.2.2}% 
+\contentsline {subsection}{\numberline {2.2.1}Subcircuit: Equation 1}{11}{subsection.2.2.1}% 
+\contentsline {subsection}{\numberline {2.2.2}Subcircuit: Equation 2}{13}{subsection.2.2.2}% 
+\contentsline {subsection}{\numberline {2.2.3}Main Circuit}{14}{subsection.2.2.3}% 
+\contentsline {subsection}{\numberline {2.2.4}Testing the Circuit}{15}{subsection.2.2.4}% 
+\contentsline {section}{\numberline {2.3}Deliverable}{20}{section.2.3}% 
+\contentsline {chapter}{\numberline {3}\spacedlowsmallcaps {Priority Encoder}}{21}{chapter.3}% 
+\contentsline {section}{\numberline {3.1}Purpose}{21}{section.3.1}% 
+\contentsline {section}{\numberline {3.2}Procedure}{21}{section.3.2}% 
+\contentsline {subsection}{\numberline {3.2.1}Testing the Circuit}{27}{subsection.3.2.1}% 
+\contentsline {section}{\numberline {3.3}Deliverable}{27}{section.3.3}% 
+\contentsline {part}{\numberline {iii}\spacedlowsmallcaps {Combinational Circuits}}{29}{part.3}% 
+\contentsline {chapter}{\numberline {4}\spacedlowsmallcaps {Arithmetic Logic Unit (ALU)}}{31}{chapter.4}% 
+\contentsline {section}{\numberline {4.1}Purpose}{31}{section.4.1}% 
+\contentsline {section}{\numberline {4.2}Procedure}{32}{section.4.2}% 
+\contentsline {subsection}{\numberline {4.2.1}main}{32}{subsection.4.2.1}% 
+\contentsline {subsection}{\numberline {4.2.2}ALU}{32}{subsection.4.2.2}% 
+\contentsline {subsection}{\numberline {4.2.3}Arithmetic}{33}{subsection.4.2.3}% 
+\contentsline {subsection}{\numberline {4.2.4}Challenge}{34}{subsection.4.2.4}% 
+\contentsline {subsection}{\numberline {4.2.5}Testing the Circuit}{35}{subsection.4.2.5}% 
+\contentsline {section}{\numberline {4.3}Deliverable}{35}{section.4.3}% 
+\contentsline {chapter}{\numberline {5}\spacedlowsmallcaps {Vending Machine}}{37}{chapter.5}% 
+\contentsline {section}{\numberline {5.1}Purpose}{37}{section.5.1}% 
+\contentsline {section}{\numberline {5.2}Procedure}{37}{section.5.2}% 
+\contentsline {subsection}{\numberline {5.2.1}Testing the Circuit}{38}{subsection.5.2.1}% 
+\contentsline {subsection}{\numberline {5.2.2}Subcircuit Descriptions}{39}{subsection.5.2.2}% 
+\contentsline {subsubsection}{\numberline {5.2.2.1}main}{39}{subsubsection.5.2.2.1}% 
+\contentsline {subsubsection}{\numberline {5.2.2.2}Activator}{39}{subsubsection.5.2.2.2}% 
+\contentsline {subsubsection}{\numberline {5.2.2.3}Bank}{40}{subsubsection.5.2.2.3}% 
+\contentsline {subsubsection}{\numberline {5.2.2.4}Dispenser}{41}{subsubsection.5.2.2.4}% 
+\contentsline {subsubsection}{\numberline {5.2.2.5}Product}{42}{subsubsection.5.2.2.5}% 
+\contentsline {subsubsection}{\numberline {5.2.2.6}Vending}{43}{subsubsection.5.2.2.6}% 
+\contentsline {section}{\numberline {5.3}Challenge}{43}{section.5.3}% 
+\contentsline {section}{\numberline {5.4}Deliverable}{44}{section.5.4}% 
+\contentsline {part}{\numberline {iv}\spacedlowsmallcaps {Sequential Circuits}}{45}{part.4}% 
+\contentsline {chapter}{\numberline {6}\spacedlowsmallcaps {Counters}}{47}{chapter.6}% 
+\contentsline {section}{\numberline {6.1}Purpose}{47}{section.6.1}% 
+\contentsline {section}{\numberline {6.2}Procedure}{47}{section.6.2}% 
+\contentsline {subsection}{\numberline {6.2.1}Asynchronous Up Counter}{47}{subsection.6.2.1}% 
+\contentsline {subsection}{\numberline {6.2.2}Asynchronous Down Counter}{49}{subsection.6.2.2}% 
+\contentsline {subsection}{\numberline {6.2.3}Asynchronous Decade Counter}{50}{subsection.6.2.3}% 
+\contentsline {subsection}{\numberline {6.2.4}Synchronous Ring Counter}{52}{subsection.6.2.4}% 
+\contentsline {subsection}{\numberline {6.2.5}Synchronous Johnson Counter}{54}{subsection.6.2.5}% 
+\contentsline {subsection}{\numberline {6.2.6}Main}{55}{subsection.6.2.6}% 
+\contentsline {subsection}{\numberline {6.2.7}Chronogram}{55}{subsection.6.2.7}% 
+\contentsline {section}{\numberline {6.3}Challenge}{60}{section.6.3}% 
+\contentsline {section}{\numberline {6.4}Deliverable}{60}{section.6.4}% 
+\contentsline {chapter}{\numberline {7}\spacedlowsmallcaps {Timer}}{61}{chapter.7}% 
+\contentsline {section}{\numberline {7.1}Purpose}{61}{section.7.1}% 
+\contentsline {section}{\numberline {7.2}Procedure}{61}{section.7.2}% 
+\contentsline {subsection}{\numberline {7.2.1}Timer\_V3}{61}{subsection.7.2.1}% 
+\contentsline {subsection}{\numberline {7.2.2}Testing the Circuit}{62}{subsection.7.2.2}% 
+\contentsline {section}{\numberline {7.3}Challenge}{63}{section.7.3}% 
+\contentsline {section}{\numberline {7.4}Deliverable}{63}{section.7.4}% 
+\contentsline {chapter}{\numberline {8}\spacedlowsmallcaps {Reaction Timer}}{65}{chapter.8}% 
+\contentsline {section}{\numberline {8.1}Purpose}{65}{section.8.1}% 
+\contentsline {section}{\numberline {8.2}Procedure}{65}{section.8.2}% 
+\contentsline {section}{\numberline {8.3}Deliverable}{66}{section.8.3}% 
+\contentsline {chapter}{\numberline {9}\spacedlowsmallcaps {ROM}}{67}{chapter.9}% 
+\contentsline {section}{\numberline {9.1}Purpose}{67}{section.9.1}% 
+\contentsline {section}{\numberline {9.2}Procedure}{67}{section.9.2}% 
+\contentsline {subsection}{\numberline {9.2.1}Testing the Circuit}{72}{subsection.9.2.1}% 
+\contentsline {section}{\numberline {9.3}Deliverable}{72}{section.9.3}% 
+\contentsline {chapter}{\numberline {10}\spacedlowsmallcaps {RAM}}{73}{chapter.10}% 
+\contentsline {section}{\numberline {10.1}Purpose}{73}{section.10.1}% 
+\contentsline {section}{\numberline {10.2}Procedure}{73}{section.10.2}% 
+\contentsline {subsection}{\numberline {10.2.1}Testing the Circuit}{77}{subsection.10.2.1}% 
+\contentsline {section}{\numberline {10.3}Challenge}{77}{section.10.3}% 
+\contentsline {section}{\numberline {10.4}Deliverable}{77}{section.10.4}% 
+\contentsline {part}{\numberline {v}\spacedlowsmallcaps {Simulation}}{79}{part.5}% 
+\contentsline {chapter}{\numberline {11}\spacedlowsmallcaps {Processor}}{81}{chapter.11}% 
+\contentsline {section}{\numberline {11.1}Purpose}{81}{section.11.1}% 
+\contentsline {subsection}{\numberline {11.1.1}A Definition}{81}{subsection.11.1.1}% 
+\contentsline {section}{\numberline {11.2}Procedure}{81}{section.11.2}% 
+\contentsline {subsection}{\numberline {11.2.1}Arithmetic-Logic Unit}{81}{subsection.11.2.1}% 
+\contentsline {subsection}{\numberline {11.2.2}General Registers}{84}{subsection.11.2.2}% 
+\contentsline {subsection}{\numberline {11.2.3}Control}{85}{subsection.11.2.3}% 
+\contentsline {subsection}{\numberline {11.2.4}Main}{86}{subsection.11.2.4}% 
+\contentsline {subsection}{\numberline {11.2.5}Testing the Circuit}{86}{subsection.11.2.5}% 
+\contentsline {subsubsection}{\numberline {11.2.5.1}Copy LdImm To R0}{86}{subsubsection.11.2.5.1}% 
+\contentsline {subsubsection}{\numberline {11.2.5.2}Copy LdImm To R1}{87}{subsubsection.11.2.5.2}% 
+\contentsline {subsubsection}{\numberline {11.2.5.3}Copy LdImm To ALUbuf}{87}{subsubsection.11.2.5.3}% 
+\contentsline {subsubsection}{\numberline {11.2.5.4}Increment R0}{87}{subsubsection.11.2.5.4}% 
+\contentsline {subsubsection}{\numberline {11.2.5.5}Add R0 And R1, Store In R0}{87}{subsubsection.11.2.5.5}% 
+\contentsline {subsubsection}{\numberline {11.2.5.6}Subtract R1 From R0, Store In R0}{88}{subsubsection.11.2.5.6}% 
+\contentsline {subsubsection}{\numberline {11.2.5.7}Copy R0 to R1}{88}{subsubsection.11.2.5.7}% 
+\contentsline {subsubsection}{\numberline {11.2.5.8}Swap R0 And R1}{88}{subsubsection.11.2.5.8}% 
+\contentsline {section}{\numberline {11.3}About Programming Languages}{89}{section.11.3}% 
+\contentsline {section}{\numberline {11.4}Challenge}{91}{section.11.4}% 
+\contentsline {section}{\numberline {11.5}Deliverable}{92}{section.11.5}% 
+\contentsline {chapter}{\numberline {12}\spacedlowsmallcaps {Elevator}}{93}{chapter.12}% 
+\contentsline {section}{\numberline {12.1}Purpose}{93}{section.12.1}% 
+\contentsline {section}{\numberline {12.2}Challenge}{93}{section.12.2}% 
+\contentsline {section}{\numberline {12.3}Deliverable}{94}{section.12.3}% 
+\contentsline {part}{\numberline {vi}\spacedlowsmallcaps {Appendix}}{95}{part.6}% 
+\contentsline {chapter}{\numberline {A}\spacedlowsmallcaps {TTL Reference}}{97}{appendix.A}% 
+\contentsline {section}{\numberline {A.1}7400: Quad 2-Input NAND Gate}{97}{section.A.1}% 
+\contentsline {section}{\numberline {A.2}7402: Quad 2-Input NOR Gate}{98}{section.A.2}% 
+\contentsline {section}{\numberline {A.3}7404: Hex Inverter}{99}{section.A.3}% 
+\contentsline {section}{\numberline {A.4}7408: Quad 2-Input AND Gate}{100}{section.A.4}% 
+\contentsline {section}{\numberline {A.5}7410: Triple 3-Input NAND Gate}{101}{section.A.5}% 
+\contentsline {section}{\numberline {A.6}7411: Triple 3-Input AND Gate}{102}{section.A.6}% 
+\contentsline {section}{\numberline {A.7}7413: Dual 4-Input NAND Gate (Schmitt-Trigger)}{103}{section.A.7}% 
+\contentsline {section}{\numberline {A.8}7414: Hex Inverter (Schmitt-Trigger)}{104}{section.A.8}% 
+\contentsline {section}{\numberline {A.9}7418: Dual 4-Input NAND Gate (Schmitt-Trigger Inputs)}{105}{section.A.9}% 
+\contentsline {section}{\numberline {A.10}7419: Hex Inverter (Schmitt-Trigger)}{106}{section.A.10}% 
+\contentsline {section}{\numberline {A.11}7420: Dual 4-Input NAND Gate}{107}{section.A.11}% 
+\contentsline {section}{\numberline {A.12}7421: Dual 4-Input AND Gate}{108}{section.A.12}% 
+\contentsline {section}{\numberline {A.13}7424: Quad 2-Input NAND Gate (Schmitt-Trigger)}{109}{section.A.13}% 
+\contentsline {section}{\numberline {A.14}7427: Triple 3-Input NOR Gate}{110}{section.A.14}% 
+\contentsline {section}{\numberline {A.15}7430: Single 8-Input NAND Gate}{111}{section.A.15}% 
+\contentsline {section}{\numberline {A.16}7432: Quad 2-Input OR Gate}{112}{section.A.16}% 
+\contentsline {section}{\numberline {A.17}7436: Quad 2-Input NOR Gate}{113}{section.A.17}% 
+\contentsline {section}{\numberline {A.18}7442: BCD to Decimal Decoder}{114}{section.A.18}% 
+\contentsline {section}{\numberline {A.19}7443: Excess-3 to Decimal Decoder}{115}{section.A.19}% 
+\contentsline {section}{\numberline {A.20}7444: Gray to Decimal Decoder}{117}{section.A.20}% 
+\contentsline {section}{\numberline {A.21}7447: BCD to 7-Segment Decoder}{119}{section.A.21}% 
+\contentsline {section}{\numberline {A.22}7451: Dual AND-OR-INVERT Gate}{121}{section.A.22}% 
+\contentsline {section}{\numberline {A.23}7454: Four Wide AND-OR-INVERT Gate}{122}{section.A.23}% 
+\contentsline {section}{\numberline {A.24}7458: Dual AND-OR Gate}{123}{section.A.24}% 
+\contentsline {section}{\numberline {A.25}7464: 4-2-3-2 AND-OR-INVERT Gate}{124}{section.A.25}% 
+\contentsline {section}{\numberline {A.26}7474: Dual D-Flipflops with Preset and Clear}{125}{section.A.26}% 
+\contentsline {section}{\numberline {A.27}7485: 4-Bit Magnitude Comparator}{126}{section.A.27}% 
+\contentsline {section}{\numberline {A.28}7486: Quad 2-Input XOR Gate}{126}{section.A.28}% 
+\contentsline {section}{\numberline {A.29}74125: Quad Bus Buffer, 3-State Gate}{127}{section.A.29}% 
+\contentsline {section}{\numberline {A.30}74165: 8-Bit Parallel-to-Serial Shift Register}{128}{section.A.30}% 
+\contentsline {section}{\numberline {A.31}74175: Quad D-Flipflops with Sync Reset}{129}{section.A.31}% 
+\contentsline {section}{\numberline {A.32}74266: Quad 2-Input XNOR Gate}{129}{section.A.32}% 
+\contentsline {section}{\numberline {A.33}74273: Octal D-Flipflop with Clear}{130}{section.A.33}% 
+\contentsline {section}{\numberline {A.34}74283: 4-Bit Binary Full Adder}{131}{section.A.34}% 
+\contentsline {section}{\numberline {A.35}74377: Octal D-Flipflop with Enable}{132}{section.A.35}% 
