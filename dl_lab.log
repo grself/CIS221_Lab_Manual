@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.8.14)  18 AUG 2019 21:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.8.14)  15 SEP 2019 13:26
 entering extended mode
 **./dl_lab.tex
 (dl_lab.tex
@@ -2428,37 +2428,43 @@ Package tocbasic Info: character protrusion at lof deactivated on input line 43
  (dl_lab.lof [11
 
 ]
-Overfull \hbox (14.52747pt too wide) in paragraph at lines 83--83
+Overfull \hbox (25.1818pt too wide) in paragraph at lines 66--66
+ [][] []\T1/pplj/m/n/10.95 Counter Con-trol Gen-er-a-tion and Dis-tri-bu-tion [
+]  
+ []
+
+
+Overfull \hbox (14.52747pt too wide) in paragraph at lines 85--85
  [][] []\T1/pplj/m/n/10.95 Three Surface-Mounted In-te-grated Cir-cuits []  
  []
 
 
-Overfull \hbox (0.4802pt too wide) in paragraph at lines 88--88
+Overfull \hbox (0.4802pt too wide) in paragraph at lines 90--90
  [][] []\T1/pplj/m/n/10.95 7410: Sin-gle 3-Input NAND Gate Cir-cuit []  
  []
 
 
-Overfull \hbox (0.4802pt too wide) in paragraph at lines 90--90
+Overfull \hbox (0.4802pt too wide) in paragraph at lines 92--92
  [][] []\T1/pplj/m/n/10.95 7413: Sin-gle 4-Input NAND Gate Cir-cuit []  
  []
 
 
-Overfull \hbox (0.4802pt too wide) in paragraph at lines 92--92
+Overfull \hbox (0.4802pt too wide) in paragraph at lines 94--94
  [][] []\T1/pplj/m/n/10.95 7418: Sin-gle 4-Input NAND Gate Cir-cuit []  
  []
 
 
-Overfull \hbox (0.4802pt too wide) in paragraph at lines 94--94
+Overfull \hbox (0.4802pt too wide) in paragraph at lines 96--96
  [][] []\T1/pplj/m/n/10.95 7420: Sin-gle 4-Input NAND Gate Cir-cuit []  
  []
 
-
-Overfull \hbox (17.24464pt too wide) in paragraph at lines 103--103
+[12]
+Overfull \hbox (17.24464pt too wide) in paragraph at lines 105--105
  [][] []\T1/pplj/m/n/10.95 7451: Sin-gle AND-OR-INVERT Gate Cir-cuit []  
  []
 
-[12]
-Overfull \hbox (20.2559pt too wide) in paragraph at lines 106--106
+
+Overfull \hbox (20.2559pt too wide) in paragraph at lines 108--108
  [][] []\T1/pplj/m/n/10.95 7464: 4-2-3-2 AND-OR-INVERT Gate Cir-cuit []  
  []
 
@@ -2476,10 +2482,11 @@ Package tocbasic Info: character protrusion at lot deactivated on input line 54
 \tf@lol=\write11
 \openout11 = `dl_lab.lol'.
 
-) [14] [1
+ [14]) [15] [16
 
 
 
+] [1
 
 
 
@@ -2507,40 +2514,40 @@ Overfull \hbox (2.03123pt too wide) in paragraph at lines 28--29
 
 
 ]
-<gfx/01-01.png, id=728, 545.03625pt x 480.29437pt>
+<gfx/01-01.png, id=741, 545.03625pt x 480.29437pt>
 File: gfx/01-01.png Graphic file (type png)
 <use gfx/01-01.png>
 Package pdftex.def Info: gfx/01-01.png  used on input line 40.
 (pdftex.def)             Requested size: 319.19897pt x 281.28253pt.
  [4 <./gfx/01-01.png>]
-<gfx/01-02.png, id=736, 51.19125pt x 81.30376pt>
+<gfx/01-02.png, id=749, 51.19125pt x 81.30376pt>
 File: gfx/01-02.png Graphic file (type png)
 <use gfx/01-02.png>
 Package pdftex.def Info: gfx/01-02.png  used on input line 74.
 (pdftex.def)             Requested size: 51.19112pt x 81.3085pt.
  [5 <./gfx/01-02.png>]
-<gfx/01-03.png, id=744, 213.04594pt x 191.21437pt>
+<gfx/01-03.png, id=756, 213.04594pt x 191.21437pt>
 File: gfx/01-03.png Graphic file (type png)
 <use gfx/01-03.png>
 Package pdftex.def Info: gfx/01-03.png  used on input line 83.
 (pdftex.def)             Requested size: 213.04541pt x 191.22556pt.
-<gfx/01-04.png, id=746, 94.85437pt x 87.32625pt>
+<gfx/01-04.png, id=758, 94.85437pt x 87.32625pt>
 File: gfx/01-04.png Graphic file (type png)
 <use gfx/01-04.png>
 Package pdftex.def Info: gfx/01-04.png  used on input line 92.
 (pdftex.def)             Requested size: 94.85413pt x 87.32736pt.
-<gfx/01-05.png, id=747, 181.42781pt x 92.59593pt>
+<gfx/01-05.png, id=759, 181.42781pt x 92.59593pt>
 File: gfx/01-05.png Graphic file (type png)
 <use gfx/01-05.png>
 Package pdftex.def Info: gfx/01-05.png  used on input line 101.
 (pdftex.def)             Requested size: 181.42737pt x 92.59709pt.
  [6 <./gfx/01-03.png> <./gfx/01-04.png>]
-<gfx/01-06.png, id=755, 311.66437pt x 92.59593pt>
+<gfx/01-06.png, id=767, 311.66437pt x 92.59593pt>
 File: gfx/01-06.png Graphic file (type png)
 <use gfx/01-06.png>
 Package pdftex.def Info: gfx/01-06.png  used on input line 110.
 (pdftex.def)             Requested size: 311.6636pt x 92.59709pt.
-<gfx/01-07.png, id=756, 315.42844pt x 90.3375pt>
+<gfx/01-07.png, id=768, 315.42844pt x 90.3375pt>
 File: gfx/01-07.png Graphic file (type png)
 <use gfx/01-07.png>
 Package pdftex.def Info: gfx/01-07.png  used on input line 119.
@@ -2550,7 +2557,7 @@ Overfull \hbox (10.95pt too wide) in paragraph at lines 132--140
 []$[]$
  []
 
-<gfx/01-08.png, id=769, 316.93407pt x 153.57375pt>
+<gfx/01-08.png, id=781, 316.93407pt x 153.57375pt>
 File: gfx/01-08.png Graphic file (type png)
 <use gfx/01-08.png>
 Package pdftex.def Info: gfx/01-08.png  used on input line 145.
@@ -2575,12 +2582,12 @@ chapter 2.
 
 
 ]
-<gfx/02-01.png, id=793, 248.42813pt x 138.5175pt>
+<gfx/02-01.png, id=805, 248.42813pt x 138.5175pt>
 File: gfx/02-01.png Graphic file (type png)
 <use gfx/02-01.png>
 Package pdftex.def Info: gfx/02-01.png  used on input line 39.
 (pdftex.def)             Requested size: 248.42752pt x 138.51926pt.
-<gfx/02-02.png, id=795, 248.42813pt x 142.28156pt>
+<gfx/02-02.png, id=807, 248.42813pt x 142.28156pt>
 File: gfx/02-02.png Graphic file (type png)
 <use gfx/02-02.png>
 Package pdftex.def Info: gfx/02-02.png  used on input line 52.
@@ -2592,18 +2599,18 @@ Overfull \hbox (1.6659pt too wide) in paragraph at lines 57--58
  []
 
 [12 <./gfx/02-01.png> <./gfx/02-02.png>]
-<gfx/02-03.png, id=803, 249.93375pt x 149.8097pt>
+<gfx/02-03.png, id=815, 249.93375pt x 149.8097pt>
 File: gfx/02-03.png Graphic file (type png)
 <use gfx/02-03.png>
 Package pdftex.def Info: gfx/02-03.png  used on input line 63.
 (pdftex.def)             Requested size: 249.93314pt x 149.81387pt.
-<gfx/02-04.png, id=805, 258.21469pt x 143.78719pt>
+<gfx/02-04.png, id=817, 258.21469pt x 143.78719pt>
 File: gfx/02-04.png Graphic file (type png)
 <use gfx/02-04.png>
 Package pdftex.def Info: gfx/02-04.png  used on input line 72.
 (pdftex.def)             Requested size: 258.21405pt x 143.79999pt.
  [13 <./gfx/02-03.png> <./gfx/02-04.png>]
-<gfx/02-05.png, id=813, 231.11343pt x 88.83188pt>
+<gfx/02-05.png, id=825, 231.11343pt x 88.83188pt>
 File: gfx/02-05.png Graphic file (type png)
 <use gfx/02-05.png>
 Package pdftex.def Info: gfx/02-05.png  used on input line 104.
@@ -2615,19 +2622,19 @@ Overfull \hbox (0.8873pt too wide) in paragraph at lines 119--120
  []
 
 [15 <./gfx/02-05.png>] [16]
-<gfx/02-06.png, id=828, 365.86688pt x 318.43968pt>
+<gfx/02-06.png, id=841, 365.86688pt x 318.43968pt>
 File: gfx/02-06.png Graphic file (type png)
 <use gfx/02-06.png>
 Package pdftex.def Info: gfx/02-06.png  used on input line 210.
 (pdftex.def)             Requested size: 319.19897pt x 277.83716pt.
  [17]
-<gfx/02-07.png, id=835, 364.36125pt x 319.94531pt>
+<gfx/02-07.png, id=847, 364.36125pt x 319.94531pt>
 File: gfx/02-07.png Graphic file (type png)
 <use gfx/02-07.png>
 Package pdftex.def Info: gfx/02-07.png  used on input line 219.
 (pdftex.def)             Requested size: 319.19897pt x 280.29807pt.
  [18 <./gfx/02-06.png>]
-<gfx/02-08.png, id=842, 364.36125pt x 317.68687pt>
+<gfx/02-08.png, id=854, 364.36125pt x 317.68687pt>
 File: gfx/02-08.png Graphic file (type png)
 <use gfx/02-08.png>
 Package pdftex.def Info: gfx/02-08.png  used on input line 228.
@@ -2642,7 +2649,7 @@ Overfull \hbox (10.95pt too wide) in paragraph at lines 239--247
 
  (Chapters/03_Encoder.tex
 chapter 3.
-<gfx/03-01.png, id=854, 74.52844pt x 455.45157pt>
+<gfx/03-01.png, id=866, 74.52844pt x 455.45157pt>
 File: gfx/03-01.png Graphic file (type png)
 <use gfx/03-01.png>
 Package pdftex.def Info: gfx/03-01.png  used on input line 16.
@@ -2653,25 +2660,25 @@ Package pdftex.def Info: gfx/03-01.png  used on input line 16.
 
 
 ]
-<gfx/03-02.png, id=860, 150.5625pt x 477.28313pt>
+<gfx/03-02.png, id=873, 150.5625pt x 477.28313pt>
 File: gfx/03-02.png Graphic file (type png)
 <use gfx/03-02.png>
 Package pdftex.def Info: gfx/03-02.png  used on input line 37.
 (pdftex.def)             Requested size: 150.56212pt x 477.32564pt.
  [22 <./gfx/03-01.png>]
-<gfx/03-03.png, id=868, 225.09094pt x 485.56406pt>
+<gfx/03-03.png, id=881, 225.09094pt x 485.56406pt>
 File: gfx/03-03.png Graphic file (type png)
 <use gfx/03-03.png>
 Package pdftex.def Info: gfx/03-03.png  used on input line 46.
 (pdftex.def)             Requested size: 225.09038pt x 485.58508pt.
  [23 <./gfx/03-02.png>]
-<gfx/03-04.png, id=876, 223.58531pt x 487.06969pt>
+<gfx/03-04.png, id=888, 223.58531pt x 487.06969pt>
 File: gfx/03-04.png Graphic file (type png)
 <use gfx/03-04.png>
 Package pdftex.def Info: gfx/03-04.png  used on input line 55.
 (pdftex.def)             Requested size: 223.58475pt x 487.07591pt.
  [24 <./gfx/03-03.png>]
-<gfx/03-05.png, id=883, 285.31593pt x 484.81125pt>
+<gfx/03-05.png, id=895, 285.31593pt x 484.81125pt>
 File: gfx/03-05.png Graphic file (type png)
 <use gfx/03-05.png>
 Package pdftex.def Info: gfx/03-05.png  used on input line 64.
@@ -2680,7 +2687,7 @@ Package pdftex.def Info: gfx/03-05.png  used on input line 64.
 [25 <./gfx/03-04.png>]
 Package acronym Info: Label `acro:BCD' newly defined as it shall be overridden
 although it is yet undefined on input line 69.
-<gfx/03-06.png, id=892, 322.95656pt x 204.01219pt>
+<gfx/03-06.png, id=904, 322.95656pt x 204.01219pt>
 File: gfx/03-06.png Graphic file (type png)
 <use gfx/03-06.png>
 Package pdftex.def Info: gfx/03-06.png  used on input line 75.
@@ -2711,24 +2718,24 @@ although it is yet undefined on input line 42.
 
 
 ]
-<gfx/04-01.png, id=935, 304.88907pt x 118.19156pt>
+<gfx/04-01.png, id=947, 304.88907pt x 118.19156pt>
 File: gfx/04-01.png Graphic file (type png)
 <use gfx/04-01.png>
 Package pdftex.def Info: gfx/04-01.png  used on input line 54.
 (pdftex.def)             Requested size: 304.88832pt x 118.19487pt.
-<gfx/04-02.png, id=936, 372.64218pt x 201.75375pt>
+<gfx/04-02.png, id=948, 372.64218pt x 201.75375pt>
 File: gfx/04-02.png Graphic file (type png)
 <use gfx/04-02.png>
 Package pdftex.def Info: gfx/04-02.png  used on input line 65.
 (pdftex.def)             Requested size: 319.19897pt x 172.82448pt.
  [32 <./gfx/04-01.png>]
-<gfx/04-03.png, id=942, 441.14813pt x 414.04688pt>
+<gfx/04-03.png, id=954, 441.14813pt x 414.04688pt>
 File: gfx/04-03.png Graphic file (type png)
 <use gfx/04-03.png>
 Package pdftex.def Info: gfx/04-03.png  used on input line 78.
 (pdftex.def)             Requested size: 319.19897pt x 299.5982pt.
  [33 <./gfx/04-02.png>]
-<gfx/04-04.png, id=948, 286.82156pt x 179.92218pt>
+<gfx/04-04.png, id=961, 286.82156pt x 179.92218pt>
 File: gfx/04-04.png Graphic file (type png)
 <use gfx/04-04.png>
 Package pdftex.def Info: gfx/04-04.png  used on input line 89.
@@ -2755,7 +2762,7 @@ Overfull \hbox (10.95pt too wide) in paragraph at lines 106--114
 ]
 chapter 5.
 [37] [38]
-<gfx/05-01.png, id=991, 521.69907pt x 338.76563pt>
+<gfx/05-01.png, id=1003, 521.69907pt x 338.76563pt>
 File: gfx/05-01.png Graphic file (type png)
 <use gfx/05-01.png>
 Package pdftex.def Info: gfx/05-01.png  used on input line 60.
@@ -2766,31 +2773,31 @@ Overfull \hbox (4.6439pt too wide) in paragraph at lines 68--69
 -turned,
  []
 
-<gfx/05-02.png, id=994, 566.86781pt x 188.95593pt>
+<gfx/05-02.png, id=1006, 566.86781pt x 188.95593pt>
 File: gfx/05-02.png Graphic file (type png)
 <use gfx/05-02.png>
 Package pdftex.def Info: gfx/05-02.png  used on input line 80.
 (pdftex.def)             Requested size: 319.19897pt x 106.40277pt.
 [39 <./gfx/05-01.png>]
-<gfx/05-03.png, id=1004, 466.74374pt x 185.19188pt>
+<gfx/05-03.png, id=1017, 466.74374pt x 185.19188pt>
 File: gfx/05-03.png Graphic file (type png)
 <use gfx/05-03.png>
 Package pdftex.def Info: gfx/05-03.png  used on input line 97.
 (pdftex.def)             Requested size: 319.19897pt x 126.65503pt.
  [40 <./gfx/05-02.png> <./gfx/05-03.png>]
-<gfx/05-04.png, id=1013, 524.71031pt x 256.70906pt>
+<gfx/05-04.png, id=1026, 524.71031pt x 256.70906pt>
 File: gfx/05-04.png Graphic file (type png)
 <use gfx/05-04.png>
 Package pdftex.def Info: gfx/05-04.png  used on input line 116.
 (pdftex.def)             Requested size: 319.19897pt x 156.16924pt.
  [41 <./gfx/05-04.png>]
-<gfx/05-05.png, id=1023, 529.22719pt x 230.36063pt>
+<gfx/05-05.png, id=1035, 529.22719pt x 230.36063pt>
 File: gfx/05-05.png Graphic file (type png)
 <use gfx/05-05.png>
 Package pdftex.def Info: gfx/05-05.png  used on input line 164.
 (pdftex.def)             Requested size: 319.19897pt x 138.94151pt.
  [42 <./gfx/05-05.png>]
-<gfx/05-06.png, id=1032, 541.27219pt x 289.83281pt>
+<gfx/05-06.png, id=1044, 541.27219pt x 289.83281pt>
 File: gfx/05-06.png Graphic file (type png)
 <use gfx/05-06.png>
 Package pdftex.def Info: gfx/05-06.png  used on input line 183.
@@ -2811,7 +2818,7 @@ Overfull \hbox (10.95pt too wide) in paragraph at lines 207--215
 
  (Chapters/06_Counter.tex
 chapter 6.
-<gfx/06-01.png, id=1052, 389.95688pt x 132.495pt>
+<gfx/06-01.png, id=1065, 389.95688pt x 132.495pt>
 File: gfx/06-01.png Graphic file (type png)
 <use gfx/06-01.png>
 Package pdftex.def Info: gfx/06-01.png  used on input line 29.
@@ -2821,66 +2828,66 @@ Package pdftex.def Info: gfx/06-01.png  used on input line 29.
 
 
 ] [48 <./gfx/06-01.png>]
-<gfx/06-02.png, id=1069, 405.76593pt x 134.00063pt>
+<gfx/06-02.png, id=1081, 405.76593pt x 134.00063pt>
 File: gfx/06-02.png Graphic file (type png)
 <use gfx/06-02.png>
 Package pdftex.def Info: gfx/06-02.png  used on input line 110.
 (pdftex.def)             Requested size: 319.19897pt x 105.41562pt.
  [49 <./gfx/06-02.png>] [50]
-<gfx/06-03.png, id=1082, 450.9347pt x 187.45032pt>
+<gfx/06-03.png, id=1094, 450.9347pt x 187.45032pt>
 File: gfx/06-03.png Graphic file (type png)
 <use gfx/06-03.png>
 Package pdftex.def Info: gfx/06-03.png  used on input line 193.
 (pdftex.def)             Requested size: 319.19897pt x 132.69592pt.
  [51 <./gfx/06-03.png>]
-<gfx/06-04.png, id=1089, 398.23781pt x 149.05687pt>
+<gfx/06-04.png, id=1102, 398.23781pt x 149.05687pt>
 File: gfx/06-04.png Graphic file (type png)
 <use gfx/06-04.png>
 Package pdftex.def Info: gfx/06-04.png  used on input line 286.
 (pdftex.def)             Requested size: 319.19897pt x 119.47765pt.
 
 [52] [53 <./gfx/06-04.png>]
-<gfx/06-05.png, id=1101, 399.74344pt x 151.3153pt>
+<gfx/06-05.png, id=1113, 399.74344pt x 151.3153pt>
 File: gfx/06-05.png Graphic file (type png)
 <use gfx/06-05.png>
 Package pdftex.def Info: gfx/06-05.png  used on input line 341.
 (pdftex.def)             Requested size: 319.19897pt x 120.83305pt.
  [54 <./gfx/06-05.png>]
-<gfx/06-06.png, id=1108, 243.91125pt x 171.64125pt>
+<gfx/06-06.png, id=1120, 243.91125pt x 171.64125pt>
 File: gfx/06-06.png Graphic file (type png)
 <use gfx/06-06.png>
 Package pdftex.def Info: gfx/06-06.png  used on input line 408.
 (pdftex.def)             Requested size: 243.91064pt x 171.64342pt.
-<gfx/06-07.png, id=1110, 537.50812pt x 191.21437pt>
+<gfx/06-07.png, id=1122, 537.50812pt x 191.21437pt>
 File: gfx/06-07.png Graphic file (type png)
 <use gfx/06-07.png>
 Package pdftex.def Info: gfx/06-07.png  used on input line 421.
 (pdftex.def)             Requested size: 319.19897pt x 113.55367pt.
  [55 <./gfx/06-06.png>]
 [56 <./gfx/06-07.png>]
-<gfx/06-08.png, id=1129, 511.9125pt x 271.76532pt>
+<gfx/06-08.png, id=1141, 511.9125pt x 271.76532pt>
 File: gfx/06-08.png Graphic file (type png)
 <use gfx/06-08.png>
 Package pdftex.def Info: gfx/06-08.png  used on input line 438.
 (pdftex.def)             Requested size: 319.19897pt x 169.4548pt.
-<gfx/06-09.png, id=1131, 511.9125pt x 273.27094pt>
+<gfx/06-09.png, id=1143, 511.9125pt x 273.27094pt>
 File: gfx/06-09.png Graphic file (type png)
 <use gfx/06-09.png>
 Package pdftex.def Info: gfx/06-09.png  used on input line 451.
 (pdftex.def)             Requested size: 319.19897pt x 170.3936pt.
  [57 <./gfx/06-08.png>]
-<gfx/06-10.png, id=1144, 624.83438pt x 327.47343pt>
+<gfx/06-10.png, id=1157, 624.83438pt x 327.47343pt>
 File: gfx/06-10.png Graphic file (type png)
 <use gfx/06-10.png>
 Package pdftex.def Info: gfx/06-10.png  used on input line 460.
 (pdftex.def)             Requested size: 319.19897pt x 167.29407pt.
-<gfx/06-11.png, id=1146, 621.82312pt x 325.215pt>
+<gfx/06-11.png, id=1159, 621.82312pt x 325.215pt>
 File: gfx/06-11.png Graphic file (type png)
 <use gfx/06-11.png>
 Package pdftex.def Info: gfx/06-11.png  used on input line 471.
 (pdftex.def)             Requested size: 319.19897pt x 166.94421pt.
  [58 <./gfx/06-09.png> <./gfx/06-10.png>]
-<gfx/06-12.png, id=1157, 119.69719pt x 35.38219pt>
+<gfx/06-12.png, id=1170, 119.69719pt x 35.38219pt>
 File: gfx/06-12.png Graphic file (type png)
 <use gfx/06-12.png>
 Package pdftex.def Info: gfx/06-12.png  used on input line 480.
@@ -2907,7 +2914,7 @@ Overfull \hbox (0.40555pt too wide) in paragraph at lines 16--17
 unt
  []
 
-<gfx/07-01.png, id=1173, 572.1375pt x 258.9675pt>
+<gfx/07-01.png, id=1185, 572.1375pt x 258.9675pt>
 File: gfx/07-01.png Graphic file (type png)
 <use gfx/07-01.png>
 Package pdftex.def Info: gfx/07-01.png  used on input line 26.
@@ -2918,7 +2925,7 @@ Package pdftex.def Info: gfx/07-01.png  used on input line 26.
 
 
 ]
-<gfx/07-02.png, id=1179, 460.72125pt x 143.78719pt>
+<gfx/07-02.png, id=1191, 460.72125pt x 143.78719pt>
 File: gfx/07-02.png Graphic file (type png)
 <use gfx/07-02.png>
 Package pdftex.def Info: gfx/07-02.png  used on input line 43.
@@ -2938,7 +2945,7 @@ Overfull \hbox (10.95pt too wide) in paragraph at lines 68--76
 
 ]
 chapter 8.
-<gfx/08-01.png, id=1200, 298.11375pt x 148.30406pt>
+<gfx/08-01.png, id=1213, 298.11375pt x 148.30406pt>
 File: gfx/08-01.png Graphic file (type png)
 <use gfx/08-01.png>
 Package pdftex.def Info: gfx/08-01.png  used on input line 12.
@@ -2953,95 +2960,119 @@ Overfull \hbox (10.95pt too wide) in paragraph at lines 37--45
 
  (Chapters/09_ROM.tex
 chapter 9.
-Package acronym Info: Label `acro:ROM' newly defined as it shall be overridden
-although it is yet undefined on input line 8.
-<gfx/09-01.png, id=1217, 194.97844pt x 182.18062pt>
+<gfx/09-01.png, id=1228, 301.125pt x 301.125pt>
 File: gfx/09-01.png Graphic file (type png)
 <use gfx/09-01.png>
-Package pdftex.def Info: gfx/09-01.png  used on input line 16.
-(pdftex.def)             Requested size: 194.97795pt x 182.18849pt.
-<gfx/09-02.png, id=1219, 377.15906pt x 310.15875pt>
+Package pdftex.def Info: gfx/09-01.png  used on input line 13.
+(pdftex.def)             Requested size: 67.19897pt x 67.19882pt.
+Package acronym Info: Label `acro:ROM' newly defined as it shall be overridden
+although it is yet undefined on input line 15.
+<gfx/09-02.png, id=1230, 194.97844pt x 182.18062pt>
 File: gfx/09-02.png Graphic file (type png)
 <use gfx/09-02.png>
-Package pdftex.def Info: gfx/09-02.png  used on input line 25.
-(pdftex.def)             Requested size: 319.19897pt x 262.4956pt.
+Package pdftex.def Info: gfx/09-02.png  used on input line 23.
+(pdftex.def)             Requested size: 194.97795pt x 182.18849pt.
+<gfx/09-03.png, id=1232, 373.395pt x 283.0575pt>
+File: gfx/09-03.png Graphic file (type png)
+<use gfx/09-03.png>
+Package pdftex.def Info: gfx/09-03.png  used on input line 32.
+(pdftex.def)             Requested size: 319.19897pt x 241.9821pt.
 [67
 
 
 
 
- <./gfx/09-01.png>]
+ <./gfx/09-01.png (PNG copy)> <./gfx/09-02.png>]
 LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
-(Font)              scaled to size 4.25003pt on input line 30.
- [68 <./gfx/09-02.png>]
-<gfx/09-03.png, id=1233, 603.0028pt x 333.49594pt>
-File: gfx/09-03.png Graphic file (type png)
-<use gfx/09-03.png>
-Package pdftex.def Info: gfx/09-03.png  used on input line 63.
-(pdftex.def)             Requested size: 319.19897pt x 176.53319pt.
-<gfx/09-04.png, id=1235, 606.01407pt x 360.59718pt>
+(Font)              scaled to size 4.25003pt on input line 37.
+ [68 <./gfx/09-03.png>]
+<gfx/09-04.png, id=1246, 590.205pt x 283.81032pt>
 File: gfx/09-04.png Graphic file (type png)
 <use gfx/09-04.png>
-Package pdftex.def Info: gfx/09-04.png  used on input line 72.
-(pdftex.def)             Requested size: 319.19897pt x 189.9326pt.
- [69 <./gfx/09-03.png>]
-<gfx/09-05.png, id=1241, 657.2053pt x 428.35031pt>
+Package pdftex.def Info: gfx/09-04.png  used on input line 70.
+(pdftex.def)             Requested size: 319.19897pt x 153.49347pt.
+<gfx/09-05.png, id=1248, 582.67688pt x 282.30469pt>
 File: gfx/09-05.png Graphic file (type png)
 <use gfx/09-05.png>
-Package pdftex.def Info: gfx/09-05.png  used on input line 81.
-(pdftex.def)             Requested size: 319.19897pt x 208.05031pt.
- [70 <./gfx/09-04.png> <./gfx/09-05.png>]
-<gfx/09-06.png, id=1249, 810.02625pt x 444.91219pt>
+Package pdftex.def Info: gfx/09-05.png  used on input line 79.
+(pdftex.def)             Requested size: 319.19897pt x 154.65205pt.
+
+[69 <./gfx/09-04.png>]
+<gfx/09-06.png, id=1256, 728.7225pt x 287.57437pt>
 File: gfx/09-06.png Graphic file (type png)
 <use gfx/09-06.png>
-Package pdftex.def Info: gfx/09-06.png  used on input line 101.
-(pdftex.def)             Requested size: 319.19897pt x 175.32086pt.
-<gfx/09-07.png, id=1251, 352.31625pt x 179.16937pt>
+Package pdftex.def Info: gfx/09-06.png  used on input line 88.
+(pdftex.def)             Requested size: 319.19897pt x 125.96266pt.
+
+Overfull \hbox (1.78517pt too wide) in paragraph at lines 98--99
+[]\T1/pplj/b/n/10.95 ctrclk\T1/pplj/m/n/10.95 .The counter clock pro-vides the 
+clock sig-nal for the counter. 
+ []
+
+[70 <./gfx/09-05.png> <./gfx/09-06.png>]
+<gfx/09-07.png, id=1265, 237.13594pt x 296.60812pt>
 File: gfx/09-07.png Graphic file (type png)
 <use gfx/09-07.png>
 Package pdftex.def Info: gfx/09-07.png  used on input line 110.
-(pdftex.def)             Requested size: 319.19897pt x 162.3281pt.
- [71 <./gfx/09-06.png>]
-Overfull \hbox (10.95pt too wide) in paragraph at lines 127--135
+(pdftex.def)             Requested size: 237.13535pt x 296.61644pt.
+<gfx/09-08.png, id=1267, 234.8775pt x 142.28156pt>
+File: gfx/09-08.png Graphic file (type png)
+<use gfx/09-08.png>
+Package pdftex.def Info: gfx/09-08.png  used on input line 127.
+(pdftex.def)             Requested size: 234.87692pt x 142.2812pt.
+ [71 <./gfx/09-07.png>]
+<gfx/09-09.png, id=1274, 203.25937pt x 217.5628pt>
+File: gfx/09-09.png Graphic file (type png)
+<use gfx/09-09.png>
+Package pdftex.def Info: gfx/09-09.png  used on input line 144.
+(pdftex.def)             Requested size: 203.25887pt x 217.56891pt.
+ [72 <./gfx/09-08.png>]
+<gfx/09-10.png, id=1281, 350.05782pt x 150.5625pt>
+File: gfx/09-10.png Graphic file (type png)
+<use gfx/09-10.png>
+Package pdftex.def Info: gfx/09-10.png  used on input line 153.
+(pdftex.def)             Requested size: 319.19897pt x 137.29924pt.
+ [73 <./gfx/09-09.png> <./gfx/09-10.png>]
+Overfull \hbox (10.95pt too wide) in paragraph at lines 170--178
 []$[]$
  []
 
-) [72 <./gfx/09-07.png>]
+) [74]
 \openout2 = `Chapters/10_RAM.aux'.
 
  (Chapters/10_RAM.tex
 chapter 10.
 Package acronym Info: Label `acro:RAM' newly defined as it shall be overridden
 although it is yet undefined on input line 8.
-<gfx/10-01.png, id=1267, 409.53pt x 257.46187pt>
+<gfx/10-01.png, id=1296, 409.53pt x 257.46187pt>
 File: gfx/10-01.png Graphic file (type png)
 <use gfx/10-01.png>
 Package pdftex.def Info: gfx/10-01.png  used on input line 16.
 (pdftex.def)             Requested size: 319.19897pt x 200.68587pt.
-[73
+[75
 
 
 
 
  <./gfx/10-01.png>]
-<gfx/10-02.png, id=1275, 340.27126pt x 288.3272pt>
+<gfx/10-02.png, id=1305, 340.27126pt x 288.3272pt>
 File: gfx/10-02.png Graphic file (type png)
 <use gfx/10-02.png>
 Package pdftex.def Info: gfx/10-02.png  used on input line 29.
 (pdftex.def)             Requested size: 319.19897pt x 270.48645pt.
- [74 <./gfx/10-02.png>]
-<gfx/10-03.png, id=1282, 353.06906pt x 237.13594pt>
+ [76 <./gfx/10-02.png>]
+<gfx/10-03.png, id=1312, 353.06906pt x 237.13594pt>
 File: gfx/10-03.png Graphic file (type png)
 <use gfx/10-03.png>
 Package pdftex.def Info: gfx/10-03.png  used on input line 44.
 (pdftex.def)             Requested size: 319.19897pt x 214.39009pt.
-<gfx/10-04.png, id=1284, 306.39468pt x 338.01282pt>
+<gfx/10-04.png, id=1314, 306.39468pt x 338.01282pt>
 File: gfx/10-04.png Graphic file (type png)
 <use gfx/10-04.png>
 Package pdftex.def Info: gfx/10-04.png  used on input line 55.
 (pdftex.def)             Requested size: 306.39394pt x 338.03261pt.
- [75 <./gfx/10-03.png>]
-<gfx/10-05.png, id=1291, 771.63281pt x 324.46219pt>
+ [77 <./gfx/10-03.png>]
+<gfx/10-05.png, id=1321, 771.63281pt x 324.46219pt>
 File: gfx/10-05.png Graphic file (type png)
 <use gfx/10-05.png>
 Package pdftex.def Info: gfx/10-05.png  used on input line 64.
@@ -3052,81 +3083,81 @@ Overfull \hbox (8.22371pt too wide) in paragraph at lines 71--72
 clear whether
  []
 
-[76 <./gfx/10-04.png> <./gfx/10-05.png>]
+[78 <./gfx/10-04.png> <./gfx/10-05.png>]
 Overfull \hbox (10.95pt too wide) in paragraph at lines 98--106
 []$[]$
  []
 
-) [77] [78
+) [79] [80
 
 
 
-] [79
+] [81
 
 
-] [80]
+] [82]
 \openout2 = `Chapters/11_Processor.aux'.
 
  (Chapters/11_Processor.tex
 chapter 11.
 Package acronym Info: Label `acro:CPU' newly defined as it shall be overridden
 although it is yet undefined on input line 8.
-<gfx/11-01.png, id=1333, 412.54124pt x 289.83281pt>
+<gfx/11-01.png, id=1363, 412.54124pt x 289.83281pt>
 File: gfx/11-01.png Graphic file (type png)
 <use gfx/11-01.png>
 Package pdftex.def Info: gfx/11-01.png  used on input line 30.
 (pdftex.def)             Requested size: 319.19897pt x 224.25545pt.
-[81
+[83
 
 
 
 ]
-<gfx/11-02.png, id=1345, 298.11375pt x 237.88875pt>
+<gfx/11-02.png, id=1375, 298.11375pt x 237.88875pt>
 File: gfx/11-02.png Graphic file (type png)
 <use gfx/11-02.png>
 Package pdftex.def Info: gfx/11-02.png  used on input line 41.
 (pdftex.def)             Requested size: 298.11302pt x 237.90266pt.
- [82 <./gfx/11-01.png>]
-<gfx/11-03.png, id=1352, 350.05782pt x 298.86656pt>
+ [84 <./gfx/11-01.png>]
+<gfx/11-03.png, id=1382, 350.05782pt x 298.86656pt>
 File: gfx/11-03.png Graphic file (type png)
 <use gfx/11-03.png>
 Package pdftex.def Info: gfx/11-03.png  used on input line 50.
 (pdftex.def)             Requested size: 319.19897pt x 272.53902pt.
- [83 <./gfx/11-02.png> <./gfx/11-03.png>]
-<gfx/11-04.png, id=1367, 691.08188pt x 251.43938pt>
+ [85 <./gfx/11-02.png> <./gfx/11-03.png>]
+<gfx/11-04.png, id=1396, 691.08188pt x 251.43938pt>
 File: gfx/11-04.png Graphic file (type png)
 <use gfx/11-04.png>
 Package pdftex.def Info: gfx/11-04.png  used on input line 69.
 (pdftex.def)             Requested size: 319.19897pt x 116.1354pt.
- [84 <./gfx/11-04.png>]
-<gfx/11-05.png, id=1375, 338.01282pt x 96.36pt>
+ [86 <./gfx/11-04.png>]
+<gfx/11-05.png, id=1404, 338.01282pt x 96.36pt>
 File: gfx/11-05.png Graphic file (type png)
 <use gfx/11-05.png>
 Package pdftex.def Info: gfx/11-05.png  used on input line 89.
 (pdftex.def)             Requested size: 319.19897pt x 90.9989pt.
- [85 <./gfx/11-05.png>]
-<gfx/11-06.png, id=1383, 499.11469pt x 204.01219pt>
+ [87 <./gfx/11-05.png>]
+<gfx/11-06.png, id=1413, 499.11469pt x 204.01219pt>
 File: gfx/11-06.png Graphic file (type png)
 <use gfx/11-06.png>
 Package pdftex.def Info: gfx/11-06.png  used on input line 108.
 (pdftex.def)             Requested size: 319.19897pt x 130.47707pt.
- [86 <./gfx/11-06.png>] [87] [88] [89]
-[90] [91]
+ [88 <./gfx/11-06.png>] [89] [90] [91]
+[92] [93]
 Overfull \hbox (10.95pt too wide) in paragraph at lines 379--387
 []$[]$
  []
 
-) [92]
+) [94]
 \openout2 = `Chapters/13_Elevator.aux'.
 
  (Chapters/13_Elevator.tex
 chapter 12.
-<gfx/13-01.png, id=1443, 450.9347pt x 504.38437pt>
+<gfx/13-01.png, id=1473, 450.9347pt x 504.38437pt>
 File: gfx/13-01.png Graphic file (type png)
 <use gfx/13-01.png>
 Package pdftex.def Info: gfx/13-01.png  used on input line 28.
 (pdftex.def)             Requested size: 319.19897pt x 357.05331pt.
-[93
+[95
 
 
 
@@ -3136,183 +3167,183 @@ Overfull \hbox (10.95pt too wide) in paragraph at lines 39--47
 []$[]$
  []
 
-) [94 <./gfx/13-01.png>] [95
+) [96 <./gfx/13-01.png>] [97
 
 
 
 
 
-] [96]
+] [98]
 \openout2 = `Chapters/50_Appendix.aux'.
 
  (Chapters/50_Appendix.tex
 chapter A.
 Package acronym Info: Label `acro:TTL' newly defined as it shall be overridden
 although it is yet undefined on input line 12.
-<gfx/50-74HC595.jpg, id=1472, 702.625pt x 487.8225pt>
+<gfx/50-74HC595.jpg, id=1501, 702.625pt x 487.8225pt>
 File: gfx/50-74HC595.jpg Graphic file (type jpg)
 <use gfx/50-74HC595.jpg>
 Package pdftex.def Info: gfx/50-74HC595.jpg  used on input line 16.
 (pdftex.def)             Requested size: 252.0pt x 174.96092pt.
-<gfx/50-7400.png, id=1474, 231.11343pt x 71.51718pt>
+<gfx/50-7400.png, id=1503, 231.11343pt x 71.51718pt>
 File: gfx/50-7400.png Graphic file (type png)
 <use gfx/50-7400.png>
 Package pdftex.def Info: gfx/50-7400.png  used on input line 27.
 (pdftex.def)             Requested size: 231.11287pt x 71.517pt.
-[97
+[99
 
 
 
  <./gfx/50-74HC595.jpg> <./gfx/50-7400.png>]
-<gfx/50-7402.png, id=1483, 221.32687pt x 77.53969pt>
+<gfx/50-7402.png, id=1513, 221.32687pt x 77.53969pt>
 File: gfx/50-7402.png Graphic file (type png)
 <use gfx/50-7402.png>
 Package pdftex.def Info: gfx/50-7402.png  used on input line 66.
 (pdftex.def)             Requested size: 221.32631pt x 77.53947pt.
- [98 <./gfx/50-7402.png>]
-<gfx/50-7404.png, id=1491, 194.97844pt x 44.41594pt>
+ [100 <./gfx/50-7402.png>]
+<gfx/50-7404.png, id=1521, 194.97844pt x 44.41594pt>
 File: gfx/50-7404.png Graphic file (type png)
 <use gfx/50-7404.png>
 Package pdftex.def Info: gfx/50-7404.png  used on input line 105.
 (pdftex.def)             Requested size: 194.97795pt x 44.41582pt.
 
-[99 <./gfx/50-7404.png>]
-<gfx/50-7408.png, id=1499, 221.32687pt x 78.2925pt>
+[101 <./gfx/50-7404.png>]
+<gfx/50-7408.png, id=1529, 221.32687pt x 78.2925pt>
 File: gfx/50-7408.png Graphic file (type png)
 <use gfx/50-7408.png>
 Package pdftex.def Info: gfx/50-7408.png  used on input line 144.
 (pdftex.def)             Requested size: 221.32631pt x 78.2923pt.
- [100 <./gfx/50-7408.png>]
-<gfx/50-7410.png, id=1507, 222.8325pt x 68.50594pt>
+ [102 <./gfx/50-7408.png>]
+<gfx/50-7410.png, id=1537, 222.8325pt x 68.50594pt>
 File: gfx/50-7410.png Graphic file (type png)
 <use gfx/50-7410.png>
 Package pdftex.def Info: gfx/50-7410.png  used on input line 183.
 (pdftex.def)             Requested size: 222.83195pt x 68.50577pt.
- [101 <./gfx/50-7410.png>]
-<gfx/50-7411.png, id=1516, 225.84375pt x 70.01157pt>
+ [103 <./gfx/50-7410.png>]
+<gfx/50-7411.png, id=1545, 225.84375pt x 70.01157pt>
 File: gfx/50-7411.png Graphic file (type png)
 <use gfx/50-7411.png>
 Package pdftex.def Info: gfx/50-7411.png  used on input line 222.
 (pdftex.def)             Requested size: 225.84319pt x 70.01138pt.
 
-[102 <./gfx/50-7411.png>]
-<gfx/50-7413.png, id=1524, 221.32687pt x 79.04532pt>
+[104 <./gfx/50-7411.png>]
+<gfx/50-7413.png, id=1553, 221.32687pt x 79.04532pt>
 File: gfx/50-7413.png Graphic file (type png)
 <use gfx/50-7413.png>
 Package pdftex.def Info: gfx/50-7413.png  used on input line 261.
 (pdftex.def)             Requested size: 221.32631pt x 79.0451pt.
- [103 <./gfx/50-7413.png>]
+ [105 <./gfx/50-7413.png>]
 File: gfx/50-7404.png Graphic file (type png)
 <use gfx/50-7404.png>
 Package pdftex.def Info: gfx/50-7404.png  used on input line 300.
 (pdftex.def)             Requested size: 194.97795pt x 44.41582pt.
- [104]
+ [106]
 File: gfx/50-7413.png Graphic file (type png)
 <use gfx/50-7413.png>
 Package pdftex.def Info: gfx/50-7413.png  used on input line 339.
 (pdftex.def)             Requested size: 221.32631pt x 79.0451pt.
- [105]
+ [107]
 File: gfx/50-7404.png Graphic file (type png)
 <use gfx/50-7404.png>
 Package pdftex.def Info: gfx/50-7404.png  used on input line 378.
 (pdftex.def)             Requested size: 194.97795pt x 44.41582pt.
- [106]
+ [108]
 File: gfx/50-7413.png Graphic file (type png)
 <use gfx/50-7413.png>
 Package pdftex.def Info: gfx/50-7413.png  used on input line 417.
 (pdftex.def)             Requested size: 221.32631pt x 79.0451pt.
- [107]
-<gfx/50-7421.png, id=1557, 228.855pt x 87.32625pt>
+ [109]
+<gfx/50-7421.png, id=1586, 228.855pt x 87.32625pt>
 File: gfx/50-7421.png Graphic file (type png)
 <use gfx/50-7421.png>
 Package pdftex.def Info: gfx/50-7421.png  used on input line 456.
 (pdftex.def)             Requested size: 228.85443pt x 87.32603pt.
 
-[108 <./gfx/50-7421.png>]
+[110 <./gfx/50-7421.png>]
 File: gfx/50-7400.png Graphic file (type png)
 <use gfx/50-7400.png>
 Package pdftex.def Info: gfx/50-7400.png  used on input line 495.
 (pdftex.def)             Requested size: 231.11287pt x 71.517pt.
- [109]
-<gfx/50-7427.png, id=1571, 225.09094pt x 65.49469pt>
+ [111]
+<gfx/50-7427.png, id=1601, 225.09094pt x 65.49469pt>
 File: gfx/50-7427.png Graphic file (type png)
 <use gfx/50-7427.png>
 Package pdftex.def Info: gfx/50-7427.png  used on input line 534.
 (pdftex.def)             Requested size: 225.09038pt x 65.4945pt.
- [110 <./gfx/50-7427.png>]
-<gfx/50-7430.png, id=1579, 225.84375pt x 148.30406pt>
+ [112 <./gfx/50-7427.png>]
+<gfx/50-7430.png, id=1609, 225.84375pt x 148.30406pt>
 File: gfx/50-7430.png Graphic file (type png)
 <use gfx/50-7430.png>
 Package pdftex.def Info: gfx/50-7430.png  used on input line 573.
 (pdftex.def)             Requested size: 225.84319pt x 148.30368pt.
- [111 <./gfx/50-7430.png>]
-<gfx/50-7432.png, id=1587, 216.05719pt x 70.76437pt>
+ [113 <./gfx/50-7430.png>]
+<gfx/50-7432.png, id=1617, 216.05719pt x 70.76437pt>
 File: gfx/50-7432.png Graphic file (type png)
 <use gfx/50-7432.png>
 Package pdftex.def Info: gfx/50-7432.png  used on input line 612.
 (pdftex.def)             Requested size: 216.05664pt x 70.76419pt.
- [112 <./gfx/50-7432.png>]
+ [114 <./gfx/50-7432.png>]
 File: gfx/50-7402.png Graphic file (type png)
 <use gfx/50-7402.png>
 Package pdftex.def Info: gfx/50-7402.png  used on input line 651.
 (pdftex.def)             Requested size: 221.32631pt x 77.53947pt.
- [113]
-<gfx/50-7442.png, id=1603, 353.82187pt x 176.15813pt>
+ [115]
+<gfx/50-7442.png, id=1632, 353.82187pt x 176.15813pt>
 File: gfx/50-7442.png Graphic file (type png)
 <use gfx/50-7442.png>
 Package pdftex.def Info: gfx/50-7442.png  used on input line 690.
 (pdftex.def)             Requested size: 319.19897pt x 158.92252pt.
- [114 <./gfx/50-7442.png>] [115] [116]
-[117]
-<gfx/50-7447.png, id=1634, 248.42813pt x 242.40562pt>
+ [116 <./gfx/50-7442.png>] [117] [118]
+[119]
+<gfx/50-7447.png, id=1664, 248.42813pt x 242.40562pt>
 File: gfx/50-7447.png Graphic file (type png)
 <use gfx/50-7447.png>
 Package pdftex.def Info: gfx/50-7447.png  used on input line 883.
 (pdftex.def)             Requested size: 248.42752pt x 242.40501pt.
- [118] [119 <./gfx/50-7447.png>] [120]
-<gfx/50-7451.png, id=1652, 292.09125pt x 126.4725pt>
+ [120] [121 <./gfx/50-7447.png>] [122]
+<gfx/50-7451.png, id=1681, 292.09125pt x 126.4725pt>
 File: gfx/50-7451.png Graphic file (type png)
 <use gfx/50-7451.png>
 Package pdftex.def Info: gfx/50-7451.png  used on input line 958.
 (pdftex.def)             Requested size: 292.09052pt x 126.47218pt.
- [121 <./gfx/50-7451.png>]
-<gfx/50-7454.png, id=1660, 298.11375pt x 241.65282pt>
+ [123 <./gfx/50-7451.png>]
+<gfx/50-7454.png, id=1690, 298.11375pt x 241.65282pt>
 File: gfx/50-7454.png Graphic file (type png)
 <use gfx/50-7454.png>
 Package pdftex.def Info: gfx/50-7454.png  used on input line 997.
 (pdftex.def)             Requested size: 298.11302pt x 241.65222pt.
- [122 <./gfx/50-7454.png>]
-<gfx/50-7458.png, id=1668, 280.04625pt x 234.1247pt>
+ [124 <./gfx/50-7454.png>]
+<gfx/50-7458.png, id=1698, 280.04625pt x 234.1247pt>
 File: gfx/50-7458.png Graphic file (type png)
 <use gfx/50-7458.png>
 Package pdftex.def Info: gfx/50-7458.png  used on input line 1036.
 (pdftex.def)             Requested size: 280.04555pt x 234.12411pt.
- [123 <./gfx/50-7458.png>]
-<gfx/50-7464.png, id=1676, 295.1025pt x 254.45062pt>
+ [125 <./gfx/50-7458.png>]
+<gfx/50-7464.png, id=1706, 295.1025pt x 254.45062pt>
 File: gfx/50-7464.png Graphic file (type png)
 <use gfx/50-7464.png>
 Package pdftex.def Info: gfx/50-7464.png  used on input line 1075.
 (pdftex.def)             Requested size: 295.10176pt x 254.45pt.
- [124 <./gfx/50-7464.png>] [125]
-<gfx/50-7486.png, id=1691, 231.11343pt x 83.5622pt>
+ [126 <./gfx/50-7464.png>] [127]
+<gfx/50-7486.png, id=1720, 231.11343pt x 83.5622pt>
 File: gfx/50-7486.png Graphic file (type png)
 <use gfx/50-7486.png>
 Package pdftex.def Info: gfx/50-7486.png  used on input line 1176.
 (pdftex.def)             Requested size: 231.11287pt x 83.56198pt.
 
-[126 <./gfx/50-7486.png>]
-<gfx/50-74125.png, id=1699, 230.36063pt x 61.73062pt>
+[128 <./gfx/50-7486.png>]
+<gfx/50-74125.png, id=1728, 230.36063pt x 61.73062pt>
 File: gfx/50-74125.png Graphic file (type png)
 <use gfx/50-74125.png>
 Package pdftex.def Info: gfx/50-74125.png  used on input line 1215.
 (pdftex.def)             Requested size: 230.36005pt x 61.73045pt.
- [127 <./gfx/50-74125.png>] [128]
-<gfx/50-74266.png, id=1713, 241.65282pt x 78.2925pt>
+ [129 <./gfx/50-74125.png>] [130]
+<gfx/50-74266.png, id=1743, 241.65282pt x 78.2925pt>
 File: gfx/50-74266.png Graphic file (type png)
 <use gfx/50-74266.png>
 Package pdftex.def Info: gfx/50-74266.png  used on input line 1319.
 (pdftex.def)             Requested size: 241.65222pt x 78.2923pt.
- [129 <./gfx/50-74266.png>] [130] [131] [132]) [133] [134
+ [131 <./gfx/50-74266.png>] [132] [133] [134]) [135] [136
 
 
 
@@ -3338,11 +3369,11 @@ Overfull \hbox (45.40494pt too wide) in paragraph at lines 10--13
 thesis
  []
 
-) [135
+) [137
 
-] [136
+] [138
 
-] [137] [138] [139]
+] [139] [140] [141]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 113.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 113.
  (dl_lab.aux (FrontBackmatter/Titlepage.aux)
@@ -3642,6 +3673,9 @@ gfx/09-04.png
 gfx/09-05.png
 gfx/09-06.png
 gfx/09-07.png
+gfx/09-08.png
+gfx/09-09.png
+gfx/09-10.png
 Chapters/10_RAM.tex
 gfx/10-01.png
 gfx/10-02.png
@@ -3693,10 +3727,10 @@ Package rerunfilecheck Info: File `dl_lab.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 63086 strings out of 492895
- 1392661 string characters out of 3133479
- 1921151 words of memory out of 3000000
- 65254 multiletter control sequences out of 15000+200000
+ 63118 strings out of 492895
+ 1393105 string characters out of 3133479
+ 1921342 words of memory out of 3000000
+ 65277 multiletter control sequences out of 15000+200000
  637612 words of font info for 181 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  79i,23n,101p,9087b,1255s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -3717,9 +3751,9 @@ nts/type1/bera/fvmr8a.pfb><C:/Users/gself/AppData/Roaming/MiKTeX/2.9/fonts/type
 1/bera/fvmro8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplb8a
 .pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplr8a.pfb><C:/Progr
 am Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on dl_lab.pdf (153 pages, 1875616 bytes).
+Output written on dl_lab.pdf (157 pages, 2005529 bytes).
 PDF statistics:
- 2472 PDF objects out of 2487 (max. 8388607)
- 542 named destinations out of 1000 (max. 500000)
- 38537 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 2503 PDF objects out of 2984 (max. 8388607)
+ 548 named destinations out of 1000 (max. 500000)
+ 38552 words of extra memory for PDF output out of 42996 (max. 10000000)
 

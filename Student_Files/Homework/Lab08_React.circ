@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<project source="2.14.4" version="1.0">
-  This file is intended to be loaded by Logisim-evolution (https://github.com/reds-heig/logisim-evolution).
-
-  <lib desc="#Wiring" name="0">
+<project source="2.15.0" version="1.0">
+This file is intended to be loaded by Logisim-evolution (https://github.com/reds-heig/logisim-evolution).
+<lib desc="#Wiring" name="0">
     <tool name="Splitter">
       <a name="facing" val="west"/>
       <a name="fanout" val="3"/>
@@ -133,7 +132,6 @@ end TCL_Generic;&#13;
     <tool lib="0" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
-      <a name="labelloc" val="east"/>
     </tool>
     <tool lib="1" name="NOT Gate"/>
     <tool lib="1" name="AND Gate"/>
@@ -145,6 +143,7 @@ end TCL_Generic;&#13;
     <a name="clabelup" val="east"/>
     <a name="clabelfont" val="SansSerif bold 16"/>
     <a name="circuitnamedbox" val="true"/>
+    <a name="circuitnamedboxfixedsize" val="false"/>
     <a name="circuitvhdlpath" val=""/>
     <comp lib="5" loc="(230,190)" name="Button">
       <a name="label" val="Start"/>
@@ -158,7 +157,7 @@ end TCL_Generic;&#13;
       <a name="halign" val="left"/>
     </comp>
     <comp lib="8" loc="(80,80)" name="Text">
-      <a name="text" val="Lab 07: React"/>
+      <a name="text" val="Lab 08: React"/>
       <a name="font" val="SansSerif bold 14"/>
       <a name="halign" val="left"/>
     </comp>
@@ -177,6 +176,7 @@ end TCL_Generic;&#13;
     <a name="clabelup" val="east"/>
     <a name="clabelfont" val="SansSerif bold 16"/>
     <a name="circuitnamedbox" val="true"/>
+    <a name="circuitnamedboxfixedsize" val="false"/>
     <a name="circuitvhdlpath" val=""/>
     <wire from="(70,70)" to="(130,70)"/>
     <comp lib="0" loc="(120,180)" name="Pin">
@@ -194,20 +194,17 @@ end TCL_Generic;&#13;
       <a name="output" val="true"/>
       <a name="width" val="4"/>
       <a name="label" val="Elapsed10"/>
-      <a name="labelloc" val="east"/>
     </comp>
     <comp lib="0" loc="(150,230)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
       <a name="width" val="4"/>
       <a name="label" val="Elapsed01"/>
-      <a name="labelloc" val="east"/>
     </comp>
     <comp lib="0" loc="(150,180)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
       <a name="label" val="Waiting"/>
-      <a name="labelloc" val="east"/>
     </comp>
   </circuit>
   <circuit name="Countdown">
@@ -216,13 +213,13 @@ end TCL_Generic;&#13;
     <a name="clabelup" val="east"/>
     <a name="clabelfont" val="SansSerif bold 16"/>
     <a name="circuitnamedbox" val="true"/>
+    <a name="circuitnamedboxfixedsize" val="false"/>
     <a name="circuitvhdlpath" val=""/>
     <wire from="(60,60)" to="(140,60)"/>
     <comp lib="0" loc="(170,170)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
       <a name="label" val="Start"/>
-      <a name="labelloc" val="east"/>
     </comp>
     <comp lib="8" loc="(98,50)" name="Text">
       <a name="text" val="Countdown"/>
@@ -235,7 +232,6 @@ end TCL_Generic;&#13;
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
       <a name="label" val="Waiting"/>
-      <a name="labelloc" val="east"/>
     </comp>
   </circuit>
 </project>
