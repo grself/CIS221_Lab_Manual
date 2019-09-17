@@ -1,7 +1,7 @@
 %**************************************************************
-% Lab 11: Processor
+% Lab 13: Processor
 %**************************************************************
-\chapter{Processor}
+\chapter{Processor}\label{proc}
 
 \section{Purpose}
 
@@ -23,36 +23,36 @@ This processor contains only three subcircuits connected by several bus lines an
 
 \subsection{Arithmetic-Logic Unit}
 
-This processor starts with a simple \ac{ALU}, as in Figure \ref{fig:11-01}.
+This processor starts with a simple \ac{ALU}, as in Figure \ref{fig:proc-01}.
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=\maxwidth{.95\linewidth}]{gfx/11-01}
+	\includegraphics[width=\maxwidth{.95\linewidth}]{gfx/proc-01}
 	\caption{Simple ALU}
-	\label{fig:11-01}
+	\label{fig:proc-01}
 \end{figure}
 
 To be sure, this \ac{ALU} is not very complex but uses the same principles developed in Lab \ref{lab04}, \nameref{lab04}. It contains only three arithmetic functions, increment, add, and negate; four logic functions, \texttt{AND}, \texttt{OR}, \texttt{XOR}, \texttt{NOT}; and one constant zero output. There are two data input ports but note that some of the functions only use the lower input, and one output port. The multiplexer determines which of the functions will be connected to the output and that is controlled by a signal named \textit{ALUCtl}.
 
-The \ac{ALU} is then expanded somewhat to make it usable in a \ac{CPU}. For simplicity, Figure \ref{fig:11-02} shows only the left side of the ALU.
+The \ac{ALU} is then expanded somewhat to make it usable in a \ac{CPU}. For simplicity, Figure \ref{fig:proc-02} shows only the left side of the ALU.
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=\maxwidth{.95\linewidth}]{gfx/11-02}
+	\includegraphics[width=\maxwidth{.95\linewidth}]{gfx/proc-02}
 	\caption{Left Side of ALU}
-	\label{fig:11-02}
+	\label{fig:proc-02}
 \end{figure}
 
-Figure \ref{fig:11-03} shows the right side of the ALU.
+Figure \ref{fig:proc-03} shows the right side of the ALU.
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=\maxwidth{.95\linewidth}]{gfx/11-03}
+	\includegraphics[width=\maxwidth{.95\linewidth}]{gfx/proc-03}
 	\caption{Full ALU}
-	\label{fig:11-03}
+	\label{fig:proc-03}
 \end{figure}
 
-The simple \ac{ALU} functions are found in the center of Figure \ref{fig:11-02}. However, what started as \textit{DataInA} has been replaced by a register named \textit{ALUBuffer}.\footnote{IMPORTANT NOTE: All registers in this Processor circuit are triggered on the Falling Edge of the clock. The reason for this will become evident when the circuit is tested.} The \textit{ALUBuffer's} inputs are from Tunnels (\textit{Wiring} library) because those inputs are used in more than one location in the subcircuit.\footnote{Tunnels are used extensively in this circuit to simplify the diagrams and aid in tracing signals.}
+The simple \ac{ALU} functions are found in the center of Figure \ref{fig:proc-02}. However, what started as \textit{DataInA} has been replaced by a register named \textit{ALUBuffer}.\footnote{IMPORTANT NOTE: All registers in this Processor circuit are triggered on the Falling Edge of the clock. The reason for this will become evident when the circuit is tested.} The \textit{ALUBuffer's} inputs are from Tunnels (\textit{Wiring} library) because those inputs are used in more than one location in the subcircuit.\footnote{Tunnels are used extensively in this circuit to simplify the diagrams and aid in tracing signals.}
 
 The \ac{ALU} output is routed through a register named \textit{Acc}, for \textit{Accumulator}, which is the commonly-used name for the \ac{ALU} output in a \ac{CPU} circuit.
 
@@ -62,13 +62,13 @@ On the left side of the subcircuit are the three input ports. \textit{DataIn} is
 
 A \ac{CPU} must have several general registers available to hold data temporarily while an instruction is being carried out. For example, it may be necessary to hold the \textit{Acc} output until it is needed in a later step so that value can be stored in a register and then recovered when needed. 
 
-The processor circuit being built in this lab has four general registers. Figure \ref{fig:11-04} illustrates the \lstinline[columns=fixed]|GenReg| subcircuit.
+The processor circuit being built in this lab has four general registers. Figure \ref{fig:proc-04} illustrates the \lstinline[columns=fixed]|GenReg| subcircuit.
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=\maxwidth{.95\linewidth}]{gfx/11-04}
+	\includegraphics[width=\maxwidth{.95\linewidth}]{gfx/proc-04}
 	\caption{General Registers}
-	\label{fig:11-04}
+	\label{fig:proc-04}
 \end{figure}
 
 The \lstinline[columns=fixed]|GenReg| subcircuit does not require any novel digital logic concepts. Starting on the left side of the circuit:
@@ -82,13 +82,13 @@ The \lstinline[columns=fixed]|GenReg| subcircuit does not require any novel digi
 
 \subsection{Control}
 
-The \lstinline[columns=fixed]|Control| subcircuit in this device is very simple and could, in all actuality, be eliminated. However, in a true \ac{CPU} the \lstinline[columns=fixed]|Control| subcircuit is rather complex and critical to the operation of the circuit so a \lstinline[columns=fixed]|Control| subcircuit is included in this lab as an example. Figure \ref{fig:11-05} illustrates the \lstinline[columns=fixed]|Control| subcircuit.
+The \lstinline[columns=fixed]|Control| subcircuit in this device is very simple and could, in all actuality, be eliminated. However, in a true \ac{CPU} the \lstinline[columns=fixed]|Control| subcircuit is rather complex and critical to the operation of the circuit so a \lstinline[columns=fixed]|Control| subcircuit is included in this lab as an example. Figure \ref{fig:proc-05} illustrates the \lstinline[columns=fixed]|Control| subcircuit.
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=\maxwidth{.95\linewidth}]{gfx/11-05}
+	\includegraphics[width=\maxwidth{.95\linewidth}]{gfx/proc-05}
 	\caption{Control Subcircuit}
-	\label{fig:11-05}
+	\label{fig:proc-05}
 \end{figure}
 
 The \lstinline[columns=fixed]|Control| subcircuit includes a nine-bit input named \textit{mCode} (for ``Microcode''). That input is latched by a register\footnote{Note, as an exception to the other registers in the Processor circuit, the register in the control subcircuit must be set to trigger on the leading edge of the clock rather than the falling edge.} and the output of that register is split into three components.
@@ -101,13 +101,13 @@ The \lstinline[columns=fixed]|Control| subcircuit includes a nine-bit input name
 
 \subsection{Main}
 
-The \lstinline[columns=fixed]|main| circuit ties the three subcircuits together with three control busses and one data bus. Figure \ref{fig:11-06} illustrates the \lstinline[columns=fixed]|main| circuit.
+The \lstinline[columns=fixed]|main| circuit ties the three subcircuits together with three control busses and one data bus. Figure \ref{fig:proc-06} illustrates the \lstinline[columns=fixed]|main| circuit.
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=\maxwidth{.95\linewidth}]{gfx/11-06}
+	\includegraphics[width=\maxwidth{.95\linewidth}]{gfx/proc-06}
 	\caption{Main Circuit}
-	\label{fig:11-06}
+	\label{fig:proc-06}
 \end{figure}
 
 There are no novel digital logic functions used in this circuit. The first input is \textit{mCode} which is the microcode used to control the flow of data in the dBus (``data bus''). the other input, \textit{LdImm} (``Load Immediate'') can contain an eight-bit number that is to be loaded into one of the registers for processing. In a full \ac{CPU} that input would be wired to a \ac{RAM} device.
@@ -379,10 +379,10 @@ To receive a grade for this lab, build the Processor circuit and then complete t
 \begin{minipage}{\linewidth}
 	\begin{verbatim}
 	George Self
-	Lab 11: Processor
+	Lab 13: Processor
 	April 5, 2018
 	\end{verbatim}
 \end{minipage}
 \bigskip
 
-Save the Processor circuit in a file with this name: \textit{Lab11\_Processor}. Complete the code required in the Challenge and store that in a text file with the name \textit{Lab11\_Code.txt}. Submit both files for grading.
+Save the Processor circuit in a file with this name: \textit{Lab13\_Processor}. Complete the code required in the Challenge and store that in a text file with the name \textit{Lab13\_Code.txt}. Submit both files for grading.

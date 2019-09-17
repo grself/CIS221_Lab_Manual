@@ -1,7 +1,7 @@
 %*******************************************
-% Lab 03: Priority Encoder
+% Lab 09: Priority Encoder
 %*******************************************
-\chapter{Priority Encoder}
+\chapter{Priority Encoder}\label{encode}
 
 \section{Purpose}
 
@@ -9,13 +9,13 @@ Often a circuit will receive data from several sources at one time and there mus
 
 \section{Procedure}
 
-Start \LE and create a subcircuit named \lstinline[columns=fixed]|Encoder|. Open that subcircuit and place 12 \texttt{AND} gates as illustrated in Figure \ref{fig:03-01}.
+Start \LE and create a subcircuit named \lstinline[columns=fixed]|Encoder|. Open that subcircuit and place 12 \texttt{AND} gates as illustrated in Figure \ref{fig:encode-01}.
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=\maxwidth{.95\linewidth}]{gfx/03-01}
+	\includegraphics[width=\maxwidth{.95\linewidth}]{gfx/encode-01}
 	\caption{AND Gates}
-	\label{fig:03-01}
+	\label{fig:encode-01}
 \end{figure}
 
 The gates have one data bit and these properties:
@@ -30,54 +30,54 @@ The gates have one data bit and these properties:
 	\item \textbf{U7-U12}: Two inputs, none negated. 
 \end{itemize}
 
-Many of the output signals need to be combined with \texttt{OR} gates and those should be added next, as in Figure \ref{fig:03-02}. Note: U16 is a \texttt{NOR} (\textit{Gates} library) gate.
+Many of the output signals need to be combined with \texttt{OR} gates and those should be added next, as in Figure \ref{fig:encode-02}. Note: U16 is a \texttt{NOR} (\textit{Gates} library) gate.
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=\maxwidth{.95\linewidth}]{gfx/03-02}
+	\includegraphics[width=\maxwidth{.95\linewidth}]{gfx/encode-02}
 	\caption{OR Gates Added}
-	\label{fig:03-02}
+	\label{fig:encode-02}
 \end{figure}
 
-This encoder is designed to prioritize nine input lines so nine inputs must be added, as illustrated in Figure \ref{fig:03-03}.
+This encoder is designed to prioritize nine input lines so nine inputs must be added, as illustrated in Figure \ref{fig:encode-03}.
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=\maxwidth{.95\linewidth}]{gfx/03-03}
+	\includegraphics[width=\maxwidth{.95\linewidth}]{gfx/encode-03}
 	\caption{Inputs Added}
-	\label{fig:03-03}
+	\label{fig:encode-03}
 \end{figure}
 
-Wiring this circuit is the most challenging part of the build. As illustrated in Figure \ref{fig:03-04}, the inputs are wired to several different \texttt{AND} gates.
+Wiring this circuit is the most challenging part of the build. As illustrated in Figure \ref{fig:encode-04}, the inputs are wired to several different \texttt{AND} gates.
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=\maxwidth{.95\linewidth}]{gfx/03-04}
+	\includegraphics[width=\maxwidth{.95\linewidth}]{gfx/encode-04}
 	\caption{Wiring the Encoder}
-	\label{fig:03-04}
+	\label{fig:encode-04}
 \end{figure}
 
-Finally, four output ports are added, as illustrated in Figure \ref{fig:03-05}. 
+Finally, four output ports are added, as illustrated in Figure \ref{fig:encode-05}. 
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=\maxwidth{.95\linewidth}]{gfx/03-05}
+	\includegraphics[width=\maxwidth{.95\linewidth}]{gfx/encode-05}
 	\caption{Nine-line Priority Encoder}
-	\label{fig:03-05}
+	\label{fig:encode-05}
 \end{figure}
 
 This circuit is designed to output a \acf{BCD} number, so no further conversion is needed to be able to read the highest priority input line. At this point, the circuit is complete and the \textit{poke} tool can be used to change the inputs and observe how that high input bit drives the outputs.
 
-To finish the project, open the \lstinline[columns=fixed]|main| circuit and drop the \lstinline[columns=fixed]|Encoder| on the drawing canvas. Add nine inputs and label them \textit{In1} through \textit{In9}. Place a four-bit output labeled \textit{PriOut} and wire the four outputs through a splitter to that output port. To make it easier to read the \ac{BCD} number, connect a Hex Digit Display (\textit{Input/Output} library) to the four-bit bus between the splitter and output port. The completed \lstinline[columns=fixed]|main| circuit is illustrated in Figure \ref{fig:03-06}.
+To finish the project, open the \lstinline[columns=fixed]|main| circuit and drop the \lstinline[columns=fixed]|Encoder| on the drawing canvas. Add nine inputs and label them \textit{In1} through \textit{In9}. Place a four-bit output labeled \textit{PriOut} and wire the four outputs through a splitter to that output port. To make it easier to read the \ac{BCD} number, connect a Hex Digit Display (\textit{Input/Output} library) to the four-bit bus between the splitter and output port. The completed \lstinline[columns=fixed]|main| circuit is illustrated in Figure \ref{fig:encode-06}.
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=\maxwidth{.95\linewidth}]{gfx/03-06}
+	\includegraphics[width=\maxwidth{.95\linewidth}]{gfx/encode-06}
 	\caption{Main Circuit}
-	\label{fig:03-06}
+	\label{fig:encode-06}
 \end{figure}
 
-In Figure \ref{fig:03-06}, notice that two inputs are selected, \textit{In4} and \textit{In6}. Since \textit{In6} is a higher priority (it is a larger number), the output is set for six and \textit{In4} is ignored.
+In Figure \ref{fig:encode-06}, notice that two inputs are selected, \textit{In4} and \textit{In6}. Since \textit{In6} is a higher priority (it is a larger number), the output is set for six and \textit{In4} is ignored.
 
 \subsection{Testing the Circuit}
 
@@ -92,10 +92,10 @@ To receive a grade for this lab, create the Nine-line Priority Encoder circuit a
 \begin{minipage}{\linewidth}
 	\begin{verbatim}
 	George Self
-	Lab 03: Nine-line Priority Encoder
+	Lab 09: Nine-line Priority Encoder
 	February 18, 2018
 	\end{verbatim}
 \end{minipage}
 \bigskip
 
-Save the file with this name: \emph{\texttt{Lab03\_Encoder}} and submit that file for grading.
+Save the file with this name: \emph{\texttt{Lab09\_Encoder}} and submit that file for grading.

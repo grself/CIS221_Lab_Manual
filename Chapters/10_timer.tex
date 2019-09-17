@@ -1,7 +1,7 @@
 %****************************************
-% Lab 07: Timer
+% Lab 10: Timer
 %****************************************
-\chapter{Timer}
+\chapter{Timer}\label{timer}
 
 \section{Purpose}
 
@@ -19,13 +19,13 @@ The lab starter circuit includes several versions of the timer as an illustratio
 
 \subsection{Timer\_V3}
 
-Complete the circuit to match Figure \ref{fig:07-01}.
+Complete the circuit to match Figure \ref{fig:timer-01}.
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=\maxwidth{.95\linewidth}]{gfx/07-01}
+	\includegraphics[width=\maxwidth{.95\linewidth}]{gfx/timer-01}
 	\caption{Completed Timer}
-	\label{fig:07-01}
+	\label{fig:timer-01}
 \end{figure}
 
 In the timer circuit, the key is the comparator in the lower left corner. That device compares the binary output of the counter to either the minimum or maximum requested value and if they are equal the comparator sends a reset signal to start the count over. 
@@ -36,13 +36,13 @@ Finally, the BCD output is combined by a splitter (\textit{Wiring} library) into
 
 \subsection{Testing the Circuit}
 
-The \lstinline[columns=fixed]|Timer_V3| subcircuit should be added to the \lstinline[columns=fixed]|main| circuit and wired as in Figure \ref{fig:07-02}.
+The \lstinline[columns=fixed]|Timer_V3| subcircuit should be added to the \lstinline[columns=fixed]|main| circuit and wired as in Figure \ref{fig:timer-02}.
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=\maxwidth{.95\linewidth}]{gfx/07-02}
+	\includegraphics[width=\maxwidth{.95\linewidth}]{gfx/timer-02}
 	\caption{Timer Main Circuit}
-	\label{fig:07-02}
+	\label{fig:timer-02}
 \end{figure}
  
 To test the circuit:
@@ -68,11 +68,11 @@ To receive a grade for this lab, complete the Challenge. Be sure the standard id
 \begin{minipage}{\linewidth}
 	\begin{verbatim}
 	George Self
-	Lab 07: Timer
+	Lab 10: Timer
 	March 1, 2018
 	\end{verbatim}
 \end{minipage}
 \bigskip
 
-Save the file with this name: \emph{\texttt{Lab07\_Timer}} and submit that file for grading.
+Save the file with this name: \emph{\texttt{Lab10\_Timer}} and submit that file for grading.
 

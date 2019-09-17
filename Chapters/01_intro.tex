@@ -1,8 +1,7 @@
 %********************************************
 % Lab 01: Introduction to Logisim-evolution
 %********************************************
-
-\chapter{Introduction To Logisim-evolution}
+\chapter{Introduction To Logisim-evolution}\label{intro}
 
 %********************************************
 
@@ -33,13 +32,13 @@ Since the \LE file is a Java application, it does not need to be installed like 
 
 \subsection{Logisim-evolution Workspace}
 
-Start \LE by double-clicking its icon. The initial \LE window will be similar to Figure \ref{fig:01-01}.
+Start \LE by double-clicking its icon. The initial \LE window will be similar to Figure \ref{fig:intro-01}.
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=\maxwidth{.95\linewidth}]{gfx/01-01}
+	\includegraphics[width=\maxwidth{.95\linewidth}]{gfx/intro-01}
 	\caption{Logisim-evolution Initial Screen}
-	\label{fig:01-01}
+	\label{fig:intro-01}
 \end{figure}
 
 The \LE space is divided into several areas. Along the top is a text menu that includes the types of selections found in most programs. For example, the ``File'' menu includes items like ``Save'' and ``Exit.'' The ``Edit'' menu includes an ``Undo'' option that is useful. In later labs, the various options under ``Project'' and ``Simulate'' will be described and used. Items in the ``FPGAMenu'' are beyond the scope of this class and will not be used. Of particular importance at this point is ``Library Reference'' in the ``Help'' menu. It contains information about every logical device available in \LE and is very useful while using those components in new circuits. 
@@ -67,58 +66,58 @@ The drawing canvas is the largest part of the screen. It is where circuits are c
 
 \marginpar{Do not be concerned with the exact placement of components on the drawing canvas. They can be rearranged as the build progresses.}A multiplexer is used to select which of two or more inputs will be connected to a single output. For this lab, a simple two-input, one-bit multiplexer will be built. It is understood that students will not know the significance of a multiplexer at this point in the class, but the purpose of this lab is to use \LE to build a simple circuit and a multiplexer serves that purpose well. 
 
-Start by clicking the \textit{And} button on the toolbar and placing two \texttt{AND} gates on the canvas. The canvas should resemble Figure \ref{fig:01-02}
+Start by clicking the \textit{And} button on the toolbar and placing two \texttt{AND} gates on the canvas. The canvas should resemble Figure \ref{fig:intro-02}
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=\maxwidth{.95\linewidth}]{gfx/01-02}
+	\includegraphics[width=\maxwidth{.95\linewidth}]{gfx/intro-02}
 	\caption{Two AND Gates}
-	\label{fig:01-02}
+	\label{fig:intro-02}
 \end{figure}
 
-Click one of the AND gates to select it and observe the various properties available for that gate, as seen in Figure \ref{fig:01-03}. The default values do not need to be changed for this circuit; however, all circuits in this manual use the ``Narrow'' gate size in order to make the circuit fit the screen better. The other properties will be explained as they are needed.
+Click one of the AND gates to select it and observe the various properties available for that gate, as seen in Figure \ref{fig:intro-03}. The default values do not need to be changed for this circuit; however, all circuits in this manual use the ``Narrow'' gate size in order to make the circuit fit the screen better. The other properties will be explained as they are needed.
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=\maxwidth{.95\linewidth}]{gfx/01-03}
+	\includegraphics[width=\maxwidth{.95\linewidth}]{gfx/intro-03}
 	\caption{AND Gate Properties}
-	\label{fig:01-03}
+	\label{fig:intro-03}
 \end{figure}
 
-The outputs of the two \texttt{AND} gates need to be combined with an \texttt{OR} gate. Add an \texttt{OR} gate as illustrated in Figure \ref{fig:01-04}.
+The outputs of the two \texttt{AND} gates need to be combined with an \texttt{OR} gate. Add an \texttt{OR} gate as illustrated in Figure \ref{fig:intro-04}.
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=\maxwidth{.95\linewidth}]{gfx/01-04}
+	\includegraphics[width=\maxwidth{.95\linewidth}]{gfx/intro-04}
 	\caption{OR Gate Added to Circuit}
-	\label{fig:01-04}
+	\label{fig:intro-04}
 \end{figure}
 
 The top input for the first \texttt{AND} gate needs two \texttt{NOT} gates (inverters) so the two \texttt{AND} gates can function as on/off switches. This is a rather common digital logic construct and when the circuit is complete it will become clear how the switching function works.
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=\maxwidth{.95\linewidth}]{gfx/01-05}
+	\includegraphics[width=\maxwidth{.95\linewidth}]{gfx/intro-05}
 	\caption{Two NOT Gates Added to Circuit}
-	\label{fig:01-05}
+	\label{fig:intro-05}
 \end{figure}
 
-All inputs and outputs need to be added as in Figure \ref{fig:01-06}. Note: inputs are square and outputs are round. The \textit{Label} property for each input and output should be specified as in the figure. The pins are labeled according to their function in the circuit. Pin \textit{Sel} carries a signal that selects which input to connect to the output, pins \textit{In1} and \textit{In2} are the two inputs, and pin \textit{Out1} is the output. Note: output pins display a blue-colored \textsf{X} until they are actually wired to some device like the \texttt{OR} gate in the illustration.
+All inputs and outputs need to be added as in Figure \ref{fig:intro-06}. Note: inputs are square and outputs are round. The \textit{Label} property for each input and output should be specified as in the figure. The pins are labeled according to their function in the circuit. Pin \textit{Sel} carries a signal that selects which input to connect to the output, pins \textit{In1} and \textit{In2} are the two inputs, and pin \textit{Out1} is the output. Note: output pins display a blue-colored \textsf{X} until they are actually wired to some device like the \texttt{OR} gate in the illustration.
  
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=\maxwidth{.95\linewidth}]{gfx/01-06}
+	\includegraphics[width=\maxwidth{.95\linewidth}]{gfx/intro-06}
 	\caption{Inputs and Output Added}
-	\label{fig:01-06}
+	\label{fig:intro-06}
 \end{figure}
 
 Finally, connect each device with a wire by clicking on the various ports and dragging a wire to the next port. To start the wire in the middle of the two NOT gates click the wire connecting those gates and drag downward. Wires will automatically ``bend'' one time but to get two bends, like between the output of an \texttt{AND} gate and the input of the \texttt{OR} gate, click-and-drag the wire from the output of the \texttt{AND} gate to a spot a short distance in front of that same gate, then release the mouse button and then immediately click again to start a new wire that will ``bend'' to the input of the \texttt{OR} gate. Only a little practice is needed to master this wiring technique.
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=\maxwidth{.95\linewidth}]{gfx/01-07}
+	\includegraphics[width=\maxwidth{.95\linewidth}]{gfx/intro-07}
 	\caption{Circuit Wiring Added}
-	\label{fig:01-07}
+	\label{fig:intro-07}
 \end{figure}
 
 To operate the circuit in a simulator, click the \textit{Pointing Finger} and ``poke'' the various inputs. If it is working properly, when the \textit{Sel} input is high then the value of \textit{In2} should be transmitted to the output, but when \textit{Sel} is low then the value of \textit{In1} should be transmitted to the output. This circuit is used to select one of two inputs to be transmitted to the output.
@@ -138,18 +137,18 @@ February 13, 2018
 \end{minipage}
 \bigskip
 
-\marginpar{The font properties in Figure \ref{fig:01-08} have been set to bold and a large size to make the text easier to read.}Note that \textit{Logisim-evolution} will automatically center text in a new box, so text boxes will need to be aligned after they have been created. To align the text boxes, click the \textit{Arrow} tool and use it to drag the boxes to their desired location. The completed circuit should look like Figure \ref{fig:01-08}.
+\marginpar{The font properties in Figure \ref{fig:intro-08} have been set to bold and a large size to make the text easier to read.}Note that \textit{Logisim-evolution} will automatically center text in a new box, so text boxes will need to be aligned after they have been created. To align the text boxes, click the \textit{Arrow} tool and use it to drag the boxes to their desired location. The completed circuit should look like Figure \ref{fig:intro-08}.
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=\maxwidth{.95\linewidth}]{gfx/01-08}
+	\includegraphics[width=\maxwidth{.95\linewidth}]{gfx/intro-08}
 	\caption{Simple multiplexer}
-	\label{fig:01-08}
+	\label{fig:intro-08}
 \end{figure}
 
 \section{Deliverable}
 
 The purpose of this lab is to install and test the \textit{Logisim-evolution} system and become comfortable creating a digital logic circuit. 
 
-To receive a grade for this lab, create the Simple Multiplexer as defined in this lab, be sure the standard identifying information is at the top left of the circuit, and then save the file with this name: \textit{\texttt{Lab01\_Mux21}} (that stands for multiplexer, 2-way, 1-bit). Submit that circuit file for grading.
+To receive a grade for this lab, create the Simple Multiplexer as defined in this lab, be sure the standard identifying information is at the top left of the circuit, and then save the file with this name: \textit{\texttt{Lab01\_Intro}}. Submit that circuit file for grading.
 

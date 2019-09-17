@@ -1,16 +1,16 @@
 %**************************************************************
-% Lab 09: ROM
+% Lab 11: ROM
 %**************************************************************
-\chapter{ROM}\label{Lab09}
+\chapter{ROM}\label{rom}
 
 \section{Purpose}
 
 \begin{wrapfigure}{O}{0.2\textwidth}
 	\caption*{} % No text, wraps badly in very narrow space (does print fig number)
 	% to not print a fig number use \caption*{}
-	\label{fig:09-01} 
+	\label{fig:rom-01} 
 	\centering
-	\includegraphics[width=0.2\textwidth]{gfx/09-01} 
+	\includegraphics[width=0.2\textwidth]{gfx/rom-01} 
 \end{wrapfigure}
 This lab introduces students to \acf{ROM} and builds a fun application: The \textit{Magic 8-Ball}. This was a toy that was developed in the 1950s and was popular throughout the 1960s. It was a small plastic sphere with the markings of an 8-ball. If the user ``asked it a question'' and then turned the toy upside down the answer would magically appear in a small window on the bottom of the ball.
 
@@ -20,18 +20,18 @@ Start a new \LE project and create a subcircuit named \lstinline[columns=fixed]|
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=\maxwidth{.95\linewidth}]{gfx/09-02}
+	\includegraphics[width=\maxwidth{.95\linewidth}]{gfx/rom-02}
 	\caption{Placing ROM}
-	\label{fig:09-02}
+	\label{fig:rom-02}
 \end{figure}
 
-A ROM stores data that is accessed by setting an address on the inputs at the top left of the device and then reading the contents of that address on the 8-bit bus on the right side of the device. By attaching a counter to the ROM address port several consecutive addresses can be ``stepped through'' to output a message. Attach a Counter (\textit{Memory} library) with 12 Data Bits to the address port of the ROM, as in Figure \ref{fig:09-03}.
+A ROM stores data that is accessed by setting an address on the inputs at the top left of the device and then reading the contents of that address on the 8-bit bus on the right side of the device. By attaching a counter to the ROM address port several consecutive addresses can be ``stepped through'' to output a message. Attach a Counter (\textit{Memory} library) with 12 Data Bits to the address port of the ROM, as in Figure \ref{fig:rom-03}.
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=\maxwidth{.95\linewidth}]{gfx/09-03}
+	\includegraphics[width=\maxwidth{.95\linewidth}]{gfx/rom-03}
 	\caption{ROM With Counter}
-	\label{fig:09-03}
+	\label{fig:rom-03}
 \end{figure}
 
 According to Wikipedia\footnote{\url{https://en.wikipedia.org/wiki/Magic_8-Ball}}, the Magic 8-Ball featured 20 sayings: 
@@ -63,34 +63,34 @@ The \textit{Magic 8-Ball} simulator built in this lab uses those same 20 saying.
 
 The content of the ROM device must be loaded before it can be used and that content is provided in \emph{\texttt{Lab09\_ROM.txt}} accompanying this lab. To load the ROM device, click it one time and then click the ``(click to edit)'' link in its properties panel. In the ROM editor window that pops up, click the ``open'' button and navigate to the ROM memory file. Click ``close window'' to load the ROM device and make it ready for service\footnote{The ROM device provided with the starter circuit is pre-loaded so it will not be necessary to load it again. However, this information is left here for students who may want to load the ROM for practice.}.
 
-The start point for each saying, as indicated on the above table, is stored in a Constant (\textit{Wiring} library) then a Mux (\textit{Plexers} library) with five select bits is used to transmit a message start location to the counter so it can be read from the ROM device. Figure \ref{fig:09-04} illustrates the circuit at this point\footnote{The multiplexer provided with the starter circuit already has the various constants attached. Students who wish to do so can create their own multiplexer by using the start addresses in the ``Sayings'' listing above.}.
+The start point for each saying, as indicated on the above table, is stored in a Constant (\textit{Wiring} library) then a Mux (\textit{Plexers} library) with five select bits is used to transmit a message start location to the counter so it can be read from the ROM device. Figure \ref{fig:rom-04} illustrates the circuit at this point\footnote{The multiplexer provided with the starter circuit already has the various constants attached. Students who wish to do so can create their own multiplexer by using the start addresses in the ``Sayings'' listing above.}.
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=\maxwidth{.95\linewidth}]{gfx/09-04}
+	\includegraphics[width=\maxwidth{.95\linewidth}]{gfx/rom-04}
 	\caption{ROM Filter Mux}
-	\label{fig:09-04}
+	\label{fig:rom-04}
 \end{figure}
 
-A five-bit Random Generator (\textit{Memory} library) is used to select a random message. Figure \ref{fig:09-05} illustrates the placement of the random generator.
+A five-bit Random Generator (\textit{Memory} library) is used to select a random message. Figure \ref{fig:rom-05} illustrates the placement of the random generator.
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=\maxwidth{.95\linewidth}]{gfx/09-05}
+	\includegraphics[width=\maxwidth{.95\linewidth}]{gfx/rom-05}
 	\caption{Random Generator Added}
-	\label{fig:09-05}
+	\label{fig:rom-05}
 \end{figure}
 
-To complete the circuit, a few odds-and-ends were added. Figure \ref{fig:09-06} shows the completed circuit, but details from that figure are used below to describe how to complete the circuit.
+To complete the circuit, a few odds-and-ends were added. Figure \ref{fig:rom-06} shows the completed circuit, but details from that figure are used below to describe how to complete the circuit.
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=\maxwidth{.95\linewidth}]{gfx/09-06}
+	\includegraphics[width=\maxwidth{.95\linewidth}]{gfx/rom-06}
 	\caption{Completed Magic 8-Ball Circuit}
-	\label{fig:09-06}
+	\label{fig:rom-06}
 \end{figure}
 
-To set up the counter, four signals are needed. These are all from tunnels (\textit{Wiring} library) connected to other spots on the circuit. (See Figure \ref{fig:09-07}.)
+To set up the counter, four signals are needed. These are all from tunnels (\textit{Wiring} library) connected to other spots on the circuit. (See Figure \ref{fig:rom-07}.)
 
 \begin{itemize}
 	\item \textbf{load}. The load signal goes high when the counter should be loaded with a new number from the multiplexer. The number loaded is the location in ROM for the start of a message. Notice that the load signal is used on two pins. The top pin places the counter in load mode while the bottom pin uses the load signal as a clock pulse.
@@ -98,7 +98,7 @@ To set up the counter, four signals are needed. These are all from tunnels (\tex
 	\item \textbf{ctrclk}.The counter clock provides the clock signal for the counter.
 \end{itemize}
 
-Connect the random number generator as follows. (See Figure \ref{fig:09-07}.)
+Connect the random number generator as follows. (See Figure \ref{fig:rom-07}.)
 
 \begin{itemize}
 	\item The clock input pin is connected to a ``rngclk'' tunnel.
@@ -107,12 +107,12 @@ Connect the random number generator as follows. (See Figure \ref{fig:09-07}.)
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=\maxwidth{.95\linewidth}]{gfx/09-07}
+	\includegraphics[width=\maxwidth{.95\linewidth}]{gfx/rom-07}
 	\caption{Counter Inputs}
-	\label{fig:09-07}
+	\label{fig:rom-07}
 \end{figure}
 
-The counter control signals are generated and distributed from a small group located under the ROM device. The purpose of this tiny group is to transmit a high signal through the AND gate when the reset pin goes high while enable is low. This generates the signals needed to select a new random message and put the starting address of that message in the counter. (See Figure \ref{fig:09-08}.)
+The counter control signals are generated and distributed from a small group located under the ROM device. The purpose of this tiny group is to transmit a high signal through the AND gate when the reset pin goes high while enable is low. This generates the signals needed to select a new random message and put the starting address of that message in the counter. (See Figure \ref{fig:rom-08}.)
  
 \begin{itemize}
 	\item \textbf{rst}. The reset pin is an external signal that originates from the \lstinline[columns=fixed]|main| circuit.
@@ -124,12 +124,12 @@ The counter control signals are generated and distributed from a small group loc
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=\maxwidth{.95\linewidth}]{gfx/09-08}
+	\includegraphics[width=\maxwidth{.95\linewidth}]{gfx/rom-08}
 	\caption{Counter Control Generation and Distribution}
-	\label{fig:09-08}
+	\label{fig:rom-08}
 \end{figure}
 
-There are two functions found at the ROM device output. (See Figure \ref{fig:09-09}.)
+There are two functions found at the ROM device output. (See Figure \ref{fig:rom-09}.)
 
 \begin{itemize}
 	\item The output of the ROM device is connected to the \textit{ttyOut} pin in order to drive the teletype device on the \lstinline[columns=fixed]|main| circuit.\footnote{Note that at the output of the ROM device is a splitter. ASCII letters are only seven bits wide so this splitter passes bits 0-6 to the \textit{ttyOut} port but bit 7 (the most significant bit) is simply discarded. The provided starter circuit includes the splitter.}
@@ -141,18 +141,18 @@ There are two functions found at the ROM device output. (See Figure \ref{fig:09-
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=\maxwidth{.95\linewidth}]{gfx/09-09}
+	\includegraphics[width=\maxwidth{.95\linewidth}]{gfx/rom-09}
 	\caption{ROM Output}
-	\label{fig:09-09}
+	\label{fig:rom-09}
 \end{figure}
 
-The only remaining step is to create the \lstinline[columns=fixed]|main| circuit. As in all labs in this manual, the \lstinline[columns=fixed]|main| circuit does nothing more than provide a user interface for the \textit{Magic 8-Ball} Circuit. Figure \ref{fig:09-10} illustrates the \lstinline[columns=fixed]|main| circuit.
+The only remaining step is to create the \lstinline[columns=fixed]|main| circuit. As in all labs in this manual, the \lstinline[columns=fixed]|main| circuit does nothing more than provide a user interface for the \textit{Magic 8-Ball} Circuit. Figure \ref{fig:rom-10} illustrates the \lstinline[columns=fixed]|main| circuit.
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=\maxwidth{.95\linewidth}]{gfx/09-10}
+	\includegraphics[width=\maxwidth{.95\linewidth}]{gfx/rom-10}
 	\caption{Magic 8-Ball Main Circuit}
-	\label{fig:09-10}
+	\label{fig:rom-10}
 \end{figure}
 
 \subsection{Testing the Circuit}
@@ -170,11 +170,11 @@ To receive a grade for this lab, build this circuit. Be sure the standard identi
 \begin{minipage}{\linewidth}
 	\begin{verbatim}
 	George Self
-	Lab 09: ROM
+	Lab 11: ROM
 	September 13, 2019
 	\end{verbatim}
 \end{minipage}
 \bigskip
 
-Save the file with this name: \textit{Lab09\_ROM} and submit that file for grading.
+Save the file with this name: \textit{Lab11\_ROM} and submit that file for grading.
 

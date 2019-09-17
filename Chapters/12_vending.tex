@@ -1,7 +1,7 @@
 %***************************************
-% Lab 05: Vending Machine
+% Lab 12: Vending Machine
 %***************************************
-\chapter{Vending Machine}
+\chapter{Vending Machine}\label{vend}
 
 \section{Purpose}
 
@@ -53,13 +53,13 @@ This simulator contains five subcircuits in addition to the \lstinline[columns=f
 
 \subsubsection{main}
 
-The \lstinline[columns=fixed]|main| circuit is the interface between a human customer and the simulator, as shown in Figure \ref{fig:05-01}. 
+The \lstinline[columns=fixed]|main| circuit is the interface between a human customer and the simulator, as shown in Figure \ref{fig:vend-01}. 
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=\maxwidth{.95\linewidth}]{gfx/05-01}
+	\includegraphics[width=\maxwidth{.95\linewidth}]{gfx/vend-01}
 	\caption{Vending Machine Main Circuit}
-	\label{fig:05-01}
+	\label{fig:vend-01}
 \end{figure}
 
 The \lstinline[columns=fixed]|main| circuit includes the following components.
@@ -73,13 +73,13 @@ The \lstinline[columns=fixed]|main| circuit includes the following components.
 
 \subsubsection{Activator}
 
-The \lstinline[columns=fixed]|Activator| subcircuit receives a signal from the \lstinline[columns=fixed]|Bank| subcircuit that indicates how much money has been collected. The \lstinline[columns=fixed]|Activator| returns the \ac{BCD} Total and Change values and sets a signal to activate the \lstinline[columns=fixed]|Dispenser| subcircuit once 75 cents has been deposited. Figure \ref{fig:05-02} illustrates the \lstinline[columns=fixed]|Activator| subcircuit.
+The \lstinline[columns=fixed]|Activator| subcircuit receives a signal from the \lstinline[columns=fixed]|Bank| subcircuit that indicates how much money has been collected. The \lstinline[columns=fixed]|Activator| returns the \ac{BCD} Total and Change values and sets a signal to activate the \lstinline[columns=fixed]|Dispenser| subcircuit once 75 cents has been deposited. Figure \ref{fig:vend-02} illustrates the \lstinline[columns=fixed]|Activator| subcircuit.
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=\maxwidth{.95\linewidth}]{gfx/05-02}
+	\includegraphics[width=\maxwidth{.95\linewidth}]{gfx/vend-02}
 	\caption{Activator Subcircuit}
-	\label{fig:05-02}
+	\label{fig:vend-02}
 \end{figure}
 
 The \lstinline[columns=fixed]|Activator| subcircuit has only one input, \textit{InCash}. That input is connected to the \lstinline[columns=fixed]|Bank| subcircuit output and contains the total amount of cash deposited. That input is connected to a Bin2BCD (\textit{BFH mega functions} library) device and is then output as a \ac{BCD} number on the \textit{DepositedBCD} output pin.
@@ -90,13 +90,13 @@ Finally, the \textit{InCash} input is sent to a mux that outputs 75 until the co
 
 \subsubsection{Bank}
 
-The \lstinline[columns=fixed]|Bank| subcircuit keeps a running total of the amount deposited and sends that total to the \lstinline[columns=fixed]|Activator| subcircuit. Figure \ref{fig:05-03} illustrates the \lstinline[columns=fixed]|Bank| subcircuit.
+The \lstinline[columns=fixed]|Bank| subcircuit keeps a running total of the amount deposited and sends that total to the \lstinline[columns=fixed]|Activator| subcircuit. Figure \ref{fig:vend-03} illustrates the \lstinline[columns=fixed]|Bank| subcircuit.
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=\maxwidth{.95\linewidth}]{gfx/05-03}
+	\includegraphics[width=\maxwidth{.95\linewidth}]{gfx/vend-03}
 	\caption{Bank Subcircuit}
-	\label{fig:05-03}
+	\label{fig:vend-03}
 \end{figure}
 
 The \lstinline[columns=fixed]|Bank| subcircuit has five inputs. \textit{In5}, \textit{In10}, and \textit{In25} indicate the value of the coin dropped into the machine. When high, the \textit{Ena} input enables the \lstinline[columns=fixed]|Bank|. When high, the \textit{Rst} input resets the total to zero.
@@ -109,13 +109,13 @@ The final logic function in this subcircuit is a three-input \texttt{OR} gate wh
 
 \subsubsection{Dispenser}
 
-The \lstinline[columns=fixed]|Dispenser| subcircuit dispenses the three products available in the machine. Figure \ref{fig:05-04} illustrates the \lstinline[columns=fixed]|Dispenser| subcircuit.
+The \lstinline[columns=fixed]|Dispenser| subcircuit dispenses the three products available in the machine. Figure \ref{fig:vend-04} illustrates the \lstinline[columns=fixed]|Dispenser| subcircuit.
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=\maxwidth{.95\linewidth}]{gfx/05-04}
+	\includegraphics[width=\maxwidth{.95\linewidth}]{gfx/vend-04}
 	\caption{Dispenser Subcircuit}
-	\label{fig:05-04}
+	\label{fig:vend-04}
 \end{figure}
 
 The Dispenser subcircuit has seven inputs and nine outputs.
@@ -161,9 +161,9 @@ Outputs:
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=\maxwidth{.95\linewidth}]{gfx/05-05}
+	\includegraphics[width=\maxwidth{.95\linewidth}]{gfx/vend-05}
 	\caption{Product Subcircuit}
-	\label{fig:05-05}
+	\label{fig:vend-05}
 \end{figure}
 
 This subcircuit is nothing more than a counter with a few controlling signals. The counter has a constant zero input on the \textit{M3} port. That sets the counter to decrement the count on each clock pulse.
@@ -176,13 +176,13 @@ The counter has two outputs. The \textit{3CT=0xF} output goes high when the coun
 
 \subsubsection{Vending}
 
-The \lstinline[columns=fixed]|Vending| subcircuit consolidates the other subcircuits into an \ac{IC} that is used in the \lstinline[columns=fixed]|main| circuit. Figure \ref{fig:05-06} illustrates the \lstinline[columns=fixed]|Vending| subcircuit.
+The \lstinline[columns=fixed]|Vending| subcircuit consolidates the other subcircuits into an \ac{IC} that is used in the \lstinline[columns=fixed]|main| circuit. Figure \ref{fig:vend-06} illustrates the \lstinline[columns=fixed]|Vending| subcircuit.
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=\maxwidth{.95\linewidth}]{gfx/05-06}
+	\includegraphics[width=\maxwidth{.95\linewidth}]{gfx/vend-06}
 	\caption{Vending Subcircuit}
-	\label{fig:05-06}
+	\label{fig:vend-06}
 \end{figure}
 
 No further explanation is given for this subcircuit since it only wires the other subcircuits together and introduces no new logic.
@@ -207,11 +207,11 @@ To receive a grade for this lab, correct all three flaws identified in the Chall
 \begin{minipage}{\linewidth}
 	\begin{verbatim}
 	George Self
-	Lab 05: Vending Machine
+	Lab 12: Vending Machine
 	February 16, 2018
 	\end{verbatim}
 \end{minipage}
 \bigskip
 
-Save the file with this name: \emph{\texttt{Lab05\_Vend}} and submit that file for grading.
+Save the file with this name: \emph{\texttt{Lab12\_Vend}} and submit that file for grading.
 

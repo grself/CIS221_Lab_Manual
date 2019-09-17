@@ -1,7 +1,7 @@
 %*******************************************
-% Lab 04: ALU
+% Lab 08: ALU
 %*******************************************
-\chapter{Arithmetic Logic Unit (ALU)}\label{lab04}
+\chapter{Arithmetic Logic Unit (ALU)}\label{alu}
 
 \section{Purpose}
 
@@ -51,9 +51,9 @@ The \lstinline[columns=fixed]|main| circuit does nothing more than provide a hum
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=\maxwidth{.95\linewidth}]{gfx/04-01}
+	\includegraphics[width=\maxwidth{.95\linewidth}]{gfx/alu-01}
 	\caption{ALU main}
-	\label{fig:04-01}
+	\label{fig:alu-01}
 \end{figure}
 
 \subsection{ALU}
@@ -62,9 +62,9 @@ The \lstinline[columns=fixed]|ALU| subcircuit contains the logic that routes \te
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=\maxwidth{.95\linewidth}]{gfx/04-02}
+	\includegraphics[width=\maxwidth{.95\linewidth}]{gfx/alu-02}
 	\caption{ALU Subcircuit}
-	\label{fig:04-02}
+	\label{fig:alu-02}
 \end{figure}
 
 \subsection{Arithmetic}
@@ -75,9 +75,9 @@ Notice that two multiplexers are necessary since the circuit provides two differ
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=\maxwidth{.95\linewidth}]{gfx/04-03}
+	\includegraphics[width=\maxwidth{.95\linewidth}]{gfx/alu-03}
 	\caption{Arithmetic Subcircuit}
-	\label{fig:04-03}
+	\label{fig:alu-03}
 \end{figure}
 
 \subsection{Challenge}
@@ -86,9 +86,9 @@ In the starter circuit, the \lstinline[columns=fixed]|Logic| subcircuit is only 
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=\maxwidth{.95\linewidth}]{gfx/04-04}
+	\includegraphics[width=\maxwidth{.95\linewidth}]{gfx/alu-04}
 	\caption{Logic Subcircuit}
-	\label{fig:04-04}
+	\label{fig:alu-04}
 \end{figure}
 
 Complete that subcircuit by adding the necessary logic gates and wiring, similar to the \lstinline[columns=fixed]|Arithmetic| subcircuit. This subcircuit is much simpler than the \lstinline[columns=fixed]|Arithmetic| subcircuit since there are no carry-in, carry-out, or compare bits. When completed, the subcircuit only needs eight logic gates and a multiplexer added to the starter.
@@ -106,10 +106,10 @@ To receive a grade for this lab, complete the Challenge. Be sure the standard id
 \begin{minipage}{\linewidth}
 	\begin{verbatim}
 	George Self
-	Lab 04: ALU
+	Lab 08: ALU
 	February 18, 2018
 	\end{verbatim}
 \end{minipage}
 \bigskip
 
-Save the file with this name: \emph{\texttt{Lab04\_ALU}} and submit that file for grading.
+Save the file with this name: \emph{\texttt{Lab08\_ALU}} and submit that file for grading.
