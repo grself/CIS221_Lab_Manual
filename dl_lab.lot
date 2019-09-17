@@ -3,53 +3,50 @@
 \babel@toc {american}{}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\addvspace {10\p@ }
-\contentsline {table}{\numberline {3.1}{\ignorespaces R0 <- LdImm\relax }}{28}{table.caption.14}% 
-\contentsline {table}{\numberline {3.2}{\ignorespaces R1 <- LdImm\relax }}{29}{table.caption.15}% 
-\contentsline {table}{\numberline {3.3}{\ignorespaces ALU <- LdImm\relax }}{29}{table.caption.16}% 
-\contentsline {table}{\numberline {3.4}{\ignorespaces R0 <- Inc(R0)\relax }}{29}{table.caption.17}% 
-\contentsline {table}{\numberline {3.5}{\ignorespaces R0 <- R0 + R1\relax }}{30}{table.caption.18}% 
-\contentsline {table}{\numberline {3.6}{\ignorespaces R0 <- R0 - R1\relax }}{30}{table.caption.19}% 
-\contentsline {table}{\numberline {3.7}{\ignorespaces R1 <- R0\relax }}{30}{table.caption.20}% 
-\contentsline {table}{\numberline {3.8}{\ignorespaces R0 <-> R1\relax }}{31}{table.caption.21}% 
+\contentsline {table}{\numberline {2.1}{\ignorespaces Test Vector For Full Adder\relax }}{13}{table.caption.9}% 
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {A.1}{\ignorespaces Pinout For 7400\relax }}{40}{table.caption.24}% 
-\contentsline {table}{\numberline {A.2}{\ignorespaces Pinout For 7402\relax }}{41}{table.caption.25}% 
-\contentsline {table}{\numberline {A.3}{\ignorespaces Pinout For 7404\relax }}{42}{table.caption.26}% 
-\contentsline {table}{\numberline {A.4}{\ignorespaces Pinout For 7408\relax }}{43}{table.caption.27}% 
-\contentsline {table}{\numberline {A.5}{\ignorespaces Pinout For 7410\relax }}{44}{table.caption.28}% 
-\contentsline {table}{\numberline {A.6}{\ignorespaces Pinout For 7411\relax }}{45}{table.caption.29}% 
-\contentsline {table}{\numberline {A.7}{\ignorespaces Pinout For 7413\relax }}{46}{table.caption.30}% 
-\contentsline {table}{\numberline {A.8}{\ignorespaces Pinout For 7414\relax }}{47}{table.caption.31}% 
-\contentsline {table}{\numberline {A.9}{\ignorespaces Pinout For 7418\relax }}{48}{table.caption.32}% 
-\contentsline {table}{\numberline {A.10}{\ignorespaces Pinout For 7419\relax }}{49}{table.caption.33}% 
-\contentsline {table}{\numberline {A.11}{\ignorespaces Pinout For 7420\relax }}{50}{table.caption.34}% 
-\contentsline {table}{\numberline {A.12}{\ignorespaces Pinout For 7421\relax }}{51}{table.caption.35}% 
-\contentsline {table}{\numberline {A.13}{\ignorespaces Pinout For 7424\relax }}{52}{table.caption.36}% 
-\contentsline {table}{\numberline {A.14}{\ignorespaces Pinout For 7427\relax }}{53}{table.caption.37}% 
-\contentsline {table}{\numberline {A.15}{\ignorespaces Pinout For 7430\relax }}{54}{table.caption.38}% 
-\contentsline {table}{\numberline {A.16}{\ignorespaces Pinout For 7432\relax }}{55}{table.caption.39}% 
-\contentsline {table}{\numberline {A.17}{\ignorespaces Pinout For 7436\relax }}{56}{table.caption.40}% 
-\contentsline {table}{\numberline {A.18}{\ignorespaces Truth Table For The 7442 Circuit\relax }}{57}{table.caption.41}% 
-\contentsline {table}{\numberline {A.19}{\ignorespaces Pinout For 7442\relax }}{57}{table.caption.42}% 
-\contentsline {table}{\numberline {A.20}{\ignorespaces Truth Table For The 7443 Circuit\relax }}{58}{table.caption.43}% 
-\contentsline {table}{\numberline {A.21}{\ignorespaces Pinout For 7443\relax }}{59}{table.caption.44}% 
-\contentsline {table}{\numberline {A.22}{\ignorespaces Truth Table For The 7444 Circuit\relax }}{60}{table.caption.45}% 
-\contentsline {table}{\numberline {A.23}{\ignorespaces Pinout For 7444\relax }}{60}{table.caption.46}% 
-\contentsline {table}{\numberline {A.24}{\ignorespaces Truth Table For The 7447 Circuit\relax }}{62}{table.caption.47}% 
-\contentsline {table}{\numberline {A.25}{\ignorespaces Pinout For 7447\relax }}{63}{table.caption.48}% 
-\contentsline {table}{\numberline {A.26}{\ignorespaces Pinout For 7451\relax }}{64}{table.caption.49}% 
-\contentsline {table}{\numberline {A.27}{\ignorespaces Pinout For 7454\relax }}{65}{table.caption.50}% 
-\contentsline {table}{\numberline {A.28}{\ignorespaces Pinout For 7458\relax }}{66}{table.caption.51}% 
-\contentsline {table}{\numberline {A.29}{\ignorespaces Pinout For 7464\relax }}{67}{table.caption.52}% 
-\contentsline {table}{\numberline {A.30}{\ignorespaces Pinout For 7474\relax }}{67}{table.caption.53}% 
-\contentsline {table}{\numberline {A.31}{\ignorespaces Pinout For 7485\relax }}{68}{table.caption.54}% 
-\contentsline {table}{\numberline {A.32}{\ignorespaces Pinout For 7486\relax }}{69}{table.caption.55}% 
-\contentsline {table}{\numberline {A.33}{\ignorespaces Pinout For 74125\relax }}{70}{table.caption.56}% 
-\contentsline {table}{\numberline {A.34}{\ignorespaces Pinout For 74165\relax }}{70}{table.caption.57}% 
-\contentsline {table}{\numberline {A.35}{\ignorespaces Pinout For 74175\relax }}{71}{table.caption.58}% 
-\contentsline {table}{\numberline {A.36}{\ignorespaces Pinout For 74266\relax }}{72}{table.caption.59}% 
-\contentsline {table}{\numberline {A.37}{\ignorespaces Pinout For 74273\relax }}{73}{table.caption.60}% 
-\contentsline {table}{\numberline {A.38}{\ignorespaces Pinout For 74283\relax }}{74}{table.caption.61}% 
-\contentsline {table}{\numberline {A.39}{\ignorespaces Pinout For 74377\relax }}{75}{table.caption.62}% 
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {7.1}{\ignorespaces Function Table for 74181 ALU\relax }}{33}{table.caption.12}% 
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {A.1}{\ignorespaces Pinout For 7400\relax }}{44}{table.caption.15}% 
+\contentsline {table}{\numberline {A.2}{\ignorespaces Pinout For 7402\relax }}{45}{table.caption.16}% 
+\contentsline {table}{\numberline {A.3}{\ignorespaces Pinout For 7404\relax }}{46}{table.caption.17}% 
+\contentsline {table}{\numberline {A.4}{\ignorespaces Pinout For 7408\relax }}{47}{table.caption.18}% 
+\contentsline {table}{\numberline {A.5}{\ignorespaces Pinout For 7410\relax }}{48}{table.caption.19}% 
+\contentsline {table}{\numberline {A.6}{\ignorespaces Pinout For 7411\relax }}{49}{table.caption.20}% 
+\contentsline {table}{\numberline {A.7}{\ignorespaces Pinout For 7413\relax }}{50}{table.caption.21}% 
+\contentsline {table}{\numberline {A.8}{\ignorespaces Pinout For 7414\relax }}{51}{table.caption.22}% 
+\contentsline {table}{\numberline {A.9}{\ignorespaces Pinout For 7418\relax }}{52}{table.caption.23}% 
+\contentsline {table}{\numberline {A.10}{\ignorespaces Pinout For 7419\relax }}{53}{table.caption.24}% 
+\contentsline {table}{\numberline {A.11}{\ignorespaces Pinout For 7420\relax }}{54}{table.caption.25}% 
+\contentsline {table}{\numberline {A.12}{\ignorespaces Pinout For 7421\relax }}{55}{table.caption.26}% 
+\contentsline {table}{\numberline {A.13}{\ignorespaces Pinout For 7424\relax }}{56}{table.caption.27}% 
+\contentsline {table}{\numberline {A.14}{\ignorespaces Pinout For 7427\relax }}{57}{table.caption.28}% 
+\contentsline {table}{\numberline {A.15}{\ignorespaces Pinout For 7430\relax }}{58}{table.caption.29}% 
+\contentsline {table}{\numberline {A.16}{\ignorespaces Pinout For 7432\relax }}{59}{table.caption.30}% 
+\contentsline {table}{\numberline {A.17}{\ignorespaces Pinout For 7436\relax }}{60}{table.caption.31}% 
+\contentsline {table}{\numberline {A.18}{\ignorespaces Truth Table For The 7442 Circuit\relax }}{61}{table.caption.32}% 
+\contentsline {table}{\numberline {A.19}{\ignorespaces Pinout For 7442\relax }}{61}{table.caption.33}% 
+\contentsline {table}{\numberline {A.20}{\ignorespaces Truth Table For The 7443 Circuit\relax }}{62}{table.caption.34}% 
+\contentsline {table}{\numberline {A.21}{\ignorespaces Pinout For 7443\relax }}{63}{table.caption.35}% 
+\contentsline {table}{\numberline {A.22}{\ignorespaces Truth Table For The 7444 Circuit\relax }}{64}{table.caption.36}% 
+\contentsline {table}{\numberline {A.23}{\ignorespaces Pinout For 7444\relax }}{64}{table.caption.37}% 
+\contentsline {table}{\numberline {A.24}{\ignorespaces Truth Table For The 7447 Circuit\relax }}{66}{table.caption.38}% 
+\contentsline {table}{\numberline {A.25}{\ignorespaces Pinout For 7447\relax }}{67}{table.caption.39}% 
+\contentsline {table}{\numberline {A.26}{\ignorespaces Pinout For 7451\relax }}{68}{table.caption.40}% 
+\contentsline {table}{\numberline {A.27}{\ignorespaces Pinout For 7454\relax }}{69}{table.caption.41}% 
+\contentsline {table}{\numberline {A.28}{\ignorespaces Pinout For 7458\relax }}{70}{table.caption.42}% 
+\contentsline {table}{\numberline {A.29}{\ignorespaces Pinout For 7464\relax }}{71}{table.caption.43}% 
+\contentsline {table}{\numberline {A.30}{\ignorespaces Pinout For 7474\relax }}{71}{table.caption.44}% 
+\contentsline {table}{\numberline {A.31}{\ignorespaces Pinout For 7485\relax }}{72}{table.caption.45}% 
+\contentsline {table}{\numberline {A.32}{\ignorespaces Pinout For 7486\relax }}{73}{table.caption.46}% 
+\contentsline {table}{\numberline {A.33}{\ignorespaces Pinout For 74125\relax }}{74}{table.caption.47}% 
+\contentsline {table}{\numberline {A.34}{\ignorespaces Pinout For 74165\relax }}{74}{table.caption.48}% 
+\contentsline {table}{\numberline {A.35}{\ignorespaces Pinout For 74175\relax }}{75}{table.caption.49}% 
+\contentsline {table}{\numberline {A.36}{\ignorespaces Pinout For 74266\relax }}{76}{table.caption.50}% 
+\contentsline {table}{\numberline {A.37}{\ignorespaces Pinout For 74273\relax }}{77}{table.caption.51}% 
+\contentsline {table}{\numberline {A.38}{\ignorespaces Pinout For 74283\relax }}{78}{table.caption.52}% 
+\contentsline {table}{\numberline {A.39}{\ignorespaces Pinout For 74377\relax }}{79}{table.caption.53}% 
