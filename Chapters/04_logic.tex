@@ -22,7 +22,11 @@ This lab develops a logic unit that includes eight different logic functions usi
 
 This circuit is very similar to the arithmetic circuit developed in Lab \ref{arith}. However, the logic circuit is much simpler than the arithmetic circuit since there is not carry in/out bit and no comparator output.
 
-To complete the lab, create a subcircuit named \lstinline[columns=fixed]|logic|. Place appropriate devices from the \textit{Gates} library in the \lstinline[columns=fixed]|logic| subcircuit. Connect each of the devices to inputs \textit{A} and \textit{B} and then wire the outputs from each device to \textit{LoOut} through a multiplexer. The exact design of the \lstinline[columns=fixed]|logic| subcircuit is left to the student.  
+To complete the lab, start a new circuit in \LE and create a subcircuit named \lstinline[columns=fixed]|logic|. Place appropriate devices from the \textit{Gates} library in the \lstinline[columns=fixed]|logic| subcircuit such that it can produce the required output. Connect each of the devices to inputs \textit{A} and \textit{B} and then wire the outputs from each device to \textit{LoOut} through a multiplexer. The exact design of the \lstinline[columns=fixed]|logic| subcircuit is left to the student.
+
+\begin{quotation}
+	Tip: the value \textit{(AB)'} is a \texttt{NAND} gate and $ (A+B)' $ is a \texttt{NOR} gate. To negate input \textit{B} for $ AB' $ set the \textit{Negate} property in the properties panel for the \texttt{AND} gate to ``Yes.'' When that is done, the \textit{B} input on the \texttt{AND} gate should include a small ``negate'' circle.
+\end{quotation}
 
 Drop the \lstinline[columns=fixed]|logic| subcircuit on the  \lstinline[columns=fixed]|main| circuit and wire the various inputs and outputs, as shown in Figure \ref{fig:logic-01}. 
 
@@ -33,11 +37,14 @@ Drop the \lstinline[columns=fixed]|logic| subcircuit on the  \lstinline[columns=
 	\label{fig:logic-01}
 \end{figure}
 
-The circuit can be tested by using the \textit{poke} tool and entering various inputs and then checking to see that the output is correct. A test vector files is also provided with the lab and that can be used to ensure the subcircuit is correct.
+The circuit can be tested by using the \textit{poke} tool and entering various inputs and then checking to see that the output is correct. A test vector file has been provided for this lab so all of the logic functions can be exercised.
+
+As a last step, the \lstinline[columns=fixed]|main| circuit must be renamed since this circuit will be reused in Lab \ref{alu}. Click one time on the \lstinline[columns=fixed]|main| circuit to activate it and in the properties panel change its label to \lstinline[columns=fixed]|logic_main|.
+
 
 \section{Deliverable}
 
-To receive a grade for this lab, complete the circuit. Be sure the standard identifying information is at the top left of the \lstinline[columns=fixed]|main| circuit, similar to: 
+To receive a grade for this lab, complete the circuit. Be sure the standard identifying information is at the top left of the \lstinline[columns=fixed]|logic_main| circuit, similar to: 
 
 \bigskip
 % The minipage environment keeps the three lines together - no page break.

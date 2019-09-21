@@ -5,15 +5,7 @@
 
 \section{Purpose}
 
-This lab has three goals: 
-
-\begin{itemize}
-	\item Design circuits when given a Boolean expression.
-	\item Create subcircuits.
-	\item Create and exercise a test of the subcircuits.
-\end{itemize}
-
-\LE permits designers to work with a main circuit and any number of subcircuits. Students who have studied programming languages are familiar with ``functions'' or ``classes'' that can be designed and built one time and then reused many times whenever they are needed. \LE permits that same type of modular design by using subcircuits. 
+The goal for this lab is to design circuits when given a Boolean expression. This is normally called ``realizing'' a circuit; that is, making a real circuit from a Boolean expression.
 
 The \LE starter for this lab includes a \lstinline[columns=fixed]|main| circuit and one subcircuit, named \lstinline[columns=fixed]|Equation_1|. The starter subcircuit is used to practice creating a circuit from a Boolean expression and then a new subcircuit is added and a second Boolean expression is used to build that circuit.
 
@@ -21,7 +13,7 @@ The \LE starter for this lab includes a \lstinline[columns=fixed]|main| circuit 
 
 \subsection{Subcircuit: Equation 1}
 
-\marginpar{A magnifying glass icon is used to indicate which circuit is active on the drawing canvas.}The starter circuit includes a subcircuit named \lstinline[columns=fixed]|Equation_1|. Double-click that circuit in the Explorer Pane to activate it. The drawing canvas for this subcircuit is mostly blank except for a Boolean expression: $ (A'BC')+(AB'C')+(ABC) $. Before starting to design a circuit, it is helpful to take a minute to analyze the expression. 
+The starter circuit includes a subcircuit named \lstinline[columns=fixed]|Equation_1|. Double-click that circuit in the Explorer Pane to activate it. The drawing canvas for this subcircuit is mostly blank except for a Boolean expression: $ (A'BC')+(AB'C')+(ABC) $. Before starting to design a circuit, it is helpful to take a minute to analyze the expression. 
 
 \begin{itemize}
 	\item There are only three variables used in the entire expression: \textit{A}, \textit{B}, and \textit{C}. Therefore, there would be three inputs into the circuit.
@@ -30,7 +22,7 @@ The \LE starter for this lab includes a \lstinline[columns=fixed]|main| circuit 
 	\item While the expression does not name an output variable, it is reasonable to assume that the circuit would output a logic 1 or 0. Therefore, a one-bit output variable must be specified.
 \end{itemize}
 
-\marginpar{Do not be concerned with the exact placement of components on the drawing canvas. They can be rearranged as the build progresses.}Start by placing three inputs and an output on the drawing canvas. Inputs are indicated by a green icon with \textit{I->} on the tool bar above the drawing canvas. Click that tool and place three input pins named \textit{In1A}, \textit{In1B}, and \textit{In1C} \textemdash that means ``Input for Equation One, variable A'' and so forth. 
+Start by placing three inputs and an output on the drawing canvas. Inputs are indicated by a green icon with \textit{I->} on the tool bar above the drawing canvas. Click that tool and place three input pins named \textit{In1A}, \textit{In1B}, and \textit{In1C} \textemdash that means ``Input for Equation One, variable A'' and so forth. 
 
 Outputs are indicated by a white icon with \textit{->O} found on the tool bar above the drawing canvas. Click that tool and place an output named \textit{Out1}. The circuit should look like Figure \ref{fig:bool-01}.
 
@@ -41,9 +33,9 @@ Outputs are indicated by a white icon with \textit{->O} found on the tool bar ab
 	\label{fig:bool-01}
 \end{figure}
 
-\marginpar{The gates in this manual are all ``narrow'' size. The size does not change the gate behavior but makes it easier to wire the complex circuits in later labs.}Next, the gates should be added. The \texttt{AND} gate tool can be found on the tool bar. Click that tool and place three \texttt{AND} gates on the circuit. Click each gate and in its properties panel set the \textit{Number of Inputs} to 3. 
+Next, the gates should be added. Place three \texttt{AND} gates on the circuit. Click each gate and in its properties panel set the \textit{Number of Inputs} to 3. 
 
-The \texttt{OR} gate tool can be found on the tool bar. Click that tool and place one \texttt{OR} gate on the circuit. Click that gate and in its properties panel set the \textit{Number of Inputs} to 3.
+Place an \texttt{OR} gate on the circuit. Click that gate and in its properties panel set the \textit{Number of Inputs} to 3.
 
 The circuit should look like Figure \ref{fig:bool-02}.
 

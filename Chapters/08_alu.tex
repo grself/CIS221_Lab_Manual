@@ -39,15 +39,15 @@ In this lab you will build an \acf{ALU}. An \ac{ALU} is an important digital log
 
 Notes: in the ``Arithmetic'' column, the + sign indicates logic \textit{OR} while the words \textit{plus} and \textit{minus} indicate arithmetic add and subtract operations. The value of \textit{A plus A} is the same as shifting the bits left to the next most significant position.
 
-The \ac{ALU} built in this lab is not as complex as a 74181 \ac{IC}, however it demonstrates the basic functions of an \ac{ALU}.
+The \ac{ALU} built in this lab is not as complex as an 74181 \ac{IC}, however it demonstrates the basic functions of an \ac{ALU}.
 
 \section{Procedure}
 
-\marginpar{This is a rather complex circuit so several completed subcircuits are provided.}Load the \ac{ALU} starter circuit in \textit{Logisim-evolution}. That starter circuit already has the \lstinline[columns=fixed]|main|, \lstinline[columns=fixed]|ALU|, and \lstinline[columns=fixed]|Arithmetic| subcircuits completed.
+Load the \ac{ALU} starter circuit in \textit{Logisim-evolution}. 
 
 \subsection{main}
 
-The \lstinline[columns=fixed]|main| circuit does nothing more than provide a human-friendly interface for the rest of the \ac{ALU}. That interface include two four-bit inputs (labeled \textit{InA} and \textit{InB}), a three-bit select, a one-bit mode, a carry-in and carry-out bit (so the \ac{ALU} could be chained to another to create an eight-bit device), a \textit{compare} output (TRUE if the two inputs are equal), and a four-bit output (labeled \textit{ALUOut}). In operation, numbers are entered on \textit{InA} and \textit{InB}, the mode and select are set, and then the result is read on \textit{ALUOut}.
+The \lstinline[columns=fixed]|main| circuit does nothing more than provide a human-friendly interface for the rest of the \ac{ALU}. That interface include two eight-bit inputs (labeled \textit{A} and \textit{B}), a three-bit select, a one-bit mode, a carry-in and carry-out bit (so the \ac{ALU} could be chained to another), a \textit{compare} output (TRUE if the two inputs are equal), and a eight-bit output (labeled \textit{ALU\_Out}). In operation, numbers are entered at \textit{A} and \textit{B}, the mode and select are set, and then the result is read on \textit{ALU\_Out}.
 
 \begin{figure}[H]
 	\centering
@@ -58,7 +58,13 @@ The \lstinline[columns=fixed]|main| circuit does nothing more than provide a hum
 
 \subsection{ALU}
 
-The \lstinline[columns=fixed]|ALU| subcircuit contains the logic that routes \textit{InA}, \textit{InB}, and \textit{Sel} to two other subcircuits, \lstinline[columns=fixed]|Arithmetic| or \lstinline[columns=fixed]|Logic|. It then uses a multiplexer to route the output of one of those subcircuits to an output port depending on the setting of the \textit{Mode} bit. Note that the inputs are sent to both subcircuits but only the output specified by the \textit{Mode} is returned to the user. This type of logic is also used in the \lstinline[columns=fixed]|Arithmetic| circuit.
+The \lstinline[columns=fixed]|ALU| subcircuit is designed to contain the logic that routes \textit{A}, \textit{B}, and \textit{Sel} to two other subcircuits, \lstinline[columns=fixed]|arith\_main| or \lstinline[columns=fixed]|logic\_main|. It then uses a multiplexer to route the output of one of those subcircuits to an output port depending on the setting of the \textit{Mode} bit. Note that the inputs are sent to both subcircuits but only the output specified by the \textit{Mode} is returned to the user. This type of logic is also used in Labs \ref{arith} and \ref{logic}.
+
+The Arithmetic and Logic subcircuits that were built in Labs \ref{arith} and \ref{logic} will be reused for this lab. This is the way that circuit designers can reuse their work to build more complex circuits without having to reinvent the proverbial wheel for every project. To reload those old labs, click \textsc{Project -> Load Library -> Logisim-evolution Library}\footnote{In order to load labs for reuse it is important to store the project files in the same folder.}. Find Lab \ref{arith}, Arithmetic, and click \textit{Open}. That lab is now available as a library in the library list on the left side of the \LE workspace. Follow the same procedure to also load Lab \ref{logic}, Logic, as a library. 
+
+Open the Arithmetic library and drop the \lstinline[columns=fixed]|arithmetic| subcircuit in the \lstinline[columns=fixed]|ALU| subcircuit. This process is exactly like dropping a device from the Wiring library and should not be difficult to figure out. In the same way, drop the \lstinline[columns=fixed]|logic| subcircuit from the Logic library onto the \lstinline[columns=fixed]|ALU| subcircuit.
+
+At this point, the ALU subcircuit should resemble Figure \ref{fig:alu-02}.
 
 \begin{figure}[H]
 	\centering
@@ -67,35 +73,22 @@ The \lstinline[columns=fixed]|ALU| subcircuit contains the logic that routes \te
 	\label{fig:alu-02}
 \end{figure}
 
-\subsection{Arithmetic}
-
-This subcircuit contains numerous devices from the \textit{Arithmetic} library and they are all wired appropriately for whatever operation is selected. The concept for this subcircuit is rather simple but routing the wiring to all of the devices is challenging.
-
-Notice that two multiplexers are necessary since the circuit provides two different outputs. The top multiplexer routes the four-bit solution and the bottom multiplexer routes the carry-out bit. The \textit{compare} output is always active since it is comparing the input signals and does not rely on the function that is selected.
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=\maxwidth{.95\linewidth}]{gfx/alu-03}
-	\caption{Arithmetic Subcircuit}
-	\label{fig:alu-03}
-\end{figure}
-
 \subsection{Challenge}
 
-In the starter circuit, the \lstinline[columns=fixed]|Logic| subcircuit is only a shell with three inputs and one output.
+Continue to wire the \lstinline[columns=fixed]|ALU| subcircuit. Note: the inputs and outputs that were provided will need to be repositioned in order to complete this build.
 
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=\maxwidth{.95\linewidth}]{gfx/alu-04}
-	\caption{Logic Subcircuit}
-	\label{fig:alu-04}
-\end{figure}
+\begin{itemize}
+	\item Wire the \textit{CI} input to the \textit{CI} port on the \textit{arithmetic} device
+	\item Wire inputs A and \item  to ports \textit{A} and \textit{B} on both devices.
+	\item Wire the \textit{Sel} input to the \textit{Sel} ports on both devices.
+	\item The \textit{arithmetic} \textit{CO} and \textit{Cmp} ports should be wired to the \textit{CO} and \textit{Cmp} outputs
+	\item Add an 8-bit, 2-input multiplexer. The inputs should be wired to the output ports on both devices. The multiplexer select bit should be wired to the \textit{Mode} input. Finally, the multiplexer output should be wired to the \textit{ALU\_Out} output.
+\end{itemize}
 
-Complete that subcircuit by adding the necessary logic gates and wiring, similar to the \lstinline[columns=fixed]|Arithmetic| subcircuit. This subcircuit is much simpler than the \lstinline[columns=fixed]|Arithmetic| subcircuit since there are no carry-in, carry-out, or compare bits. When completed, the subcircuit only needs eight logic gates and a multiplexer added to the starter.
 
 \subsection{Testing the Circuit}
 
-The \lstinline[columns=fixed]|ALU| should be tested by entering several values on \textit{InA} and \textit{InB} and then select all possible arithmetic and logic operations. The outputs for each check should be accurate.
+The \ac{ALU} can be tested from the \lstinline[columns=fixed]|main| circuit. Several values can be entered on \textit{A} and \textit{B} and then various arithmetic and logic operations selected. The outputs for each check should be accurate. A test vector file has been provided for this lab so all of the ALU's functions can be exercised.
 
 \section{Deliverable}
 

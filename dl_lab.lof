@@ -31,38 +31,93 @@
 \contentsline {figure}{\numberline {5.2}{\ignorespaces Equation 1 And-Or Gates\relax }}{30}{figure.5.2}% 
 \contentsline {figure}{\numberline {5.3}{\ignorespaces Equation 1 And Gate Inputs Set\relax }}{31}{figure.5.3}% 
 \contentsline {figure}{\numberline {5.4}{\ignorespaces Equation 1 Circuit Completed\relax }}{31}{figure.5.4}% 
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Main Circuit\relax }}{33}{figure.5.5}% 
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Main Circuit\relax }}{32}{figure.5.5}% 
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Boolean Expression Realized\relax }}{35}{figure.6.1}% 
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Equation One\relax }}{36}{figure.6.2}% 
+\contentsline {figure}{\numberline {6.3}{\ignorespaces PLA Internal Connections\relax }}{36}{figure.6.3}% 
+\contentsline {figure}{\numberline {6.4}{\ignorespaces PLA Properties\relax }}{37}{figure.6.4}% 
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Equation Two\relax }}{38}{figure.6.5}% 
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Connections for Equation Two\relax }}{38}{figure.6.6}% 
+\contentsline {figure}{\numberline {6.7}{\ignorespaces Equation Three\relax }}{39}{figure.6.7}% 
+\contentsline {figure}{\numberline {6.8}{\ignorespaces Connections for Equation Three\relax }}{40}{figure.6.8}% 
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {7.1}{\ignorespaces ALU main\relax }}{40}{figure.7.1}% 
-\contentsline {figure}{\numberline {7.2}{\ignorespaces ALU Subcircuit\relax }}{41}{figure.7.2}% 
-\contentsline {figure}{\numberline {7.3}{\ignorespaces Arithmetic Subcircuit\relax }}{42}{figure.7.3}% 
-\contentsline {figure}{\numberline {7.4}{\ignorespaces Logic Subcircuit\relax }}{42}{figure.7.4}% 
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Asynchronous Up Counter\relax }}{46}{figure.7.1}% 
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Asynchronous Down Counter\relax }}{47}{figure.7.2}% 
+\contentsline {figure}{\numberline {7.3}{\ignorespaces Asynchronous Decade Counter\relax }}{49}{figure.7.3}% 
+\contentsline {figure}{\numberline {7.4}{\ignorespaces Synchronous Ring Counter\relax }}{51}{figure.7.4}% 
+\contentsline {figure}{\numberline {7.5}{\ignorespaces Synchronous Johnson Counter\relax }}{52}{figure.7.5}% 
+\contentsline {figure}{\numberline {7.6}{\ignorespaces Main Circuit\relax }}{53}{figure.7.6}% 
+\contentsline {figure}{\numberline {7.7}{\ignorespaces Timing Diagram for Up Counter\relax }}{54}{figure.7.7}% 
+\contentsline {figure}{\numberline {7.8}{\ignorespaces Set Up Chronogram\relax }}{55}{figure.7.8}% 
+\contentsline {figure}{\numberline {7.9}{\ignorespaces Chronogram Ready\relax }}{56}{figure.7.9}% 
+\contentsline {figure}{\numberline {7.10}{\ignorespaces Chronogram Starting\relax }}{56}{figure.7.10}% 
+\contentsline {figure}{\numberline {7.11}{\ignorespaces Chronogram At Zero Time\relax }}{57}{figure.7.11}% 
+\contentsline {figure}{\numberline {7.12}{\ignorespaces Chronogram Controls\relax }}{57}{figure.7.12}% 
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces Three Surface-Mounted Integrated Circuits\relax }}{49}{figure.A.1}% 
-\contentsline {figure}{\numberline {A.2}{\ignorespaces 7400: Single NAND Gate Circuit\relax }}{49}{figure.A.2}% 
-\contentsline {figure}{\numberline {A.3}{\ignorespaces 7402: Single NOR Gate Circuit\relax }}{50}{figure.A.3}% 
-\contentsline {figure}{\numberline {A.4}{\ignorespaces 7404: Single Inverter Circuit\relax }}{51}{figure.A.4}% 
-\contentsline {figure}{\numberline {A.5}{\ignorespaces 7408: Single AND Gate Circuit\relax }}{52}{figure.A.5}% 
-\contentsline {figure}{\numberline {A.6}{\ignorespaces 7410: Single 3-Input NAND Gate Circuit\relax }}{53}{figure.A.6}% 
-\contentsline {figure}{\numberline {A.7}{\ignorespaces 7411: Single 3-Input AND Gate Circuit\relax }}{54}{figure.A.7}% 
-\contentsline {figure}{\numberline {A.8}{\ignorespaces 7413: Single 4-Input NAND Gate Circuit\relax }}{55}{figure.A.8}% 
-\contentsline {figure}{\numberline {A.9}{\ignorespaces 7414: Single Inverter Circuit\relax }}{56}{figure.A.9}% 
-\contentsline {figure}{\numberline {A.10}{\ignorespaces 7418: Single 4-Input NAND Gate Circuit\relax }}{57}{figure.A.10}% 
-\contentsline {figure}{\numberline {A.11}{\ignorespaces 7419: Single Inverter Circuit\relax }}{58}{figure.A.11}% 
-\contentsline {figure}{\numberline {A.12}{\ignorespaces 7420: Single 4-Input NAND Gate Circuit\relax }}{59}{figure.A.12}% 
-\contentsline {figure}{\numberline {A.13}{\ignorespaces 7421: Single 4-Input AND Gate Circuit\relax }}{60}{figure.A.13}% 
-\contentsline {figure}{\numberline {A.14}{\ignorespaces 7424: Single NAND Gate Circuit\relax }}{61}{figure.A.14}% 
-\contentsline {figure}{\numberline {A.15}{\ignorespaces 7411: Single 3-Input NOR Gate Circuit\relax }}{62}{figure.A.15}% 
-\contentsline {figure}{\numberline {A.16}{\ignorespaces 7430: Single 8-Input NAND Gate\relax }}{63}{figure.A.16}% 
-\contentsline {figure}{\numberline {A.17}{\ignorespaces 7432: Single OR Gate Circuit\relax }}{64}{figure.A.17}% 
-\contentsline {figure}{\numberline {A.18}{\ignorespaces 7436: Single NOR Gate Circuit\relax }}{65}{figure.A.18}% 
-\contentsline {figure}{\numberline {A.19}{\ignorespaces 7442: BCD to Decimal Decoder\relax }}{66}{figure.A.19}% 
-\contentsline {figure}{\numberline {A.20}{\ignorespaces 7447: BCD to 7-Segment Decoder\relax }}{71}{figure.A.20}% 
-\contentsline {figure}{\numberline {A.21}{\ignorespaces 7451: Single AND-OR-INVERT Gate Circuit\relax }}{73}{figure.A.21}% 
-\contentsline {figure}{\numberline {A.22}{\ignorespaces 7454: Four Wide AND-OR-INVERT Gate Circuit\relax }}{74}{figure.A.22}% 
-\contentsline {figure}{\numberline {A.23}{\ignorespaces 7458: Dual AND-OR Gate Circuit\relax }}{75}{figure.A.23}% 
-\contentsline {figure}{\numberline {A.24}{\ignorespaces 7464: 4-2-3-2 AND-OR-INVERT Gate Circuit\relax }}{76}{figure.A.24}% 
-\contentsline {figure}{\numberline {A.25}{\ignorespaces 7486: Single XOR Gate Circuit\relax }}{78}{figure.A.25}% 
-\contentsline {figure}{\numberline {A.26}{\ignorespaces 74125: Single Buffer Circuit\relax }}{79}{figure.A.26}% 
-\contentsline {figure}{\numberline {A.27}{\ignorespaces 74266: Single XNOR Gate Circuit\relax }}{81}{figure.A.27}% 
+\contentsline {figure}{\numberline {8.1}{\ignorespaces ALU main\relax }}{60}{figure.8.1}% 
+\contentsline {figure}{\numberline {8.2}{\ignorespaces ALU Subcircuit\relax }}{61}{figure.8.2}% 
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {9.1}{\ignorespaces AND Gates\relax }}{64}{figure.9.1}% 
+\contentsline {figure}{\numberline {9.2}{\ignorespaces OR Gates Added\relax }}{65}{figure.9.2}% 
+\contentsline {figure}{\numberline {9.3}{\ignorespaces Inputs Added\relax }}{66}{figure.9.3}% 
+\contentsline {figure}{\numberline {9.4}{\ignorespaces Wiring the Encoder\relax }}{67}{figure.9.4}% 
+\contentsline {figure}{\numberline {9.5}{\ignorespaces Nine-line Priority Encoder\relax }}{68}{figure.9.5}% 
+\contentsline {figure}{\numberline {9.6}{\ignorespaces Main Circuit\relax }}{69}{figure.9.6}% 
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {10.1}{\ignorespaces Completed Timer\relax }}{72}{figure.10.1}% 
+\contentsline {figure}{\numberline {10.2}{\ignorespaces Timer Main Circuit\relax }}{72}{figure.10.2}% 
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {11.1}{\ignorespaces Placing ROM\relax }}{75}{figure.11.1}% 
+\contentsline {figure}{\numberline {11.2}{\ignorespaces ROM With Counter\relax }}{76}{figure.11.2}% 
+\contentsline {figure}{\numberline {11.3}{\ignorespaces ROM Filter Mux\relax }}{77}{figure.11.3}% 
+\contentsline {figure}{\numberline {11.4}{\ignorespaces Random Generator Added\relax }}{78}{figure.11.4}% 
+\contentsline {figure}{\numberline {11.5}{\ignorespaces Completed Magic 8-Ball Circuit\relax }}{78}{figure.11.5}% 
+\contentsline {figure}{\numberline {11.6}{\ignorespaces Counter Inputs\relax }}{79}{figure.11.6}% 
+\contentsline {figure}{\numberline {11.7}{\ignorespaces Counter Control Generation and Distribution\relax }}{80}{figure.11.7}% 
+\contentsline {figure}{\numberline {11.8}{\ignorespaces ROM Output\relax }}{81}{figure.11.8}% 
+\contentsline {figure}{\numberline {11.9}{\ignorespaces Magic 8-Ball Main Circuit\relax }}{81}{figure.11.9}% 
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {12.1}{\ignorespaces Vending Machine Main Circuit\relax }}{87}{figure.12.1}% 
+\contentsline {figure}{\numberline {12.2}{\ignorespaces Activator Subcircuit\relax }}{88}{figure.12.2}% 
+\contentsline {figure}{\numberline {12.3}{\ignorespaces Bank Subcircuit\relax }}{88}{figure.12.3}% 
+\contentsline {figure}{\numberline {12.4}{\ignorespaces Dispenser Subcircuit\relax }}{89}{figure.12.4}% 
+\contentsline {figure}{\numberline {12.5}{\ignorespaces Product Subcircuit\relax }}{90}{figure.12.5}% 
+\contentsline {figure}{\numberline {12.6}{\ignorespaces Vending Subcircuit\relax }}{91}{figure.12.6}% 
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {13.1}{\ignorespaces Simple ALU\relax }}{94}{figure.13.1}% 
+\contentsline {figure}{\numberline {13.2}{\ignorespaces Left Side of ALU\relax }}{95}{figure.13.2}% 
+\contentsline {figure}{\numberline {13.3}{\ignorespaces Full ALU\relax }}{95}{figure.13.3}% 
+\contentsline {figure}{\numberline {13.4}{\ignorespaces General Registers\relax }}{96}{figure.13.4}% 
+\contentsline {figure}{\numberline {13.5}{\ignorespaces Control Subcircuit\relax }}{97}{figure.13.5}% 
+\contentsline {figure}{\numberline {13.6}{\ignorespaces Main Circuit\relax }}{98}{figure.13.6}% 
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {14.1}{\ignorespaces Example Elevator Simulator\relax }}{106}{figure.14.1}% 
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Three Surface-Mounted Integrated Circuits\relax }}{109}{figure.A.1}% 
+\contentsline {figure}{\numberline {A.2}{\ignorespaces 7400: Single NAND Gate Circuit\relax }}{109}{figure.A.2}% 
+\contentsline {figure}{\numberline {A.3}{\ignorespaces 7402: Single NOR Gate Circuit\relax }}{110}{figure.A.3}% 
+\contentsline {figure}{\numberline {A.4}{\ignorespaces 7404: Single Inverter Circuit\relax }}{111}{figure.A.4}% 
+\contentsline {figure}{\numberline {A.5}{\ignorespaces 7408: Single AND Gate Circuit\relax }}{112}{figure.A.5}% 
+\contentsline {figure}{\numberline {A.6}{\ignorespaces 7410: Single 3-Input NAND Gate Circuit\relax }}{113}{figure.A.6}% 
+\contentsline {figure}{\numberline {A.7}{\ignorespaces 7411: Single 3-Input AND Gate Circuit\relax }}{114}{figure.A.7}% 
+\contentsline {figure}{\numberline {A.8}{\ignorespaces 7413: Single 4-Input NAND Gate Circuit\relax }}{115}{figure.A.8}% 
+\contentsline {figure}{\numberline {A.9}{\ignorespaces 7414: Single Inverter Circuit\relax }}{116}{figure.A.9}% 
+\contentsline {figure}{\numberline {A.10}{\ignorespaces 7418: Single 4-Input NAND Gate Circuit\relax }}{117}{figure.A.10}% 
+\contentsline {figure}{\numberline {A.11}{\ignorespaces 7419: Single Inverter Circuit\relax }}{118}{figure.A.11}% 
+\contentsline {figure}{\numberline {A.12}{\ignorespaces 7420: Single 4-Input NAND Gate Circuit\relax }}{119}{figure.A.12}% 
+\contentsline {figure}{\numberline {A.13}{\ignorespaces 7421: Single 4-Input AND Gate Circuit\relax }}{120}{figure.A.13}% 
+\contentsline {figure}{\numberline {A.14}{\ignorespaces 7424: Single NAND Gate Circuit\relax }}{121}{figure.A.14}% 
+\contentsline {figure}{\numberline {A.15}{\ignorespaces 7411: Single 3-Input NOR Gate Circuit\relax }}{122}{figure.A.15}% 
+\contentsline {figure}{\numberline {A.16}{\ignorespaces 7430: Single 8-Input NAND Gate\relax }}{123}{figure.A.16}% 
+\contentsline {figure}{\numberline {A.17}{\ignorespaces 7432: Single OR Gate Circuit\relax }}{124}{figure.A.17}% 
+\contentsline {figure}{\numberline {A.18}{\ignorespaces 7436: Single NOR Gate Circuit\relax }}{125}{figure.A.18}% 
+\contentsline {figure}{\numberline {A.19}{\ignorespaces 7442: BCD to Decimal Decoder\relax }}{126}{figure.A.19}% 
+\contentsline {figure}{\numberline {A.20}{\ignorespaces 7447: BCD to 7-Segment Decoder\relax }}{131}{figure.A.20}% 
+\contentsline {figure}{\numberline {A.21}{\ignorespaces 7451: Single AND-OR-INVERT Gate Circuit\relax }}{133}{figure.A.21}% 
+\contentsline {figure}{\numberline {A.22}{\ignorespaces 7454: Four Wide AND-OR-INVERT Gate Circuit\relax }}{134}{figure.A.22}% 
+\contentsline {figure}{\numberline {A.23}{\ignorespaces 7458: Dual AND-OR Gate Circuit\relax }}{135}{figure.A.23}% 
+\contentsline {figure}{\numberline {A.24}{\ignorespaces 7464: 4-2-3-2 AND-OR-INVERT Gate Circuit\relax }}{136}{figure.A.24}% 
+\contentsline {figure}{\numberline {A.25}{\ignorespaces 7486: Single XOR Gate Circuit\relax }}{138}{figure.A.25}% 
+\contentsline {figure}{\numberline {A.26}{\ignorespaces 74125: Single Buffer Circuit\relax }}{139}{figure.A.26}% 
+\contentsline {figure}{\numberline {A.27}{\ignorespaces 74266: Single XNOR Gate Circuit\relax }}{141}{figure.A.27}% 

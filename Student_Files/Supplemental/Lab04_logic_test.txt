@@ -1,4 +1,4 @@
-# Test vector for Arithmetic
+# Test vector for Logic Circuit
 A[8] B[8] Sel[3] LoOut[8]
 00011000 00001100 000 00001000 # AB
 00011000 00001100 001 11110111 # (AB)'
