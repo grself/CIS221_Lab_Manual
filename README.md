@@ -1,18 +1,20 @@
 # Cochise College CIS 221: Lab Manual
 
-This is the lab manual for the Cochise College CIS 221, Digital Logic, class. The labs use the *Logisim-evolution* simulator and these labs are designed to teach all aspects of both combinational and sequential logic circuits.
+This is the lab manual for the Cochise College CIS 221, Digital Logic, class. The labs use the *Logisim-evolution* simulator and are designed to teach all aspects of both combinational and sequential logic circuits.
 
-* Lab 1: Introduction to *Logisim-evolution*: Students create a simple 2-Way, 1-Bit Multiplexer.
-* Lab 2: Subcircuits: This lab challenges students to create two subcircuits that create a device to test a three-bit and four-bit input against a Boolean equation and output a high only when the proper inputs are set. This lab also introduces the test vector capability of *Logisim-Evolution*.
-* Lab 3: Priority Encoder: This circuit continues to develop students' skill in manipulating *Logisim-evolution* and creating a slightly more complex circuit than the first two.
-* Lab 4: Arithmatic-Logic Unit: This is the first of a complex combinational logic circuit and challenges students to create an ALU using some of the built-in devices available in *Logisim-evolution*.
-* Lab 5: Vending Machine: this is the most complex combinational circuit in the lab manual. Students start with a Vending Machine simulation but are required to apply several modifications to the design.
-* Lab 6: D Flip-flop Counter: This is the first sequential circuit and introduces students to several different four-stage flip-flop counters. The lab also introduces the *Logisim-Evolution* chronogram feature.
-* Lab 7: Timer: This is a fairly complex timer circuit with an up/down setting and where the start/stop count can be specified.
-* Lab 8: Reaction Timer: This is a fun circuit that builds a timer that tests the user's reaction time.
-* Lab 9: ROM: This lab demonstrates how ROM works. The circuit builds a "Magic 8-ball" simulator and uses saying pre-loaded in ROM to respond to the user's yes/no questions.
-* Lab 10: RAM: This lab demonstrates how RAM works and shows students how to work with bi-directional input/output pins on a device.
-* Lab 11: Simple Processor: Students build a very simple processor for this lab. While it is not a Central Processing Unit it does show students how a code can control the flow of data around a simple loop and would be the most rudimentary introduction to CPU design.
-* Lab 12: Elevator: This is a capstone project where students are given specifications for a simple elevator simulator and challenged to build that circuit.
+* Lab 1: Introduction to *Logisim-evolution*: Students create a simple 2-Way, 1-Bit Multiplexer to learn how to work with the simulator.
+* Lab 2: Adder: This lab builds a full 1-bit adder, but the intent is to continue to familiarize students with _Logisim-Evolution_ and how basic arithmetic functions can be completed using simple gate-level logic. Additionally, this lab develops an automated testing system that will be used to test future lab submissions.
+* Lab 3: Arithmetic Operations: This lab develops an arithmetic unit that includes eight different arithmetic functions using _Logisim-Evolution_ library components. This device will eventually be used as part of the Arithmetic Logic Unit (ALU) in Lab 8. 
+* Lab 4: Logic Operations: This lab develops a logic unit that includes eight different logic functions using _Logisim-Evolution_ library components. This device will eventually be used as part of the Arithmetic Logic Unit (ALU) in Lab 8.
+* Lab 5: Boolean Logic: The goal for this lab is to design circuits when given a Boolean expression. This is normally called “realizing” a circuit; that is, making a real circuit from a Boolean expression.
+* Lab 6: Programmable Logic Array (PLA): This lab explores using a Programmable Logic Array (PLA) to simplify circuits that are designed for Boolean operations. A PLA is an Integrated Circuit (IC) that contains an array of AND and OR gates that can be linked in whatever way the circuit designer needs. A single PLA can replace dozens of other gates and greatly simplify circuit design.
+* Lab 7: Counters: This lab has two goals. 1) Develop several different common asynchronous and synchronous counters using D ﬂip-ﬂops. 2) Introduce the _Logisim-Evolution_ chronogram feature that generates a timing diagram as a sequential circuit functions.
+* Lab 8: Arithmatic-Logic Unit (ALU): This lab creates an ALU using the arithmetic and logic circuits developed in Labs 3 and 4.
+* Lab 9: Priority Encoder: Often a circuit will receive data from several sources at one time and there must be a way to prioritize those inputs. This circuit creates a simple priority encoder for nine different inputs. 
+* Lab 10: Timer: This lab creates a timer where the minimum and maximum counts can be set and counts both up and down. 
+* Lab 11: ROM: This lab demonstrates how ROM works. The circuit builds a "Magic 8-ball" simulator and uses saying pre-loaded in ROM to respond to the user's yes/no questions.
+* Lab 12: Vending Machine: This lab builds a vending machine simulation that meets certain specifications. 
+* Lab 13: Processor: A Central Processing Unit (CPU) is arguably one of the most important digital logic devices and the purpose of this lab is to lay the foundation of CPU operations.
+* Lab 14: Elevator: This is a capstone project where the specifications for a simple elevator simulator are given and the circuit must be developed "from scratch."
 
-This book was written with Latex and can be cloned and re-purposed as desired. The accompanying digital logic text book can be found at  http://bit.ly/2w6qU2C. Also, the author created a series of YouTube videos to help students complete each of these labs. Those videos can be found at http://bit.ly/2KLMcoc.
+This book was written with Latex and can be cloned and re-purposed as desired. The accompanying digital logic text book can be found at http://bit.ly/2n6W864. Also, the author created a series of videos to help students complete each of these labs. Those videos can be found at http://bit.ly/2nVBh5Z.
